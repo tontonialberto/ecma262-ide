@@ -14,6 +14,7 @@
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
       <concept id="1071666914219" name="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" flags="ig" index="24kQdi" />
       <concept id="1140524381322" name="jetbrains.mps.lang.editor.structure.CellModel_ListWithRole" flags="ng" index="2czfm3">
+        <property id="1140524450557" name="separatorText" index="2czwfO" />
         <child id="1140524464360" name="cellLayout" index="2czzBx" />
       </concept>
       <concept id="1106270549637" name="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" flags="nn" index="2iRfu4" />
@@ -53,6 +54,7 @@
       </concept>
     </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1080223426719" name="jetbrains.mps.baseLanguage.structure.OrExpression" flags="nn" index="22lmx$" />
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
@@ -66,8 +68,16 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
+      <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
+        <property id="1068580320021" name="value" index="3cmrfH" />
+      </concept>
+      <concept id="1081506762703" name="jetbrains.mps.baseLanguage.structure.GreaterThanExpression" flags="nn" index="3eOSWO" />
       <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
         <child id="1081516765348" name="expression" index="3fr31v" />
+      </concept>
+      <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
+        <child id="1081773367579" name="rightExpression" index="3uHU7w" />
+        <child id="1081773367580" name="leftExpression" index="3uHU7B" />
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
@@ -83,6 +93,12 @@
       <concept id="1138056143562" name="jetbrains.mps.lang.smodel.structure.SLinkAccess" flags="nn" index="3TrEf2">
         <reference id="1138056516764" name="link" index="3Tt5mk" />
       </concept>
+      <concept id="1138056282393" name="jetbrains.mps.lang.smodel.structure.SLinkListAccess" flags="nn" index="3Tsc0h">
+        <reference id="1138056546658" name="link" index="3TtcxE" />
+      </concept>
+    </language>
+    <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
+      <concept id="1162935959151" name="jetbrains.mps.baseLanguage.collections.structure.GetSizeOperation" flags="nn" index="34oBXx" />
     </language>
   </registry>
   <node concept="24kQdi" id="1W$67yo_pEY">
@@ -214,16 +230,31 @@
         <node concept="pkWqt" id="6KH9j79NJyJ" role="pqm2j">
           <node concept="3clFbS" id="6KH9j79NJyK" role="2VODD2">
             <node concept="3clFbF" id="6KH9j79NJBA" role="3cqZAp">
-              <node concept="2OqwBi" id="6KH9j79NMhG" role="3clFbG">
-                <node concept="2OqwBi" id="6KH9j79NJSi" role="2Oq$k0">
-                  <node concept="pncrf" id="6KH9j79NJB_" role="2Oq$k0" />
-                  <node concept="3TrEf2" id="6KH9j79NM1f" role="2OqNvi">
-                    <ref role="3Tt5mk" to="b9dh:2uuTNnb5b56" resolve="prop" />
+              <node concept="22lmx$" id="5tmnZSciQMD" role="3clFbG">
+                <node concept="2OqwBi" id="5tmnZSciROA" role="3uHU7w">
+                  <node concept="2OqwBi" id="5tmnZSciRfA" role="2Oq$k0">
+                    <node concept="pncrf" id="5tmnZSciQSi" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="5tmnZSciRDn" role="2OqNvi">
+                      <ref role="3Tt5mk" to="b9dh:2uuTNnb5b56" resolve="prop" />
+                    </node>
+                  </node>
+                  <node concept="1mIQ4w" id="5tmnZSciSNo" role="2OqNvi">
+                    <node concept="chp4Y" id="5tmnZSciSOT" role="cj9EA">
+                      <ref role="cht4Q" to="b9dh:5tmnZSc967o" resolve="IntrinsicProperty" />
+                    </node>
                   </node>
                 </node>
-                <node concept="1mIQ4w" id="6KH9j79NMwF" role="2OqNvi">
-                  <node concept="chp4Y" id="6KH9j79NMzx" role="cj9EA">
-                    <ref role="cht4Q" to="b9dh:2uuTNnb5b50" resolve="FieldProperty" />
+                <node concept="2OqwBi" id="6KH9j79NMhG" role="3uHU7B">
+                  <node concept="2OqwBi" id="6KH9j79NJSi" role="2Oq$k0">
+                    <node concept="pncrf" id="6KH9j79NJB_" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="6KH9j79NM1f" role="2OqNvi">
+                      <ref role="3Tt5mk" to="b9dh:2uuTNnb5b56" resolve="prop" />
+                    </node>
+                  </node>
+                  <node concept="1mIQ4w" id="6KH9j79NMwF" role="2OqNvi">
+                    <node concept="chp4Y" id="6KH9j79NMzx" role="cj9EA">
+                      <ref role="cht4Q" to="b9dh:2uuTNnb5b50" resolve="FieldProperty" />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -378,6 +409,79 @@
     <ref role="1XX52x" to="b9dh:5tmnZSbOgBv" resolve="RunningExecutionContext" />
     <node concept="3F0ifn" id="5tmnZSbOgBD" role="2wV5jI">
       <property role="3F0ifm" value="the running execution context" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="5tmnZSbU1GC">
+    <ref role="1XX52x" to="b9dh:5tmnZSbU1GA" resolve="AgentRecord" />
+    <node concept="3F0ifn" id="5tmnZSbU1GF" role="2wV5jI">
+      <property role="3F0ifm" value="the Agent Record of the surrounding agent" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="5tmnZSbX__N">
+    <ref role="1XX52x" to="b9dh:5tmnZSbX__L" resolve="ActiveFunctionObject" />
+    <node concept="3F0ifn" id="5tmnZSbX__S" role="2wV5jI">
+      <property role="3F0ifm" value="the active function object" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="5tmnZSbZn7K">
+    <ref role="1XX52x" to="b9dh:5tmnZSbZn7I" resolve="SecondExecutionContext" />
+    <node concept="3F0ifn" id="5tmnZSbZn7R" role="2wV5jI">
+      <property role="3F0ifm" value="the second to top element of the execution context stack" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="5tmnZScimlM">
+    <ref role="1XX52x" to="b9dh:5tmnZSc967o" resolve="IntrinsicProperty" />
+    <node concept="3F1sOY" id="5tmnZScimlO" role="2wV5jI">
+      <ref role="1NtTu8" to="b9dh:5tmnZSc967q" resolve="intrinsic" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="5tmnZScimlR">
+    <ref role="1XX52x" to="b9dh:5tmnZSc2JPm" resolve="Intrinsic" />
+    <node concept="3EZMnI" id="5tmnZScimlV" role="2wV5jI">
+      <node concept="3F0ifn" id="5tmnZScimlX" role="3EZMnx">
+        <property role="3F0ifm" value="%" />
+      </node>
+      <node concept="3F0A7n" id="5tmnZScimm3" role="3EZMnx">
+        <ref role="1NtTu8" to="b9dh:5tmnZSc2JPn" resolve="base" />
+      </node>
+      <node concept="3F0ifn" id="5tmnZSck$L3" role="3EZMnx">
+        <property role="3F0ifm" value="." />
+        <node concept="pkWqt" id="5tmnZSck$L5" role="pqm2j">
+          <node concept="3clFbS" id="5tmnZSck$L6" role="2VODD2">
+            <node concept="3clFbF" id="5tmnZSck$PW" role="3cqZAp">
+              <node concept="3eOSWO" id="5tmnZSckJjx" role="3clFbG">
+                <node concept="3cmrfG" id="5tmnZSckJvK" role="3uHU7w">
+                  <property role="3cmrfH" value="0" />
+                </node>
+                <node concept="2OqwBi" id="5tmnZSckCpT" role="3uHU7B">
+                  <node concept="2OqwBi" id="5tmnZSck_7$" role="2Oq$k0">
+                    <node concept="pncrf" id="5tmnZSck$PV" role="2Oq$k0" />
+                    <node concept="3Tsc0h" id="5tmnZSck_lM" role="2OqNvi">
+                      <ref role="3TtcxE" to="b9dh:5tmnZSc967m" resolve="props" />
+                    </node>
+                  </node>
+                  <node concept="34oBXx" id="5tmnZSckEEJ" role="2OqNvi" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3F2HdR" id="5tmnZScjJiX" role="3EZMnx">
+        <property role="2czwfO" value="." />
+        <ref role="1NtTu8" to="b9dh:5tmnZSc967m" resolve="props" />
+        <node concept="2iRfu4" id="5tmnZScjJiZ" role="2czzBx" />
+      </node>
+      <node concept="3F0ifn" id="5tmnZScimm0" role="3EZMnx">
+        <property role="3F0ifm" value="%" />
+      </node>
+      <node concept="2iRfu4" id="5tmnZScimlY" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="5tmnZSck9Fn">
+    <ref role="1XX52x" to="b9dh:5tmnZSc967j" resolve="IntrinsicPropertyName" />
+    <node concept="3F0A7n" id="5tmnZSck9Fp" role="2wV5jI">
+      <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
     </node>
   </node>
 </model>
