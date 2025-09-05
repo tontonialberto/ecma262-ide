@@ -285,7 +285,7 @@
   <node concept="1TIwiD" id="5tmnZSc2JPm">
     <property role="EcuMT" value="6293323074025225558" />
     <property role="TrG5h" value="Intrinsic" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="5tmnZSc2JPn" role="1TKVEl">
       <property role="IQ2nx" value="6293323074025225559" />
       <property role="TrG5h" value="base" />
@@ -302,7 +302,7 @@
   <node concept="1TIwiD" id="5tmnZSc967j">
     <property role="EcuMT" value="6293323074026889683" />
     <property role="TrG5h" value="IntrinsicPropertyName" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="5tmnZSc967k" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -313,6 +313,23 @@
     <ref role="1TJDcQ" node="2uuTNnb5b4Y" resolve="Property" />
     <node concept="1TJgyj" id="5tmnZSc967q" role="1TKVEi">
       <property role="IQ2ns" value="6293323074026889690" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="intrinsic" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5tmnZSc2JPm" resolve="Intrinsic" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5tmnZScAYPa">
+    <property role="EcuMT" value="6293323074034724170" />
+    <property role="TrG5h" value="CurrentRealmRecord" />
+    <ref role="1TJDcQ" node="2uuTNnaZf$S" resolve="Reference" />
+  </node>
+  <node concept="1TIwiD" id="5tmnZScJGd5">
+    <property role="EcuMT" value="6293323074037007173" />
+    <property role="TrG5h" value="IntrinsicExpression" />
+    <ref role="1TJDcQ" node="5eocg95ibfH" resolve="Expression" />
+    <node concept="1TJgyj" id="5tmnZScJGd9" role="1TKVEi">
+      <property role="IQ2ns" value="6293323074037007177" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="intrinsic" />
       <property role="20lbJX" value="fLJekj4/_1" />
