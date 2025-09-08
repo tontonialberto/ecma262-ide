@@ -355,5 +355,18 @@
       <ref role="20lvS9" node="5eocg95ibfH" resolve="Expression" />
     </node>
   </node>
+  <node concept="1TIwiD" id="6NLkRuOeYfm">
+    <property role="EcuMT" value="7850147399073522646" />
+    <property role="TrG5h" value="Literal" />
+    <ref role="1TJDcQ" node="2uuTNnaZ8eC" resolve="CalcExpression" />
+  </node>
+  <node concept="1TIwiD" id="6NLkRuOeYfo">
+    <property role="EcuMT" value="7850147399073522648" />
+    <property role="TrG5h" value="EnumLiteral" />
+    <ref role="1TJDcQ" node="6NLkRuOeYfm" resolve="Literal" />
+    <node concept="PrWs8" id="6NLkRuOeYfq" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
 </model>
 
