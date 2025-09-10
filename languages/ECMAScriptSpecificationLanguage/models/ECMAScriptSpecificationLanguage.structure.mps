@@ -527,5 +527,27 @@
       <ref role="20lvS9" node="5eocg95ibfH" resolve="Expression" />
     </node>
   </node>
+  <node concept="1TIwiD" id="40534ZCdbbX">
+    <property role="EcuMT" value="4613106930648658685" />
+    <property role="TrG5h" value="TrimExpression" />
+    <ref role="1TJDcQ" node="5eocg95ibfH" resolve="Expression" />
+    <node concept="1TJgyi" id="40534ZCdbc0" role="1TKVEl">
+      <property role="IQ2nx" value="4613106930648658688" />
+      <property role="TrG5h" value="leading" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="40534ZCdbc1" role="1TKVEl">
+      <property role="IQ2nx" value="4613106930648658689" />
+      <property role="TrG5h" value="trailing" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyj" id="40534ZCdbc3" role="1TKVEi">
+      <property role="IQ2ns" value="4613106930648658691" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="expr" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5eocg95ibfH" resolve="Expression" />
+    </node>
+  </node>
 </model>
 
