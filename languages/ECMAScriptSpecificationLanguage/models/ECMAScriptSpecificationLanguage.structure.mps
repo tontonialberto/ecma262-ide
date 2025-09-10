@@ -372,7 +372,7 @@
     <property role="EcuMT" value="6907146218799033750" />
     <property role="TrG5h" value="ConversionExpressionOperator" />
     <property role="R5$K7" value="true" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="5Zr7efJcIQp">
     <property role="EcuMT" value="6907146218799033753" />
@@ -438,7 +438,7 @@
     <property role="EcuMT" value="4613106930611790896" />
     <property role="TrG5h" value="BinaryExpressionOperator" />
     <property role="R5$K7" value="true" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="40534ZA0ygN">
     <property role="EcuMT" value="4613106930611790899" />
@@ -464,6 +464,56 @@
     <property role="EcuMT" value="4613106930611790910" />
     <property role="TrG5h" value="BinaryModulo" />
     <ref role="1TJDcQ" node="40534ZA0ygK" resolve="BinaryExpressionOperator" />
+  </node>
+  <node concept="1TIwiD" id="40534ZAVYse">
+    <property role="EcuMT" value="4613106930627372814" />
+    <property role="TrG5h" value="MathFuncExpression" />
+    <ref role="1TJDcQ" node="2uuTNnaZ8eC" resolve="CalcExpression" />
+    <node concept="1TJgyj" id="40534ZAVYt3" role="1TKVEi">
+      <property role="IQ2ns" value="4613106930627372867" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="op" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="40534ZAVYsg" resolve="MathFuncExpressionOperator" />
+    </node>
+    <node concept="1TJgyj" id="40534ZAVYt6" role="1TKVEi">
+      <property role="IQ2ns" value="4613106930627372870" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="args" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="2uuTNnaZ8eC" resolve="CalcExpression" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="40534ZAVYsg">
+    <property role="EcuMT" value="4613106930627372816" />
+    <property role="TrG5h" value="MathFuncExpressionOperator" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+  </node>
+  <node concept="1TIwiD" id="40534ZAVYsj">
+    <property role="EcuMT" value="4613106930627372819" />
+    <property role="TrG5h" value="MathFuncMax" />
+    <ref role="1TJDcQ" node="40534ZAVYsg" resolve="MathFuncExpressionOperator" />
+  </node>
+  <node concept="1TIwiD" id="40534ZAVYsl">
+    <property role="EcuMT" value="4613106930627372821" />
+    <property role="TrG5h" value="MathFuncMin" />
+    <ref role="1TJDcQ" node="40534ZAVYsg" resolve="MathFuncExpressionOperator" />
+  </node>
+  <node concept="1TIwiD" id="40534ZAVYsn">
+    <property role="EcuMT" value="4613106930627372823" />
+    <property role="TrG5h" value="MathFuncAbs" />
+    <ref role="1TJDcQ" node="40534ZAVYsg" resolve="MathFuncExpressionOperator" />
+  </node>
+  <node concept="1TIwiD" id="40534ZAVYsq">
+    <property role="EcuMT" value="4613106930627372826" />
+    <property role="TrG5h" value="MathFuncFloor" />
+    <ref role="1TJDcQ" node="40534ZAVYsg" resolve="MathFuncExpressionOperator" />
+  </node>
+  <node concept="1TIwiD" id="40534ZAVYst">
+    <property role="EcuMT" value="4613106930627372829" />
+    <property role="TrG5h" value="MathFuncTruncate" />
+    <ref role="1TJDcQ" node="40534ZAVYsg" resolve="MathFuncExpressionOperator" />
   </node>
 </model>
 

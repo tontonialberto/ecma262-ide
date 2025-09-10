@@ -717,5 +717,55 @@
       <node concept="2iRfu4" id="40534ZAKgoS" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="40534ZAVYsw">
+    <ref role="1XX52x" to="b9dh:40534ZAVYsl" resolve="MathFuncMin" />
+    <node concept="3F0ifn" id="40534ZAVYs$" role="2wV5jI">
+      <property role="3F0ifm" value="min" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="40534ZAVYsA">
+    <ref role="1XX52x" to="b9dh:40534ZAVYsj" resolve="MathFuncMax" />
+    <node concept="3F0ifn" id="40534ZAVYsF" role="2wV5jI">
+      <property role="3F0ifm" value="max" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="40534ZAVYsI">
+    <ref role="1XX52x" to="b9dh:40534ZAVYsn" resolve="MathFuncAbs" />
+    <node concept="3F0ifn" id="40534ZAVYsM" role="2wV5jI">
+      <property role="3F0ifm" value="abs" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="40534ZAVYsP">
+    <ref role="1XX52x" to="b9dh:40534ZAVYsq" resolve="MathFuncFloor" />
+    <node concept="3F0ifn" id="40534ZAVYsT" role="2wV5jI">
+      <property role="3F0ifm" value="floor" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="40534ZAVYsW">
+    <ref role="1XX52x" to="b9dh:40534ZAVYst" resolve="MathFuncTruncate" />
+    <node concept="3F0ifn" id="40534ZAVYt0" role="2wV5jI">
+      <property role="3F0ifm" value="truncate" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="40534ZAVYt8">
+    <ref role="1XX52x" to="b9dh:40534ZAVYse" resolve="MathFuncExpression" />
+    <node concept="3EZMnI" id="40534ZAVYta" role="2wV5jI">
+      <node concept="3F1sOY" id="40534ZAVYte" role="3EZMnx">
+        <ref role="1NtTu8" to="b9dh:40534ZAVYt3" resolve="op" />
+      </node>
+      <node concept="3F0ifn" id="40534ZAVYtj" role="3EZMnx">
+        <property role="3F0ifm" value="(" />
+      </node>
+      <node concept="3F2HdR" id="40534ZAVYtv" role="3EZMnx">
+        <property role="2czwfO" value="," />
+        <ref role="1NtTu8" to="b9dh:40534ZAVYt6" resolve="args" />
+        <node concept="2iRfu4" id="40534ZAVYtx" role="2czzBx" />
+      </node>
+      <node concept="3F0ifn" id="40534ZAVYtn" role="3EZMnx">
+        <property role="3F0ifm" value=")" />
+      </node>
+      <node concept="2iRfu4" id="40534ZAVYtd" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 
