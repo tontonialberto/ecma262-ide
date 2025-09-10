@@ -515,5 +515,17 @@
     <property role="TrG5h" value="MathFuncTruncate" />
     <ref role="1TJDcQ" node="40534ZAVYsg" resolve="MathFuncExpressionOperator" />
   </node>
+  <node concept="1TIwiD" id="40534ZBOX4v">
+    <property role="EcuMT" value="4613106930642309407" />
+    <property role="TrG5h" value="ListExpression" />
+    <ref role="1TJDcQ" node="5eocg95ibfH" resolve="Expression" />
+    <node concept="1TJgyj" id="40534ZBOX4y" role="1TKVEi">
+      <property role="IQ2ns" value="4613106930642309410" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="entries" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="5eocg95ibfH" resolve="Expression" />
+    </node>
+  </node>
 </model>
 
