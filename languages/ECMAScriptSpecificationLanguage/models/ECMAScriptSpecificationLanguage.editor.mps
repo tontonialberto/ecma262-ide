@@ -1309,5 +1309,32 @@
       <property role="3F0ifm" value="null" />
     </node>
   </node>
+  <node concept="24kQdi" id="2VjIQ4y3Ma$">
+    <ref role="1XX52x" to="b9dh:2VjIQ4xVJQq" resolve="ListCopyExpression" />
+    <node concept="3EZMnI" id="2VjIQ4y3MaB" role="2wV5jI">
+      <node concept="3F0ifn" id="2VjIQ4y3MaF" role="3EZMnx">
+        <property role="3F0ifm" value="a List whose elements are the elements of" />
+      </node>
+      <node concept="3F1sOY" id="2VjIQ4y3MaI" role="3EZMnx">
+        <ref role="1NtTu8" to="b9dh:2VjIQ4xVJQt" resolve="expr" />
+      </node>
+      <node concept="l2Vlx" id="2VjIQ4y3MaE" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="2VjIQ4y68Z$">
+    <ref role="1XX52x" to="b9dh:2VjIQ4y68Zt" resolve="ErrorObjectLiteral" />
+    <node concept="3EZMnI" id="2VjIQ4y68ZA" role="2wV5jI">
+      <node concept="3F0ifn" id="2VjIQ4y68ZH" role="3EZMnx">
+        <property role="3F0ifm" value="a newly created" />
+      </node>
+      <node concept="3F0A7n" id="2VjIQ4y68ZP" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="3F0ifn" id="2VjIQ4y68ZN" role="3EZMnx">
+        <property role="3F0ifm" value="object" />
+      </node>
+      <node concept="l2Vlx" id="2VjIQ4y68ZD" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 
