@@ -1445,5 +1445,47 @@
       <node concept="l2Vlx" id="2VjIQ4yuJbx" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="2VjIQ4yTp$M">
+    <ref role="1XX52x" to="b9dh:2VjIQ4yza50" resolve="BitwiseExpression" />
+    <node concept="3EZMnI" id="2VjIQ4yTp$O" role="2wV5jI">
+      <node concept="3F0ifn" id="2VjIQ4yTp$T" role="3EZMnx">
+        <property role="3F0ifm" value="the result of applying the bitwise" />
+      </node>
+      <node concept="3F1sOY" id="2VjIQ4yTp$W" role="3EZMnx">
+        <ref role="1NtTu8" to="b9dh:2VjIQ4yza55" resolve="op" />
+      </node>
+      <node concept="3F0ifn" id="2VjIQ4yTp$Z" role="3EZMnx">
+        <property role="3F0ifm" value="operation to" />
+      </node>
+      <node concept="3F1sOY" id="2VjIQ4yTp_3" role="3EZMnx">
+        <ref role="1NtTu8" to="b9dh:2VjIQ4yza54" resolve="left" />
+      </node>
+      <node concept="3F0ifn" id="2VjIQ4yTp_6" role="3EZMnx">
+        <property role="3F0ifm" value="and" />
+      </node>
+      <node concept="3F1sOY" id="2VjIQ4yTp_c" role="3EZMnx">
+        <ref role="1NtTu8" to="b9dh:2VjIQ4yza56" resolve="right" />
+      </node>
+      <node concept="l2Vlx" id="2VjIQ4yTp$R" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="2VjIQ4yTs7I">
+    <ref role="1XX52x" to="b9dh:2VjIQ4yza5a" resolve="BitwiseAnd" />
+    <node concept="3F0ifn" id="2VjIQ4yTs7N" role="2wV5jI">
+      <property role="3F0ifm" value="AND" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="2VjIQ4yTs7Q">
+    <ref role="1XX52x" to="b9dh:2VjIQ4yza5e" resolve="BitwiseOr" />
+    <node concept="3F0ifn" id="2VjIQ4yTs7V" role="2wV5jI">
+      <property role="3F0ifm" value="inclusive OR" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="2VjIQ4yTs7X">
+    <ref role="1XX52x" to="b9dh:2VjIQ4yza5f" resolve="BitwiseXOr" />
+    <node concept="3F0ifn" id="2VjIQ4yTs7Z" role="2wV5jI">
+      <property role="3F0ifm" value="exclusive OR (XOR)" />
+    </node>
+  </node>
 </model>
 

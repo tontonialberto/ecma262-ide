@@ -756,5 +756,52 @@
       <ref role="20lvS9" node="5eocg95ibfH" resolve="Expression" />
     </node>
   </node>
+  <node concept="1TIwiD" id="2VjIQ4yza50">
+    <property role="EcuMT" value="3374246571696496960" />
+    <property role="TrG5h" value="BitwiseExpression" />
+    <ref role="1TJDcQ" node="5eocg95ibfH" resolve="Expression" />
+    <node concept="1TJgyj" id="2VjIQ4yza54" role="1TKVEi">
+      <property role="IQ2ns" value="3374246571696496964" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="left" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5eocg95ibfH" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="2VjIQ4yza55" role="1TKVEi">
+      <property role="IQ2ns" value="3374246571696496965" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="op" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="2VjIQ4yza58" resolve="BitwiseExpressionOperator" />
+    </node>
+    <node concept="1TJgyj" id="2VjIQ4yza56" role="1TKVEi">
+      <property role="IQ2ns" value="3374246571696496966" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="right" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5eocg95ibfH" resolve="Expression" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2VjIQ4yza58">
+    <property role="EcuMT" value="3374246571696496968" />
+    <property role="TrG5h" value="BitwiseExpressionOperator" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+  </node>
+  <node concept="1TIwiD" id="2VjIQ4yza5a">
+    <property role="EcuMT" value="3374246571696496970" />
+    <property role="TrG5h" value="BitwiseAnd" />
+    <ref role="1TJDcQ" node="2VjIQ4yza58" resolve="BitwiseExpressionOperator" />
+  </node>
+  <node concept="1TIwiD" id="2VjIQ4yza5e">
+    <property role="EcuMT" value="3374246571696496974" />
+    <property role="TrG5h" value="BitwiseOr" />
+    <ref role="1TJDcQ" node="2VjIQ4yza58" resolve="BitwiseExpressionOperator" />
+  </node>
+  <node concept="1TIwiD" id="2VjIQ4yza5f">
+    <property role="EcuMT" value="3374246571696496975" />
+    <property role="TrG5h" value="BitwiseXOr" />
+    <ref role="1TJDcQ" node="2VjIQ4yza58" resolve="BitwiseExpressionOperator" />
+  </node>
 </model>
 
