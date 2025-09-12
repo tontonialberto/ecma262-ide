@@ -7,7 +7,7 @@
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="b9dh" ref="r:073391d3-1c04-44ec-87e8-9a6fe5746c65(ECMAScriptSpecificationLanguage.structure)" implicit="true" />
+    <import index="b9dh" ref="r:073391d3-1c04-44ec-87e8-9a6fe5746c65(ECMAScriptSpecificationLanguage.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
@@ -1098,6 +1098,48 @@
     <ref role="1XX52x" to="b9dh:6fyZdSQSvp_" resolve="DecimalMathValueLiteral" />
     <node concept="3F0A7n" id="6fyZdSQSvqc" role="2wV5jI">
       <ref role="1NtTu8" to="b9dh:6fyZdSQSvq8" resolve="value" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="2VjIQ4wWYrJ">
+    <ref role="1XX52x" to="b9dh:2VjIQ4wkcDo" resolve="SubstringExpressionFrom" />
+    <node concept="3EZMnI" id="2VjIQ4wWYrL" role="2wV5jI">
+      <node concept="3F0ifn" id="2VjIQ4wWYrQ" role="3EZMnx">
+        <property role="3F0ifm" value="the substring of" />
+      </node>
+      <node concept="3F1sOY" id="2VjIQ4wWYrT" role="3EZMnx">
+        <ref role="1NtTu8" to="b9dh:2VjIQ4wkcDt" resolve="expr" />
+      </node>
+      <node concept="3F0ifn" id="2VjIQ4wWYrW" role="3EZMnx">
+        <property role="3F0ifm" value="from" />
+      </node>
+      <node concept="3F1sOY" id="2VjIQ4wWYs0" role="3EZMnx">
+        <ref role="1NtTu8" to="b9dh:2VjIQ4wkcDq" resolve="from" />
+      </node>
+      <node concept="l2Vlx" id="2VjIQ4wWYrO" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="2VjIQ4wWYs3">
+    <ref role="1XX52x" to="b9dh:2VjIQ4wkcDv" resolve="SubstringExpressionFromTo" />
+    <node concept="3EZMnI" id="2VjIQ4wWYs5" role="2wV5jI">
+      <node concept="3F0ifn" id="2VjIQ4wWYs9" role="3EZMnx">
+        <property role="3F0ifm" value="the substring of" />
+      </node>
+      <node concept="3F1sOY" id="2VjIQ4wWYsa" role="3EZMnx">
+        <ref role="1NtTu8" to="b9dh:2VjIQ4wkcDt" />
+      </node>
+      <node concept="3F0ifn" id="2VjIQ4wWYsb" role="3EZMnx">
+        <property role="3F0ifm" value="from" />
+      </node>
+      <node concept="3F1sOY" id="2VjIQ4wWYsc" role="3EZMnx">
+        <ref role="1NtTu8" to="b9dh:2VjIQ4wkcDq" />
+      </node>
+      <node concept="3F0ifn" id="2VjIQ4wWYsg" role="3EZMnx">
+        <property role="3F0ifm" value="to" />
+      </node>
+      <node concept="3F1sOY" id="2VjIQ4wWYsj" role="3EZMnx">
+        <ref role="1NtTu8" to="b9dh:2VjIQ4wkcDw" resolve="to" />
+      </node>
+      <node concept="l2Vlx" id="2VjIQ4wWYs8" role="2iSdaV" />
     </node>
   </node>
 </model>
