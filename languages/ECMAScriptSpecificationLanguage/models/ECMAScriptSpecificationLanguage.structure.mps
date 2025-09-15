@@ -883,5 +883,47 @@
     <property role="TrG5h" value="NegativeInfinityNumberLiteral" />
     <ref role="1TJDcQ" node="72QE4x7iZx3" resolve="NumberLiteral" />
   </node>
+  <node concept="1TIwiD" id="me4WyOZdX9">
+    <property role="EcuMT" value="400279169633410889" />
+    <property role="TrG5h" value="IntListExpression" />
+    <ref role="1TJDcQ" node="5eocg95ibfH" resolve="Expression" />
+    <node concept="1TJgyj" id="me4WyOZdXc" role="1TKVEi">
+      <property role="IQ2ns" value="400279169633410892" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="from" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="2uuTNnaZ8eC" resolve="CalcExpression" />
+    </node>
+    <node concept="1TJgyj" id="me4WyOZdXe" role="1TKVEi">
+      <property role="IQ2ns" value="400279169633410894" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="to" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="2uuTNnaZ8eC" resolve="CalcExpression" />
+    </node>
+    <node concept="1TJgyi" id="me4WyOZdXg" role="1TKVEl">
+      <property role="IQ2nx" value="400279169633410896" />
+      <property role="TrG5h" value="isFromInclusive" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="me4WyOZdXh" role="1TKVEl">
+      <property role="IQ2nx" value="400279169633410897" />
+      <property role="TrG5h" value="isToInclusive" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="me4WyOZdXi" role="1TKVEl">
+      <property role="IQ2nx" value="400279169633410898" />
+      <property role="TrG5h" value="isAscending" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="me4WyPbCD9">
+    <property role="EcuMT" value="400279169636665929" />
+    <property role="TrG5h" value="SymbolLiteral" />
+    <ref role="1TJDcQ" node="6NLkRuOeYfm" resolve="Literal" />
+    <node concept="PrWs8" id="me4WyPbCDa" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
 </model>
 
