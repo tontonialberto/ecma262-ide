@@ -1866,5 +1866,24 @@
       <node concept="2iRfu4" id="7MgVarPSHB9" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="22fkBL0TS70">
+    <ref role="1XX52x" to="b9dh:22fkBL0I9ZM" resolve="ExponentiationExpression" />
+    <node concept="3EZMnI" id="22fkBL0TS72" role="2wV5jI">
+      <node concept="3F1sOY" id="22fkBL0TS76" role="3EZMnx">
+        <ref role="1NtTu8" to="b9dh:22fkBL0I9ZP" resolve="base" />
+      </node>
+      <node concept="3EZMnI" id="22fkBL0TS79" role="3EZMnx">
+        <node concept="VPM3Z" id="22fkBL0TS7b" role="3F10Kt" />
+        <node concept="3F1sOY" id="22fkBL0TS7h" role="3EZMnx">
+          <ref role="1NtTu8" to="b9dh:22fkBL0I9ZQ" resolve="exponent" />
+          <node concept="2P5D8e" id="22fkBL0TS7j" role="3F10Kt">
+            <property role="2P5D8c" value="7agyGr7xxz4/SUPERSCRIPT" />
+          </node>
+        </node>
+        <node concept="2t5PaK" id="22fkBL0TS7f" role="2iSdaV" />
+      </node>
+      <node concept="2iRfu4" id="22fkBL0TS75" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 

@@ -964,5 +964,24 @@
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
+  <node concept="1TIwiD" id="22fkBL0I9ZM">
+    <property role="EcuMT" value="2346184624498581490" />
+    <property role="TrG5h" value="ExponentiationExpression" />
+    <ref role="1TJDcQ" node="2uuTNnaZ8eC" resolve="CalcExpression" />
+    <node concept="1TJgyj" id="22fkBL0I9ZP" role="1TKVEi">
+      <property role="IQ2ns" value="2346184624498581493" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="base" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="2uuTNnaZ8eC" resolve="CalcExpression" />
+    </node>
+    <node concept="1TJgyj" id="22fkBL0I9ZQ" role="1TKVEi">
+      <property role="IQ2ns" value="2346184624498581494" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="exponent" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="2uuTNnaZ8eC" resolve="CalcExpression" />
+    </node>
+  </node>
 </model>
 
