@@ -983,5 +983,32 @@
       <ref role="20lvS9" node="2uuTNnaZ8eC" resolve="CalcExpression" />
     </node>
   </node>
+  <node concept="1TIwiD" id="22fkBL10WBM">
+    <property role="EcuMT" value="2346184624503507442" />
+    <property role="TrG5h" value="ReturnStep" />
+    <ref role="1TJDcQ" node="5eocg95ibfy" resolve="Step" />
+    <node concept="1TJgyj" id="22fkBL10WBN" role="1TKVEi">
+      <property role="IQ2ns" value="2346184624503507443" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="expr" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5eocg95ibfH" resolve="Expression" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4KBaWV1L4KA">
+    <property role="EcuMT" value="5487402837988363302" />
+    <property role="TrG5h" value="ConversionToApproxNumber" />
+    <ref role="1TJDcQ" node="5Zr7efJcIQm" resolve="ConversionExpressionOperator" />
+  </node>
+  <node concept="1TIwiD" id="4KBaWV1RYMW">
+    <property role="EcuMT" value="5487402837990173884" />
+    <property role="TrG5h" value="PositiveInfinityMathValueLiteral" />
+    <ref role="1TJDcQ" node="6fyZdSQSvpy" resolve="MathValueLiteral" />
+  </node>
+  <node concept="1TIwiD" id="4KBaWV1RYN3">
+    <property role="EcuMT" value="5487402837990173891" />
+    <property role="TrG5h" value="NegativeInfinityMathValueLiteral" />
+    <ref role="1TJDcQ" node="6fyZdSQSvpy" resolve="MathValueLiteral" />
+  </node>
 </model>
 
