@@ -1078,5 +1078,81 @@
     <property role="TrG5h" value="VariadicParam" />
     <ref role="1TJDcQ" node="1W$67yoEuhW" resolve="Param" />
   </node>
+  <node concept="1TIwiD" id="2RQ$QDRgIHc">
+    <property role="EcuMT" value="3311996661454269260" />
+    <property role="R5$K7" value="true" />
+    <property role="TrG5h" value="Condition" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+  </node>
+  <node concept="1TIwiD" id="2RQ$QDRgIHe">
+    <property role="EcuMT" value="3311996661454269262" />
+    <property role="TrG5h" value="IsAreCondition" />
+    <ref role="1TJDcQ" node="2RQ$QDRgIHc" resolve="Condition" />
+    <node concept="1TJgyj" id="2RQ$QDRgIHf" role="1TKVEi">
+      <property role="IQ2ns" value="3311996661454269263" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="left" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="5eocg95ibfH" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="2RQ$QDRgIHi" role="1TKVEi">
+      <property role="IQ2ns" value="3311996661454269266" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="right" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="5eocg95ibfH" resolve="Expression" />
+    </node>
+    <node concept="1TJgyi" id="2RQ$QDRgIHg" role="1TKVEl">
+      <property role="IQ2nx" value="3311996661454269264" />
+      <property role="TrG5h" value="negation" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2RQ$QDRgIHk">
+    <property role="EcuMT" value="3311996661454269268" />
+    <property role="TrG5h" value="IfStep" />
+    <ref role="1TJDcQ" node="5eocg95ibfy" resolve="Step" />
+    <node concept="1TJgyj" id="2RQ$QDRgIHm" role="1TKVEi">
+      <property role="IQ2ns" value="3311996661454269270" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="cond" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="2RQ$QDRgIHc" resolve="Condition" />
+    </node>
+    <node concept="1TJgyj" id="2RQ$QDRgIHn" role="1TKVEi">
+      <property role="IQ2ns" value="3311996661454269271" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="thenStep" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5eocg95ibfy" resolve="Step" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2RQ$QDRgIHq">
+    <property role="EcuMT" value="3311996661454269274" />
+    <property role="TrG5h" value="IfElseStep" />
+    <ref role="1TJDcQ" node="2RQ$QDRgIHk" resolve="IfStep" />
+    <node concept="1TJgyj" id="2RQ$QDRgIHr" role="1TKVEi">
+      <property role="IQ2ns" value="3311996661454269275" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="elseStep" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5eocg95ibfy" resolve="Step" />
+    </node>
+    <node concept="1TJgyi" id="2RQ$QDRgIHu" role="1TKVEl">
+      <property role="IQ2nx" value="3311996661454269278" />
+      <property role="TrG5h" value="newLine" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="2RQ$QDRgIHv" role="1TKVEl">
+      <property role="IQ2nx" value="3311996661454269279" />
+      <property role="TrG5h" value="comma" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="2RQ$QDRgIHx" role="1TKVEl">
+      <property role="IQ2nx" value="3311996661454269281" />
+      <property role="TrG5h" value="otherwiseKeyword" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+  </node>
 </model>
 
