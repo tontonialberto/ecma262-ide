@@ -1154,5 +1154,67 @@
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
   </node>
+  <node concept="1TIwiD" id="1SvdTTrfg4r">
+    <property role="EcuMT" value="2170514698690953499" />
+    <property role="TrG5h" value="BinaryCondition" />
+    <ref role="1TJDcQ" node="2RQ$QDRgIHc" resolve="Condition" />
+    <node concept="1TJgyj" id="1SvdTTrfg5k" role="1TKVEi">
+      <property role="IQ2ns" value="2170514698690953556" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="left" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5eocg95ibfH" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="1SvdTTrfg5l" role="1TKVEi">
+      <property role="IQ2ns" value="2170514698690953557" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="right" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5eocg95ibfH" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="1SvdTTrfg5m" role="1TKVEi">
+      <property role="IQ2ns" value="2170514698690953558" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="op" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="1SvdTTrfg4s" resolve="BinaryConditionOperator" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1SvdTTrfg4s">
+    <property role="EcuMT" value="2170514698690953500" />
+    <property role="TrG5h" value="BinaryConditionOperator" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+  </node>
+  <node concept="1TIwiD" id="1SvdTTrfg4u">
+    <property role="EcuMT" value="2170514698690953502" />
+    <property role="TrG5h" value="BinaryConditionEqual" />
+    <ref role="1TJDcQ" node="1SvdTTrfg4s" resolve="BinaryConditionOperator" />
+  </node>
+  <node concept="1TIwiD" id="1SvdTTrfg4w">
+    <property role="EcuMT" value="2170514698690953504" />
+    <property role="TrG5h" value="BinaryConditionNotEqual" />
+    <ref role="1TJDcQ" node="1SvdTTrfg4s" resolve="BinaryConditionOperator" />
+  </node>
+  <node concept="1TIwiD" id="1SvdTTrfg4$">
+    <property role="EcuMT" value="2170514698690953508" />
+    <property role="TrG5h" value="BinaryConditionLessThan" />
+    <ref role="1TJDcQ" node="1SvdTTrfg4s" resolve="BinaryConditionOperator" />
+  </node>
+  <node concept="1TIwiD" id="1SvdTTrfg4B">
+    <property role="EcuMT" value="2170514698690953511" />
+    <property role="TrG5h" value="BinaryConditionLessThanEqual" />
+    <ref role="1TJDcQ" node="1SvdTTrfg4s" resolve="BinaryConditionOperator" />
+  </node>
+  <node concept="1TIwiD" id="1SvdTTrfg4F">
+    <property role="EcuMT" value="2170514698690953515" />
+    <property role="TrG5h" value="BinaryConditionGreaterThan" />
+    <ref role="1TJDcQ" node="1SvdTTrfg4s" resolve="BinaryConditionOperator" />
+  </node>
+  <node concept="1TIwiD" id="1SvdTTrfg4H">
+    <property role="EcuMT" value="2170514698690953517" />
+    <property role="TrG5h" value="BinaryConditionGreatherThanEqual" />
+    <ref role="1TJDcQ" node="1SvdTTrfg4s" resolve="BinaryConditionOperator" />
+  </node>
 </model>
 
