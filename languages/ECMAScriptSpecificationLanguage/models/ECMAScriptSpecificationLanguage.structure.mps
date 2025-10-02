@@ -1434,5 +1434,36 @@
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
   </node>
+  <node concept="1TIwiD" id="7owPl8fBxzU">
+    <property role="EcuMT" value="8512037844156291322" />
+    <property role="TrG5h" value="InclusiveIntervalCondition" />
+    <ref role="1TJDcQ" node="2RQ$QDRgIHc" resolve="Condition" />
+    <node concept="1TJgyj" id="7owPl8fBxzW" role="1TKVEi">
+      <property role="IQ2ns" value="8512037844156291324" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="left" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5eocg95ibfH" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="7owPl8fBxzY" role="1TKVEi">
+      <property role="IQ2ns" value="8512037844156291326" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="from" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5eocg95ibfH" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="7owPl8fBxzZ" role="1TKVEi">
+      <property role="IQ2ns" value="8512037844156291327" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="to" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5eocg95ibfH" resolve="Expression" />
+    </node>
+    <node concept="1TJgyi" id="7owPl8fBx$0" role="1TKVEl">
+      <property role="IQ2nx" value="8512037844156291328" />
+      <property role="TrG5h" value="negation" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+  </node>
 </model>
 

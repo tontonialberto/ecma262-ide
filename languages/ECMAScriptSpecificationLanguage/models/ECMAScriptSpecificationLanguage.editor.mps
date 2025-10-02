@@ -4657,5 +4657,44 @@
       <node concept="2iRfu4" id="31uazn7TLDe" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="7owPl8fBx$2">
+    <ref role="1XX52x" to="b9dh:7owPl8fBxzU" resolve="InclusiveIntervalCondition" />
+    <node concept="3EZMnI" id="7owPl8fBx$5" role="2wV5jI">
+      <node concept="3F1sOY" id="7owPl8fBx$9" role="3EZMnx">
+        <ref role="1NtTu8" to="b9dh:7owPl8fBxzW" resolve="left" />
+      </node>
+      <node concept="3F0ifn" id="7owPl8fBx$c" role="3EZMnx">
+        <property role="3F0ifm" value="is" />
+      </node>
+      <node concept="3F0ifn" id="7owPl8fBx$t" role="3EZMnx">
+        <property role="3F0ifm" value="not" />
+        <node concept="pkWqt" id="7owPl8fBx$v" role="pqm2j">
+          <node concept="3clFbS" id="7owPl8fBx$w" role="2VODD2">
+            <node concept="3clFbF" id="7owPl8fBx$z" role="3cqZAp">
+              <node concept="2OqwBi" id="7owPl8fBzA9" role="3clFbG">
+                <node concept="pncrf" id="7owPl8fBx$y" role="2Oq$k0" />
+                <node concept="3TrcHB" id="7owPl8fB_vB" role="2OqNvi">
+                  <ref role="3TsBF5" to="b9dh:7owPl8fBx$0" resolve="negation" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3F0ifn" id="7owPl8fBx$o" role="3EZMnx">
+        <property role="3F0ifm" value="in the inclusive interval from" />
+      </node>
+      <node concept="3F1sOY" id="7owPl8fBx$f" role="3EZMnx">
+        <ref role="1NtTu8" to="b9dh:7owPl8fBxzY" resolve="from" />
+      </node>
+      <node concept="3F0ifn" id="7owPl8fBx$i" role="3EZMnx">
+        <property role="3F0ifm" value="to" />
+      </node>
+      <node concept="3F1sOY" id="7owPl8fBx$l" role="3EZMnx">
+        <ref role="1NtTu8" to="b9dh:7owPl8fBxzZ" resolve="to" />
+      </node>
+      <node concept="2iRfu4" id="7owPl8fBx$8" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 
