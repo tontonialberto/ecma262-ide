@@ -57,6 +57,7 @@
         <child id="1176718152741" name="modelAcessor" index="3TRxkO" />
       </concept>
       <concept id="1182191800432" name="jetbrains.mps.lang.editor.structure.QueryFunction_NodeListFilter" flags="in" index="107P5z" />
+      <concept id="1214406454886" name="jetbrains.mps.lang.editor.structure.TextBackgroundColorStyleClassItem" flags="ln" index="30gYXW" />
       <concept id="1182233249301" name="jetbrains.mps.lang.editor.structure.ConceptFunctionParameter_childNode" flags="nn" index="12_Ws6" />
       <concept id="1088013125922" name="jetbrains.mps.lang.editor.structure.CellModel_RefCell" flags="sg" stub="730538219795941030" index="1iCGBv">
         <child id="1088186146602" name="editorComponent" index="1sWHZn" />
@@ -6416,7 +6417,10 @@
       <node concept="3F0A7n" id="5SDB1Wr5H7B" role="1QoS34">
         <ref role="1NtTu8" to="b9dh:5SDB1Wr5E4f" resolve="str" />
         <node concept="VechU" id="1QWSanwl22k" role="3F10Kt">
-          <property role="Vb096" value="fLJRk5_/gray" />
+          <property role="Vb096" value="6cZGtrcKCoS/black" />
+        </node>
+        <node concept="30gYXW" id="7sGHBjhd8Yk" role="3F10Kt">
+          <property role="Vb096" value="fLJRk5A/lightGray" />
         </node>
       </node>
       <node concept="pkWqt" id="5SDB1Wr5E4m" role="3e4ffs">
@@ -6437,8 +6441,11 @@
       <node concept="3EZMnI" id="5SDB1Wr5H8q" role="1QoVPY">
         <node concept="3F0A7n" id="5SDB1Wr5Hjc" role="3EZMnx">
           <ref role="1NtTu8" to="b9dh:5SDB1Wr5E4f" resolve="str" />
-          <node concept="VechU" id="1QWSanwl22m" role="3F10Kt">
-            <property role="Vb096" value="fLJRk5_/gray" />
+          <node concept="VechU" id="7sGHBjhd8Yn" role="3F10Kt">
+            <property role="Vb096" value="6cZGtrcKCoS/black" />
+          </node>
+          <node concept="30gYXW" id="7sGHBjhd8Yo" role="3F10Kt">
+            <property role="Vb096" value="fLJRk5A/lightGray" />
           </node>
         </node>
         <node concept="3F1sOY" id="5SDB1Wr5Hjf" role="3EZMnx">
@@ -6573,6 +6580,102 @@
           </node>
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="7sGHBjguXW5">
+    <ref role="1XX52x" to="b9dh:7sGHBjguXW3" resolve="NumericMethod" />
+    <node concept="3EZMnI" id="7sGHBjguY3t" role="2wV5jI">
+      <node concept="PMmxH" id="7sGHBjguY3u" role="3EZMnx">
+        <ref role="PMmxG" node="3$uve1VfZP" resolve="Sections" />
+      </node>
+      <node concept="3EZMnI" id="7sGHBjguY3v" role="3EZMnx">
+        <node concept="VPM3Z" id="7sGHBjguY3w" role="3F10Kt" />
+        <node concept="PMmxH" id="7sGHBjguY3x" role="3EZMnx">
+          <ref role="PMmxG" node="3$uve2hzbI" resolve="AlgorithmNumber" />
+        </node>
+        <node concept="3F0ifn" id="7sGHBjguY3D" role="3EZMnx">
+          <property role="3F0ifm" value="Numeric Method" />
+        </node>
+        <node concept="3F0A7n" id="7sGHBjguY3E" role="3EZMnx">
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        </node>
+        <node concept="PMmxH" id="7sGHBjguY3F" role="3EZMnx">
+          <ref role="PMmxG" node="2RQ$QDR91n9" resolve="AlgorithmParameters_Editor" />
+        </node>
+        <node concept="2iRfu4" id="7sGHBjguY3G" role="2iSdaV" />
+      </node>
+      <node concept="3F1sOY" id="7sGHBjguY3H" role="3EZMnx">
+        <ref role="1NtTu8" to="b9dh:5eocg95ibOV" />
+      </node>
+      <node concept="2iRkQZ" id="7sGHBjguY3I" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="7sGHBjgMvwM">
+    <ref role="1XX52x" to="b9dh:7sGHBjgMvwK" resolve="ConcreteMethod" />
+    <node concept="3EZMnI" id="7sGHBjgMvwQ" role="2wV5jI">
+      <node concept="PMmxH" id="7sGHBjgMvwR" role="3EZMnx">
+        <ref role="PMmxG" node="3$uve1VfZP" resolve="Sections" />
+      </node>
+      <node concept="3EZMnI" id="7sGHBjgMvwS" role="3EZMnx">
+        <node concept="VPM3Z" id="7sGHBjgMvwT" role="3F10Kt" />
+        <node concept="PMmxH" id="7sGHBjgMvwU" role="3EZMnx">
+          <ref role="PMmxG" node="3$uve2hzbI" resolve="AlgorithmNumber" />
+        </node>
+        <node concept="3F0ifn" id="7sGHBjgMvx1" role="3EZMnx">
+          <property role="3F0ifm" value="Concrete Method" />
+        </node>
+        <node concept="3F0A7n" id="7sGHBjgMvwW" role="3EZMnx">
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        </node>
+        <node concept="PMmxH" id="7sGHBjgMvwX" role="3EZMnx">
+          <ref role="PMmxG" node="2RQ$QDR91n9" resolve="AlgorithmParameters_Editor" />
+        </node>
+        <node concept="3F0ifn" id="7sGHBjgMvxa" role="3EZMnx">
+          <property role="3F0ifm" value="of" />
+        </node>
+        <node concept="3F1sOY" id="7sGHBjgMvxd" role="3EZMnx">
+          <ref role="1NtTu8" to="b9dh:7sGHBjgMvwL" resolve="receiver" />
+        </node>
+        <node concept="2iRfu4" id="7sGHBjgMvwY" role="2iSdaV" />
+      </node>
+      <node concept="3F1sOY" id="7sGHBjgMvwZ" role="3EZMnx">
+        <ref role="1NtTu8" to="b9dh:5eocg95ibOV" />
+      </node>
+      <node concept="2iRkQZ" id="7sGHBjgMvx0" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="7sGHBjgMD0j">
+    <ref role="1XX52x" to="b9dh:7sGHBjgMD0h" resolve="InternalMethod" />
+    <node concept="3EZMnI" id="7sGHBjgMD0l" role="2wV5jI">
+      <node concept="PMmxH" id="7sGHBjgMD0m" role="3EZMnx">
+        <ref role="PMmxG" node="3$uve1VfZP" resolve="Sections" />
+      </node>
+      <node concept="3EZMnI" id="7sGHBjgMD0n" role="3EZMnx">
+        <node concept="VPM3Z" id="7sGHBjgMD0o" role="3F10Kt" />
+        <node concept="PMmxH" id="7sGHBjgMD0p" role="3EZMnx">
+          <ref role="PMmxG" node="3$uve2hzbI" resolve="AlgorithmNumber" />
+        </node>
+        <node concept="3F0ifn" id="7sGHBjgMD0q" role="3EZMnx">
+          <property role="3F0ifm" value="Internal Method" />
+        </node>
+        <node concept="3F0A7n" id="7sGHBjgMD0r" role="3EZMnx">
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        </node>
+        <node concept="PMmxH" id="7sGHBjgMD0s" role="3EZMnx">
+          <ref role="PMmxG" node="2RQ$QDR91n9" resolve="AlgorithmParameters_Editor" />
+        </node>
+        <node concept="3F0ifn" id="7sGHBjgMD0t" role="3EZMnx">
+          <property role="3F0ifm" value="of" />
+        </node>
+        <node concept="3F1sOY" id="7sGHBjgMD0u" role="3EZMnx">
+          <ref role="1NtTu8" to="b9dh:7sGHBjgMD0i" />
+        </node>
+        <node concept="2iRfu4" id="7sGHBjgMD0v" role="2iSdaV" />
+      </node>
+      <node concept="3F1sOY" id="7sGHBjgMD0w" role="3EZMnx">
+        <ref role="1NtTu8" to="b9dh:5eocg95ibOV" />
+      </node>
+      <node concept="2iRkQZ" id="7sGHBjgMD0x" role="2iSdaV" />
     </node>
   </node>
 </model>
