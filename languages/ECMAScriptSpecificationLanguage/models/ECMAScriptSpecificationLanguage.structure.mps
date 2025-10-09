@@ -163,7 +163,7 @@
   <node concept="1TIwiD" id="1W$67yoFhXS">
     <property role="EcuMT" value="2243945420573974392" />
     <property role="TrG5h" value="AbstractOperationReference" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <ref role="1TJDcQ" node="2uuTNnaZf$S" resolve="Reference" />
     <node concept="1TJgyj" id="1W$67yoGJxw" role="1TKVEi">
       <property role="IQ2ns" value="2243945420574357600" />
       <property role="20kJfa" value="ref" />
@@ -1701,7 +1701,7 @@
   <node concept="1TIwiD" id="4JWQRjsya0E">
     <property role="EcuMT" value="5475492541938311210" />
     <property role="TrG5h" value="AlgorithmReference" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <ref role="1TJDcQ" node="2uuTNnaZf$S" resolve="Reference" />
     <node concept="1TJgyj" id="4JWQRjsya0F" role="1TKVEi">
       <property role="IQ2ns" value="5475492541938311211" />
       <property role="20kJfa" value="ref" />
@@ -2062,7 +2062,7 @@
   <node concept="1TIwiD" id="7sGHBjhnl$3">
     <property role="EcuMT" value="8587439202333710595" />
     <property role="TrG5h" value="NumericMethodReference" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <ref role="1TJDcQ" node="2uuTNnaZf$S" resolve="Reference" />
     <node concept="1TJgyj" id="7sGHBjhnlKf" role="1TKVEi">
       <property role="IQ2ns" value="8587439202333711375" />
       <property role="20kJfa" value="ref" />
@@ -2114,6 +2114,21 @@
       <property role="20kJfa" value="binding" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="5eocg95ibfH" resolve="Expression" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1ZHYsdIg_pJ">
+    <property role="EcuMT" value="2300769602419971695" />
+    <property role="TrG5h" value="MissingVariableReference" />
+    <ref role="1TJDcQ" node="2uuTNnaZf$X" resolve="VariableReference" />
+    <node concept="PrWs8" id="1ZHYsdIg_Aj" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="1TJgyj" id="1ZHYsdIK1RT" role="1TKVEi">
+      <property role="IQ2ns" value="2300769602428214777" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="dummyVar" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5eocg95ibfB" resolve="Variable" />
     </node>
   </node>
 </model>
