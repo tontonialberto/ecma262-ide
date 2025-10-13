@@ -172,7 +172,7 @@
   <node concept="1TIwiD" id="39yvsmz4HHk">
     <property role="EcuMT" value="3630602537411992404" />
     <property role="TrG5h" value="FilteringConditionBodyEither" />
-    <property role="34LRSv" value="either" />
+    <property role="34LRSv" value="either-body" />
     <ref role="1TJDcQ" node="39yvsmz6aM7" resolve="FilteringConditionBody" />
     <node concept="1TJgyj" id="39yvsmz54aW" role="1TKVEi">
       <property role="IQ2ns" value="3630602537412084412" />
@@ -211,6 +211,19 @@
     <property role="TrG5h" value="FilteringConditionBody" />
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" node="PLDoPcyMcq" resolve="FilteringCondition" />
+  </node>
+  <node concept="1TIwiD" id="$M7JgvC4GO">
+    <property role="EcuMT" value="662626129028336436" />
+    <property role="TrG5h" value="FilteringConditionSignatureEither" />
+    <property role="34LRSv" value="either-signature" />
+    <ref role="1TJDcQ" node="39yvsmz5yIw" resolve="FilteringConditionSignature" />
+    <node concept="1TJgyj" id="$M7JgvC4To" role="1TKVEi">
+      <property role="IQ2ns" value="662626129028337240" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="predicates" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="39yvsmz5yIw" resolve="FilteringConditionSignature" />
+    </node>
   </node>
 </model>
 

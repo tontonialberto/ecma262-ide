@@ -2131,5 +2131,27 @@
       <ref role="20lvS9" node="5eocg95ibfB" resolve="Variable" />
     </node>
   </node>
+  <node concept="1TIwiD" id="$M7Jgv7cfC">
+    <property role="EcuMT" value="662626129019716584" />
+    <property role="TrG5h" value="RemovedStep" />
+    <ref role="1TJDcQ" node="5eocg95ibfy" resolve="Step" />
+    <node concept="1TJgyi" id="$M7Jgv7d19" role="1TKVEl">
+      <property role="IQ2nx" value="662626129019719753" />
+      <property role="TrG5h" value="stepCount" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+    <node concept="1TJgyj" id="$M7JgvhXkL" role="1TKVEi">
+      <property role="IQ2ns" value="662626129022539057" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="items" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="$M7JgvhX8d" resolve="RemovedStepItem" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="$M7JgvhX8d">
+    <property role="EcuMT" value="662626129022538253" />
+    <property role="TrG5h" value="RemovedStepItem" />
+    <ref role="1TJDcQ" node="5eocg95ibfy" resolve="Step" />
+  </node>
 </model>
 

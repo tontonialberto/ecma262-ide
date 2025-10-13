@@ -451,5 +451,50 @@
       </node>
     </node>
   </node>
+  <node concept="24kQdi" id="$M7JgvC4Tq">
+    <ref role="1XX52x" to="8wbp:$M7JgvC4GO" resolve="FilteringConditionSignatureEither" />
+    <node concept="3EZMnI" id="$M7JgvC55Z" role="2wV5jI">
+      <node concept="VPM3Z" id="$M7JgvC560" role="3F10Kt" />
+      <node concept="3EZMnI" id="$M7JgvC561" role="3EZMnx">
+        <node concept="VPM3Z" id="$M7JgvC562" role="3F10Kt" />
+        <node concept="lj46D" id="$M7JgvC563" role="3F10Kt" />
+        <node concept="PMmxH" id="$M7JgvC564" role="3EZMnx">
+          <ref role="PMmxG" node="39yvsmzaxrM" resolve="BulletPoint" />
+        </node>
+        <node concept="3F0ifn" id="$M7JgvC565" role="3EZMnx">
+          <property role="3F0ifm" value="either" />
+        </node>
+        <node concept="2iRfu4" id="$M7JgvC566" role="2iSdaV" />
+      </node>
+      <node concept="3EZMnI" id="$M7JgvC567" role="3EZMnx">
+        <node concept="VPM3Z" id="$M7JgvC568" role="3F10Kt" />
+        <node concept="lj46D" id="$M7JgvC569" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="3EZMnI" id="$M7JgvC56a" role="3EZMnx">
+          <node concept="l2Vlx" id="$M7JgvC56b" role="2iSdaV" />
+          <node concept="lj46D" id="$M7JgvC56c" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="3F2HdR" id="$M7JgvC56d" role="3EZMnx">
+            <property role="2czwfO" value="or" />
+            <ref role="1NtTu8" to="8wbp:$M7JgvC4To" />
+            <node concept="l2Vlx" id="$M7JgvC56e" role="2czzBx" />
+            <node concept="pj6Ft" id="$M7JgvC56f" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
+            <node concept="lj46D" id="$M7JgvC56g" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
+            <node concept="ljvvj" id="$M7JgvC56h" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
+          </node>
+        </node>
+        <node concept="l2Vlx" id="$M7JgvC56i" role="2iSdaV" />
+      </node>
+      <node concept="2iRkQZ" id="$M7JgvC56j" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 
