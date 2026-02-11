@@ -233,7 +233,7 @@
           <node concept="2EHx9g" id="39yvsmz81qv" role="2czzBx" />
         </node>
         <node concept="3F1sOY" id="$M7JgvNplU" role="3EZMnx">
-          <ref role="1NtTu8" to="8wbp:$M7JgvNp8O" />
+          <ref role="1NtTu8" to="8wbp:$M7JgvNp8O" resolve="postFilteringBlock" />
         </node>
         <node concept="3F0ifn" id="$M7JgvNpk2" role="3EZMnx" />
         <node concept="3EZMnI" id="5wlfRpe2sOh" role="3EZMnx">
@@ -776,6 +776,72 @@
           </node>
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="6Kpi7IfE6Dd">
+    <ref role="1XX52x" to="8wbp:6Kpi7IfE6Da" resolve="DecorationBlock" />
+    <node concept="3EZMnI" id="6Kpi7IfE6Df" role="2wV5jI">
+      <node concept="3F0ifn" id="6Kpi7IfE6Dg" role="3EZMnx">
+        <property role="3F0ifm" value="decorate-functions" />
+      </node>
+      <node concept="3F0ifn" id="6Kpi7IfE6Di" role="3EZMnx">
+        <property role="3F0ifm" value="apply:" />
+      </node>
+      <node concept="3EZMnI" id="6Kpi7IfE6Dj" role="3EZMnx">
+        <node concept="VPM3Z" id="6Kpi7IfE6Dk" role="3F10Kt" />
+        <node concept="lj46D" id="6Kpi7IfE6Dl" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="3F2HdR" id="6Kpi7IfE6Dm" role="3EZMnx">
+          <ref role="1NtTu8" to="8wbp:6Kpi7IfE6Dy" resolve="actions" />
+          <node concept="pj6Ft" id="6Kpi7IfE6Dn" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="lj46D" id="6Kpi7IfE6Do" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="ljvvj" id="6Kpi7IfE6Dp" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="l2Vlx" id="6Kpi7IfE6Dq" role="2czzBx" />
+        </node>
+        <node concept="l2Vlx" id="6Kpi7IfE6Dr" role="2iSdaV" />
+        <node concept="3F0ifn" id="6Kpi7IfE6Ds" role="3EZMnx" />
+      </node>
+      <node concept="2iRkQZ" id="6Kpi7IfE6Dt" role="2iSdaV" />
+      <node concept="VPXOz" id="6Kpi7IfE6Du" role="3F10Kt">
+        <property role="VOm3f" value="true" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="6Kpi7IfHA6X">
+    <ref role="1XX52x" to="8wbp:6Kpi7IfH_NI" resolve="DecorationActionAnnotate" />
+    <node concept="3EZMnI" id="6Kpi7IfHA6Z" role="2wV5jI">
+      <node concept="PMmxH" id="6Kpi7IfHA70" role="3EZMnx">
+        <ref role="PMmxG" node="39yvsmzaxrM" resolve="BulletPoint" />
+      </node>
+      <node concept="3F0ifn" id="6Kpi7IfHA71" role="3EZMnx">
+        <property role="3F0ifm" value="annotate:" />
+      </node>
+      <node concept="3F0A7n" id="6Kpi7IfHA72" role="3EZMnx">
+        <ref role="1NtTu8" to="8wbp:6Kpi7IfH_NJ" resolve="annotationText" />
+        <node concept="Vb9p2" id="6Kpi7IfHA74" role="3F10Kt">
+          <property role="Vbekb" value="g1_kEg4/ITALIC" />
+        </node>
+      </node>
+      <node concept="2iRfu4" id="6Kpi7IfHA73" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="6Kpi7IgalcS">
+    <ref role="1XX52x" to="8wbp:6Kpi7Ig9zYQ" resolve="DecorationActionHighlight" />
+    <node concept="3EZMnI" id="6Kpi7IgalcU" role="2wV5jI">
+      <node concept="PMmxH" id="6Kpi7IgalcV" role="3EZMnx">
+        <ref role="PMmxG" node="39yvsmzaxrM" resolve="BulletPoint" />
+      </node>
+      <node concept="3F0ifn" id="6Kpi7IgalcW" role="3EZMnx">
+        <property role="3F0ifm" value="highlight-steps" />
+      </node>
+      <node concept="2iRfu4" id="6Kpi7IgalcZ" role="2iSdaV" />
     </node>
   </node>
 </model>

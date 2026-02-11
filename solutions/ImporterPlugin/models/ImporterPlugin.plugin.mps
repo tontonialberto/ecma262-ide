@@ -9372,21 +9372,6 @@
               </node>
             </node>
           </node>
-          <node concept="2xdQw9" id="6NLkRuP8WVA" role="3cqZAp">
-            <node concept="3cpWs3" id="6NLkRuP8WVB" role="9lYJi">
-              <node concept="2OqwBi" id="6NLkRuP8WVC" role="3uHU7w">
-                <node concept="37vLTw" id="6NLkRuP8WVD" role="2Oq$k0">
-                  <ref role="3cqZAo" node="6NLkRuP8WVb" resolve="node" />
-                </node>
-                <node concept="2qgKlT" id="6NLkRuP8WVE" role="2OqNvi">
-                  <ref role="37wK5l" to="tpcu:hEwIMiw" resolve="getPresentation" />
-                </node>
-              </node>
-              <node concept="Xl_RD" id="6NLkRuP8WVF" role="3uHU7B">
-                <property role="Xl_RC" value="Created variable: " />
-              </node>
-            </node>
-          </node>
         </node>
         <node concept="2AHcQZ" id="6NLkRuP8KzC" role="2AJF6D">
           <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />

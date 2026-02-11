@@ -62,8 +62,8 @@
     <node concept="1TJgyj" id="$M7JgvNp8O" role="1TKVEi">
       <property role="IQ2ns" value="662626129031303732" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="aggregation" />
-      <ref role="20lvS9" node="$M7JgvMZjS" resolve="AggregationBlock" />
+      <property role="20kJfa" value="postFilteringBlock" />
+      <ref role="20lvS9" node="6Kpi7IfE6Db" resolve="PostFilteringBlock" />
     </node>
     <node concept="1TJgyj" id="$M7JgvOeMR" role="1TKVEi">
       <property role="IQ2ns" value="662626129031523511" />
@@ -188,7 +188,7 @@
   <node concept="1TIwiD" id="$M7JgvMZjS">
     <property role="EcuMT" value="662626129031197944" />
     <property role="TrG5h" value="AggregationBlock" />
-    <ref role="1TJDcQ" node="39yvsmz4J6i" resolve="AbstractBlock" />
+    <ref role="1TJDcQ" node="6Kpi7IfE6Db" resolve="PostFilteringBlock" />
     <node concept="1TJgyi" id="$M7JgvMZwt" role="1TKVEl">
       <property role="IQ2nx" value="662626129031198749" />
       <property role="TrG5h" value="showFunctionNames" />
@@ -327,6 +327,45 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="$M7Jgwl4We" resolve="CountResultCell" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="6Kpi7IfE6Da">
+    <property role="EcuMT" value="7789336726042339914" />
+    <property role="TrG5h" value="DecorationBlock" />
+    <ref role="1TJDcQ" node="6Kpi7IfE6Db" resolve="PostFilteringBlock" />
+    <node concept="1TJgyj" id="6Kpi7IfE6Dy" role="1TKVEi">
+      <property role="IQ2ns" value="7789336726042339938" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="actions" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="6Kpi7IfH_NF" resolve="DecorationAction" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6Kpi7IfE6Db">
+    <property role="EcuMT" value="7789336726042339915" />
+    <property role="R5$K7" value="true" />
+    <property role="TrG5h" value="PostFilteringBlock" />
+    <ref role="1TJDcQ" node="39yvsmz4J6i" resolve="AbstractBlock" />
+  </node>
+  <node concept="1TIwiD" id="6Kpi7IfH_NF">
+    <property role="EcuMT" value="7789336726043253995" />
+    <property role="TrG5h" value="DecorationAction" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" node="$M7JgvNeDj" resolve="NavigationClause" />
+  </node>
+  <node concept="1TIwiD" id="6Kpi7IfH_NI">
+    <property role="EcuMT" value="7789336726043253998" />
+    <property role="TrG5h" value="DecorationActionAnnotate" />
+    <ref role="1TJDcQ" node="6Kpi7IfH_NF" resolve="DecorationAction" />
+    <node concept="1TJgyi" id="6Kpi7IfH_NJ" role="1TKVEl">
+      <property role="IQ2nx" value="7789336726043253999" />
+      <property role="TrG5h" value="annotationText" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6Kpi7Ig9zYQ">
+    <property role="EcuMT" value="7789336726050586550" />
+    <property role="TrG5h" value="DecorationActionHighlight" />
+    <ref role="1TJDcQ" node="6Kpi7IfH_NF" resolve="DecorationAction" />
   </node>
 </model>
 

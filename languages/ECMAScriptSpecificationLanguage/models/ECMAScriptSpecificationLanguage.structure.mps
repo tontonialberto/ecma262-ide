@@ -81,12 +81,22 @@
       <property role="TrG5h" value="location" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
+    <node concept="1TJgyi" id="6swi$TXVY3V" role="1TKVEl">
+      <property role="IQ2nx" value="7431021086142095611" />
+      <property role="TrG5h" value="note" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5eocg95ibfy">
     <property role="EcuMT" value="6023618387430126562" />
     <property role="TrG5h" value="Step" />
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="6Kpi7Ig0$7$" role="1TKVEl">
+      <property role="IQ2nx" value="7789336726048227812" />
+      <property role="TrG5h" value="isHighlighted" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5eocg95ibf_">
     <property role="EcuMT" value="6023618387430126565" />
