@@ -229,7 +229,7 @@
           <node concept="2iRfu4" id="1ZHYsdH5Hwl" role="2iSdaV" />
         </node>
         <node concept="3F2HdR" id="39yvsmz81qt" role="3EZMnx">
-          <ref role="1NtTu8" to="8wbp:39yvsmz4J6g" />
+          <ref role="1NtTu8" to="8wbp:39yvsmz4J6g" resolve="filters" />
           <node concept="2EHx9g" id="39yvsmz81qv" role="2czzBx" />
         </node>
         <node concept="3F1sOY" id="$M7JgvNplU" role="3EZMnx">
@@ -253,7 +253,7 @@
                         <node concept="2ShNRf" id="1ZHYsdGcqJQ" role="37wK5m">
                           <node concept="1pGfFk" id="1ZHYsdGcrFj" role="2ShVmc">
                             <property role="373rjd" value="true" />
-                            <ref role="37wK5l" to="uow6:1ZHYsdGbfI0" resolve="ModelCreator" />
+                            <ref role="37wK5l" to="uow6:1ZHYsdGbfI0" resolve="RunPipelineController" />
                             <node concept="pncrf" id="1ZHYsdGcrKz" role="37wK5m" />
                           </node>
                         </node>
@@ -437,7 +437,7 @@
           </node>
           <node concept="3F2HdR" id="39yvsmzdDvs" role="3EZMnx">
             <property role="2czwfO" value="or" />
-            <ref role="1NtTu8" to="8wbp:39yvsmz54aW" />
+            <ref role="1NtTu8" to="8wbp:39yvsmz54aW" resolve="predicates" />
             <node concept="l2Vlx" id="39yvsmzdDvt" role="2czzBx" />
             <node concept="pj6Ft" id="39yvsmzdDvu" role="3F10Kt">
               <property role="VOm3f" value="true" />
@@ -506,7 +506,7 @@
           </node>
           <node concept="3F2HdR" id="$M7JgvC56d" role="3EZMnx">
             <property role="2czwfO" value="or" />
-            <ref role="1NtTu8" to="8wbp:$M7JgvC4To" />
+            <ref role="1NtTu8" to="8wbp:$M7JgvC4To" resolve="predicates" />
             <node concept="l2Vlx" id="$M7JgvC56e" role="2czzBx" />
             <node concept="pj6Ft" id="$M7JgvC56f" role="3F10Kt">
               <property role="VOm3f" value="true" />
@@ -616,7 +616,7 @@
                       <node concept="2OqwBi" id="$M7Jgw6D7e" role="2Oq$k0">
                         <node concept="pncrf" id="$M7Jgw6CQ0" role="2Oq$k0" />
                         <node concept="3Tsc0h" id="$M7Jgw6Dh3" role="2OqNvi">
-                          <ref role="3TtcxE" to="8wbp:$M7Jgwl9rI" />
+                          <ref role="3TtcxE" to="8wbp:$M7Jgwl9rI" resolve="results" />
                         </node>
                       </node>
                       <node concept="34oBXx" id="$M7Jgw6Vl7" role="2OqNvi" />
@@ -656,7 +656,7 @@
                   </node>
                   <node concept="359W_D" id="$M7JgwNg5$" role="37wK5m">
                     <ref role="359W_E" to="8wbp:$M7JgvOeoC" resolve="CountResult" />
-                    <ref role="359W_F" to="8wbp:$M7JgwL5D1" />
+                    <ref role="359W_F" to="8wbp:$M7JgwL5D1" resolve="cells" />
                   </node>
                   <node concept="1Q80Hx" id="$M7JgwNg$2" role="37wK5m" />
                 </node>
@@ -842,6 +842,18 @@
         <property role="3F0ifm" value="highlight-steps" />
       </node>
       <node concept="2iRfu4" id="6Kpi7IgalcZ" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="5gsI0I3K9Sh">
+    <ref role="1XX52x" to="8wbp:5gsI0I3JXaR" resolve="DecorationActionPrune" />
+    <node concept="3EZMnI" id="5gsI0I3K9Sj" role="2wV5jI">
+      <node concept="PMmxH" id="5gsI0I3K9Sk" role="3EZMnx">
+        <ref role="PMmxG" node="39yvsmzaxrM" resolve="BulletPoint" />
+      </node>
+      <node concept="3F0ifn" id="5gsI0I3K9Sl" role="3EZMnx">
+        <property role="3F0ifm" value="prune-unmatched-steps" />
+      </node>
+      <node concept="2iRfu4" id="5gsI0I3K9Sm" role="2iSdaV" />
     </node>
   </node>
 </model>

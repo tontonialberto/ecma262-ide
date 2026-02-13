@@ -92,9 +92,19 @@
     <property role="TrG5h" value="Step" />
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="5gsI0I3hT6L" role="1TKVEl">
+      <property role="IQ2nx" value="6060921558120501681" />
+      <property role="TrG5h" value="isMatching" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
     <node concept="1TJgyi" id="6Kpi7Ig0$7$" role="1TKVEl">
       <property role="IQ2nx" value="7789336726048227812" />
       <property role="TrG5h" value="isHighlighted" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="5gsI0I3JW_O" role="1TKVEl">
+      <property role="IQ2nx" value="6060921558128380276" />
+      <property role="TrG5h" value="isMasked" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
   </node>
