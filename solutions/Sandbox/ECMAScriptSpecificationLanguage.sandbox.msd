@@ -12,6 +12,7 @@
   </facets>
   <dependencies>
     <dependency reexport="false">3a13115c-633c-4c5c-bbcc-75c4219e9555(jetbrains.mps.lang.quotation)</dependency>
+    <dependency reexport="false">e60c167c-aefb-4a7d-ac09-9ca6ce0aed62(ECMAScriptSpecificationLanguage)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:e60c167c-aefb-4a7d-ac09-9ca6ce0aed62:ECMAScriptSpecificationLanguage" version="0" />
@@ -20,6 +21,7 @@
   </languageVersions>
   <dependencyVersions>
     <module reference="3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)" version="0" />
+    <module reference="e60c167c-aefb-4a7d-ac09-9ca6ce0aed62(ECMAScriptSpecificationLanguage)" version="0" />
     <module reference="62ecb2ee-4d99-4fe3-8b68-d1310d903e77(ECMAScriptSpecificationLanguage.sandbox)" version="0" />
     <module reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" version="0" />
     <module reference="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" version="0" />
