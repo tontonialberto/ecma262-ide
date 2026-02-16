@@ -74,6 +74,7 @@
         <property id="1186403771423" name="style" index="Vbekb" />
       </concept>
       <concept id="1186404549998" name="jetbrains.mps.lang.editor.structure.ForegroundColorStyleClassItem" flags="ln" index="VechU" />
+      <concept id="1186404574412" name="jetbrains.mps.lang.editor.structure.BackgroundColorStyleClassItem" flags="ln" index="Veino" />
       <concept id="1186414536763" name="jetbrains.mps.lang.editor.structure.BooleanStyleSheetItem" flags="ln" index="VOi$J">
         <property id="1186414551515" name="flag" index="VOm3f" />
       </concept>
@@ -7316,10 +7317,16 @@
       <node concept="PMmxH" id="5gsI0I4TNh_" role="3EZMnx">
         <ref role="PMmxG" node="3$uve1VfZP" resolve="Sections" />
       </node>
+      <node concept="PMmxH" id="6Tx72K8ayJe" role="3EZMnx">
+        <ref role="PMmxG" node="6Tx72K89eO9" resolve="Bookmarks" />
+      </node>
       <node concept="PMmxH" id="63QuHbFljOn" role="3EZMnx">
         <ref role="PMmxG" node="63QuHbFgiaN" resolve="AlgorithmContent" />
       </node>
       <node concept="2iRkQZ" id="63QuHbFljOl" role="2iSdaV" />
+    </node>
+    <node concept="3F0A7n" id="6Tx72K89d8o" role="6VMZX">
+      <ref role="1NtTu8" to="b9dh:6swi$TXVY3V" resolve="note" />
     </node>
   </node>
   <node concept="PKFIW" id="5gsI0I4TKJj">
@@ -7750,6 +7757,29 @@
     </node>
     <node concept="2aJ2om" id="6Tx72K86gDf" role="CpUAK">
       <ref role="2$4xQ3" node="6Tx72K81Mtq" resolve="concise" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="6Tx72K87Sg2">
+    <ref role="1XX52x" to="b9dh:6Tx72K87Sg0" resolve="Bookmark" />
+    <node concept="3EZMnI" id="6Tx72K87Sg6" role="2wV5jI">
+      <node concept="3F0ifn" id="6Tx72K87Sga" role="3EZMnx">
+        <property role="3F0ifm" value="#" />
+      </node>
+      <node concept="3F0A7n" id="6Tx72K87TJj" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="2iRfu4" id="6Tx72K87Sg9" role="2iSdaV" />
+      <node concept="Veino" id="6Tx72K89cXh" role="3F10Kt">
+        <property role="Vb096" value="fLwANPp/orange" />
+      </node>
+    </node>
+  </node>
+  <node concept="PKFIW" id="6Tx72K89eO9">
+    <property role="TrG5h" value="Bookmarks" />
+    <ref role="1XX52x" to="b9dh:5eocg95ibfw" resolve="Algorithm" />
+    <node concept="3F2HdR" id="6Tx72K89eOb" role="2wV5jI">
+      <property role="2czwfO" value="  " />
+      <ref role="1NtTu8" to="b9dh:6Tx72K89d1a" resolve="bookmarks" />
     </node>
   </node>
 </model>

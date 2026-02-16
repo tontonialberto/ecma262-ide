@@ -4832,5 +4832,55 @@
       <node concept="3cqZAl" id="5gsI0I3JXca" role="3clF45" />
     </node>
   </node>
+  <node concept="13h7C7" id="6Tx72K8dbnk">
+    <ref role="13h7C2" to="8wbp:6Tx72K8dbna" resolve="DecorationActionAddBookmark" />
+    <node concept="13hLZK" id="6Tx72K8dbnl" role="13h7CW">
+      <node concept="3clFbS" id="6Tx72K8dbnm" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="6Tx72K8dbnB" role="13h7CS">
+      <property role="TrG5h" value="transform" />
+      <ref role="13i0hy" node="6Kpi7IfNYol" resolve="transform" />
+      <node concept="3Tm1VV" id="6Tx72K8dbnC" role="1B3o_S" />
+      <node concept="3clFbS" id="6Tx72K8dbnH" role="3clF47">
+        <node concept="3clFbF" id="6Tx72K8dd$R" role="3cqZAp">
+          <node concept="2OqwBi" id="6Tx72K8dgwF" role="3clFbG">
+            <node concept="2OqwBi" id="6Tx72K8ddJi" role="2Oq$k0">
+              <node concept="37vLTw" id="6Tx72K8dd$Q" role="2Oq$k0">
+                <ref role="3cqZAo" node="6Tx72K8dbnI" resolve="algorithm" />
+              </node>
+              <node concept="3Tsc0h" id="6Tx72K8ddSu" role="2OqNvi">
+                <ref role="3TtcxE" to="b9dh:6Tx72K89d1a" resolve="bookmarks" />
+              </node>
+            </node>
+            <node concept="TSZUe" id="6Tx72K8dl6u" role="2OqNvi">
+              <node concept="2pJPEk" id="6Tx72K8dojc" role="25WWJ7">
+                <node concept="2pJPED" id="6Tx72K8doje" role="2pJPEn">
+                  <ref role="2pJxaS" to="b9dh:6Tx72K87Sg0" resolve="Bookmark" />
+                  <node concept="2pJxcG" id="6Tx72K8dovX" role="2pJxcM">
+                    <ref role="2pJxcJ" to="tpck:h0TrG11" resolve="name" />
+                    <node concept="WxPPo" id="6Tx72K8dozX" role="28ntcv">
+                      <node concept="2OqwBi" id="6Tx72K8doIT" role="WxPPp">
+                        <node concept="13iPFW" id="6Tx72K8dozV" role="2Oq$k0" />
+                        <node concept="3TrcHB" id="6Tx72K8doTC" role="2OqNvi">
+                          <ref role="3TsBF5" to="8wbp:6Tx72K8dbnj" resolve="bookmarkText" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="6Tx72K8dbnI" role="3clF46">
+        <property role="TrG5h" value="algorithm" />
+        <node concept="3Tqbb2" id="6Tx72K8dbnJ" role="1tU5fm">
+          <ref role="ehGHo" to="b9dh:5eocg95ibfw" resolve="Algorithm" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="6Tx72K8dbnK" role="3clF45" />
+    </node>
+  </node>
 </model>
 

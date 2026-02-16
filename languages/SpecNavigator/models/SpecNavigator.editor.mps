@@ -856,5 +856,23 @@
       <node concept="2iRfu4" id="5gsI0I3K9Sm" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="6Tx72K8dbnb">
+    <ref role="1XX52x" to="8wbp:6Tx72K8dbna" resolve="DecorationActionAddBookmark" />
+    <node concept="3EZMnI" id="6Tx72K8dbnd" role="2wV5jI">
+      <node concept="PMmxH" id="6Tx72K8dbne" role="3EZMnx">
+        <ref role="PMmxG" node="39yvsmzaxrM" resolve="BulletPoint" />
+      </node>
+      <node concept="3F0ifn" id="6Tx72K8dbnf" role="3EZMnx">
+        <property role="3F0ifm" value="add-bookmark:" />
+      </node>
+      <node concept="3F0A7n" id="6Tx72K8dbng" role="3EZMnx">
+        <ref role="1NtTu8" to="8wbp:6Tx72K8dbnj" resolve="bookmarkText" />
+        <node concept="Vb9p2" id="6Tx72K8dbnh" role="3F10Kt">
+          <property role="Vbekb" value="g1_kEg4/ITALIC" />
+        </node>
+      </node>
+      <node concept="2iRfu4" id="6Tx72K8dbni" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 

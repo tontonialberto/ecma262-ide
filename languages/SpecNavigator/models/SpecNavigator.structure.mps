@@ -372,5 +372,15 @@
     <property role="TrG5h" value="DecorationActionPrune" />
     <ref role="1TJDcQ" node="6Kpi7IfH_NF" resolve="DecorationAction" />
   </node>
+  <node concept="1TIwiD" id="6Tx72K8dbna">
+    <property role="EcuMT" value="7953669392354817482" />
+    <property role="TrG5h" value="DecorationActionAddBookmark" />
+    <ref role="1TJDcQ" node="6Kpi7IfH_NF" resolve="DecorationAction" />
+    <node concept="1TJgyi" id="6Tx72K8dbnj" role="1TKVEl">
+      <property role="IQ2nx" value="7953669392354817491" />
+      <property role="TrG5h" value="bookmarkText" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
 </model>
 
