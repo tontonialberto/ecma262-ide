@@ -199,7 +199,7 @@
   <node concept="1TIwiD" id="$M7JgvMZjS">
     <property role="EcuMT" value="662626129031197944" />
     <property role="TrG5h" value="AggregationBlock" />
-    <property role="34LRSv" value="aggregate" />
+    <property role="34LRSv" value="summarize" />
     <ref role="1TJDcQ" node="6Kpi7IfE6Db" resolve="PostFilteringBlock" />
     <node concept="1TJgyi" id="$M7JgvMZwt" role="1TKVEl">
       <property role="IQ2nx" value="662626129031198749" />
@@ -221,7 +221,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="operation" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="$M7JgvNh7c" resolve="Aggregator" />
+      <ref role="20lvS9" node="$M7JgvNhzJ" resolve="Count" />
     </node>
   </node>
   <node concept="1TIwiD" id="$M7JgvNeDj">
@@ -240,6 +240,13 @@
     <property role="TrG5h" value="Count" />
     <property role="34LRSv" value="count" />
     <ref role="1TJDcQ" node="$M7JgvNh7c" resolve="Aggregator" />
+    <node concept="1TJgyj" id="187YVFQNtNb" role="1TKVEi">
+      <property role="IQ2ns" value="1299283797942852811" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="sortingCriterions" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="187YVFQKICh" resolve="SummarySortingCriterion" />
+    </node>
   </node>
   <node concept="1TIwiD" id="$M7JgvOeoC">
     <property role="EcuMT" value="662626129031521832" />
@@ -458,6 +465,69 @@
     <node concept="25R33" id="6G_uN3NGe6$" role="25R1y">
       <property role="3tVfz5" value="7720712586373685668" />
       <property role="TrG5h" value="exactly" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="187YVFQCXM9">
+    <property role="EcuMT" value="1299283797940100233" />
+    <property role="TrG5h" value="FilteringConditionParamName" />
+    <property role="34LRSv" value="parameter-name-like" />
+    <ref role="1TJDcQ" node="6G_uN3NAdOZ" resolve="FilteringConditionParamCardinality" />
+    <node concept="PrWs8" id="187YVFQCXMe" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="187YVFQKICh">
+    <property role="EcuMT" value="1299283797942135313" />
+    <property role="TrG5h" value="SummarySortingCriterion" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <node concept="1TJgyi" id="187YVFQKICl" role="1TKVEl">
+      <property role="IQ2nx" value="1299283797942135317" />
+      <property role="TrG5h" value="sortBy" />
+      <ref role="AX2Wp" node="187YVFQKICi" resolve="SortAlgorithmsBy" />
+    </node>
+    <node concept="1TJgyi" id="187YVFQKICo" role="1TKVEl">
+      <property role="IQ2nx" value="1299283797942135320" />
+      <property role="TrG5h" value="sortDirection" />
+      <ref role="AX2Wp" node="1Bp6E9nepmh" resolve="SortAlgorithmsDirection" />
+    </node>
+  </node>
+  <node concept="25R3W" id="187YVFQKICi">
+    <property role="3F6X1D" value="1299283797942135314" />
+    <property role="TrG5h" value="SortAlgorithmsBy" />
+    <node concept="25R33" id="187YVFQKICj" role="25R1y">
+      <property role="3tVfz5" value="1299283797942135315" />
+      <property role="TrG5h" value="functionName" />
+      <property role="1L1pqM" value="function-name" />
+    </node>
+    <node concept="25R33" id="187YVFQKICk" role="25R1y">
+      <property role="3tVfz5" value="1299283797942135316" />
+      <property role="TrG5h" value="sectionNumber" />
+      <property role="1L1pqM" value="section-number" />
+    </node>
+    <node concept="25R33" id="1Bp6E9ngoz2" role="25R1y">
+      <property role="3tVfz5" value="1862549205445347522" />
+      <property role="TrG5h" value="sectionId" />
+      <property role="1L1pqM" value="section-id" />
+    </node>
+    <node concept="25R33" id="1Bp6E9ngoz6" role="25R1y">
+      <property role="3tVfz5" value="1862549205445347526" />
+      <property role="TrG5h" value="parameterCardinality" />
+      <property role="1L1pqM" value="parameter-cardinality" />
+    </node>
+  </node>
+  <node concept="25R3W" id="1Bp6E9nepmh">
+    <property role="3F6X1D" value="1862549205444826513" />
+    <property role="TrG5h" value="SortAlgorithmsDirection" />
+    <ref role="1H5jkz" node="1Bp6E9nepmi" resolve="ascending" />
+    <node concept="25R33" id="1Bp6E9nepmi" role="25R1y">
+      <property role="3tVfz5" value="1862549205444826514" />
+      <property role="TrG5h" value="ascending" />
+      <property role="1L1pqM" value="in-ascending-order" />
+    </node>
+    <node concept="25R33" id="1Bp6E9nepmm" role="25R1y">
+      <property role="3tVfz5" value="1862549205444826518" />
+      <property role="TrG5h" value="descending" />
+      <property role="1L1pqM" value="in-descending-order" />
     </node>
   </node>
 </model>
