@@ -1138,5 +1138,33 @@
       <node concept="2iRfu4" id="1Bp6E9nf2Ul" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="4rEj0yt6QeU">
+    <ref role="1XX52x" to="8wbp:4rEj0yt6QeO" resolve="DecorationActionRenameAlgorithm" />
+    <node concept="3EZMnI" id="4rEj0yt6Qfi" role="2wV5jI">
+      <node concept="PMmxH" id="4rEj0yt6Qfj" role="3EZMnx">
+        <ref role="PMmxG" node="39yvsmzaxrM" resolve="BulletPoint" />
+      </node>
+      <node concept="3F0ifn" id="4rEj0yt6Qfk" role="3EZMnx">
+        <property role="3F0ifm" value="rename:" />
+      </node>
+      <node concept="3EZMnI" id="4rEj0yt6Qf$" role="3EZMnx">
+        <node concept="VPM3Z" id="4rEj0yt6QfA" role="3F10Kt" />
+        <node concept="15ARfc" id="4rEj0yt6QfF" role="3F10Kt">
+          <property role="3$6WeP" value="0" />
+        </node>
+        <node concept="3F0A7n" id="4rEj0yt6Qfn" role="3EZMnx">
+          <ref role="1NtTu8" to="8wbp:4rEj0yt6QeS" resolve="prefix" />
+        </node>
+        <node concept="3F0ifn" id="4rEj0yt6Qfs" role="3EZMnx">
+          <property role="3F0ifm" value="$NAME" />
+        </node>
+        <node concept="3F0A7n" id="4rEj0yt6Qfv" role="3EZMnx">
+          <ref role="1NtTu8" to="8wbp:4rEj0yt6QeT" resolve="suffix" />
+        </node>
+        <node concept="2iRfu4" id="4rEj0yt6QfD" role="2iSdaV" />
+      </node>
+      <node concept="2iRfu4" id="4rEj0yt6Qfl" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 
