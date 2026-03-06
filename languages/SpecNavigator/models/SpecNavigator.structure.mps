@@ -77,8 +77,14 @@
     <node concept="1TJgyj" id="$M7JgvNp8O" role="1TKVEi">
       <property role="IQ2ns" value="662626129031303732" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="postFilteringBlock" />
-      <ref role="20lvS9" node="6Kpi7IfE6Db" resolve="PostFilteringBlock" />
+      <property role="20kJfa" value="decorationBlock" />
+      <ref role="20lvS9" node="6Kpi7IfE6Da" resolve="DecorationBlock" />
+    </node>
+    <node concept="1TJgyj" id="2C_QaSBKClH" role="1TKVEi">
+      <property role="IQ2ns" value="3037071766234236269" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="aggregationBlock" />
+      <ref role="20lvS9" node="$M7JgvMZjS" resolve="AggregationBlock" />
     </node>
     <node concept="1TJgyj" id="$M7JgvOeMR" role="1TKVEi">
       <property role="IQ2ns" value="662626129031523511" />
@@ -92,6 +98,11 @@
     <node concept="1TJgyi" id="1Bp6E9nu9Zq" role="1TKVEl">
       <property role="IQ2nx" value="1862549205448957914" />
       <property role="TrG5h" value="inputSpecModelName" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="2C_QaSBXbNw" role="1TKVEl">
+      <property role="IQ2nx" value="3037071766237527264" />
+      <property role="TrG5h" value="outputSpecModelName" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>

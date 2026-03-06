@@ -16,7 +16,6 @@
   <imports>
     <import index="8wbp" ref="r:188ca1d9-de99-424a-8fe0-97c84e9babfe(SpecNavigator.structure)" />
     <import index="uow6" ref="r:fd0d2c3d-31bf-4b65-9f96-0fc543bef61b(SpecNavigator.behavior)" />
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -74,7 +73,7 @@
       </node>
     </node>
     <node concept="EnEH3" id="34agu9641b" role="1MhHOB">
-      <ref role="EomxK" to="tpck:h0TrG11" resolve="name" />
+      <ref role="EomxK" to="8wbp:2C_QaSBXbNw" resolve="outputSpecModelName" />
       <node concept="QB0g5" id="34agu965$G" role="QCWH9">
         <node concept="3clFbS" id="34agu965$H" role="2VODD2">
           <node concept="3clFbF" id="34agu9aGcf" role="3cqZAp">
