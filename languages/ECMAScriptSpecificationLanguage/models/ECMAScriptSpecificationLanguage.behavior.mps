@@ -846,6 +846,19 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="2C_QaSBxfaa" role="3cqZAp">
+          <node concept="37vLTI" id="2C_QaSBxp8Y" role="3clFbG">
+            <node concept="Xl_RD" id="2C_QaSBxpbr" role="37vLTx">
+              <property role="Xl_RC" value="8cff32" />
+            </node>
+            <node concept="2OqwBi" id="2C_QaSBxfkw" role="37vLTJ">
+              <node concept="13iPFW" id="2C_QaSBxfa8" role="2Oq$k0" />
+              <node concept="3TrcHB" id="2C_QaSBxh9E" role="2OqNvi">
+                <ref role="3TsBF5" to="b9dh:13vZlw0zJYd" resolve="highlightColor" />
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
     </node>
     <node concept="13i0hz" id="1MmZbFJuxnK" role="13h7CS">
