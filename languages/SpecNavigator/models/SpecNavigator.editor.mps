@@ -1283,5 +1283,17 @@
       <node concept="2iRfu4" id="52iPgJ7Sq_N" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="52iPgJ7WAot">
+    <ref role="1XX52x" to="8wbp:52iPgJ7WAd1" resolve="FilteringConditionHasPrunedStep" />
+    <node concept="3EZMnI" id="52iPgJ7WApi" role="2wV5jI">
+      <node concept="PMmxH" id="52iPgJ7WApj" role="3EZMnx">
+        <ref role="PMmxG" node="39yvsmzaxrM" resolve="BulletPoint" />
+      </node>
+      <node concept="3F0ifn" id="52iPgJ7WApk" role="3EZMnx">
+        <property role="3F0ifm" value="has-pruned-step" />
+      </node>
+      <node concept="2iRfu4" id="52iPgJ7WApm" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 

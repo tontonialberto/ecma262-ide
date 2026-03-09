@@ -640,5 +640,11 @@
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
+  <node concept="1TIwiD" id="52iPgJ7WAd1">
+    <property role="EcuMT" value="5805937116209898305" />
+    <property role="TrG5h" value="FilteringConditionHasPrunedStep" />
+    <property role="34LRSv" value="has-pruned-step" />
+    <ref role="1TJDcQ" node="39yvsmz5yIw" resolve="FilteringConditionSignature" />
+  </node>
 </model>
 
