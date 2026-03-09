@@ -1241,5 +1241,32 @@
       </node>
     </node>
   </node>
+  <node concept="24kQdi" id="52iPgJ7El49">
+    <ref role="1XX52x" to="8wbp:44BPNitYkQw" resolve="CodeEditorActionInlineCalls" />
+    <node concept="3EZMnI" id="52iPgJ7GBK6" role="2wV5jI">
+      <node concept="PMmxH" id="52iPgJ7GBOa" role="3EZMnx">
+        <ref role="PMmxG" node="39yvsmzaxrM" resolve="BulletPoint" />
+      </node>
+      <node concept="3F0ifn" id="52iPgJ7GBK8" role="3EZMnx">
+        <property role="3F0ifm" value="inline-algorithm-calls" />
+      </node>
+      <node concept="2iRfu4" id="52iPgJ7GBK9" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="52iPgJ7KNjc">
+    <ref role="1XX52x" to="8wbp:52iPgJ7IjGx" resolve="FilteringConditionHasBookmark" />
+    <node concept="3EZMnI" id="52iPgJ7KNl6" role="2wV5jI">
+      <node concept="PMmxH" id="52iPgJ7KNl7" role="3EZMnx">
+        <ref role="PMmxG" node="39yvsmzaxrM" resolve="BulletPoint" />
+      </node>
+      <node concept="3F0ifn" id="52iPgJ7KNl8" role="3EZMnx">
+        <property role="3F0ifm" value="has-tag:" />
+      </node>
+      <node concept="3F0A7n" id="52iPgJ7KNnj" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="2iRfu4" id="52iPgJ7KNl9" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 

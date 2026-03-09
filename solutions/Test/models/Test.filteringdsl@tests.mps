@@ -78,6 +78,7 @@
       <concept id="3630602537411993330" name="SpecNavigator.structure.FilteringBlock" flags="ng" index="2hsacR">
         <child id="3630602537411998090" name="conditions" index="2hs8Lf" />
       </concept>
+      <concept id="5805937116206152481" name="SpecNavigator.structure.FilteringConditionHasBookmark" flags="ng" index="2naYSE" />
       <concept id="968737421154712635" name="SpecNavigator.structure.FilteringConditionBodyContains" flags="ng" index="11Z5AQ">
         <child id="968737421154713415" name="pattern" index="11Z5Fa" />
       </concept>
@@ -110,6 +111,7 @@
         <property id="64310381461643013" name="location" index="22w6rQ" />
         <child id="64310381453836276" name="sections" index="2128o7" />
         <child id="6023618387430128955" name="body" index="mO8KT" />
+        <child id="7953669392353775690" name="bookmarks" index="1AhsLA" />
       </concept>
       <concept id="6023618387430126567" name="ECMAScriptSpecificationLanguage.structure.Variable" flags="ng" index="mO8b_" />
       <concept id="6023618387430126565" name="ECMAScriptSpecificationLanguage.structure.LetStep" flags="ng" index="mO8bB">
@@ -127,6 +129,7 @@
       <concept id="2346184624503507442" name="ECMAScriptSpecificationLanguage.structure.ReturnStep" flags="ng" index="1xz9Ie">
         <child id="2346184624503507443" name="expr" index="1xz9If" />
       </concept>
+      <concept id="7953669392353428480" name="ECMAScriptSpecificationLanguage.structure.Bookmark" flags="ng" index="1AvDwG" />
     </language>
     <language id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation">
       <concept id="1196350785113" name="jetbrains.mps.lang.quotation.structure.Quotation" flags="nn" index="2c44tf">
@@ -848,6 +851,99 @@
             </node>
             <node concept="2qgKlT" id="3aElnzelROJ" role="2OqNvi">
               <ref role="37wK5l" to="ho61:3aElnzeabD8" resolve="isRecursive" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1lH9Xt" id="52iPgJ7Klwt">
+    <property role="3DII0k" value="2hh8MJdVwqX/command" />
+    <property role="TrG5h" value="FilterAlgorithmByTags" />
+    <node concept="1LZb2c" id="52iPgJ7KlEP" role="1SL9yI">
+      <property role="TrG5h" value="run" />
+      <node concept="3cqZAl" id="52iPgJ7KlEQ" role="3clF45" />
+      <node concept="3clFbS" id="52iPgJ7KlER" role="3clF47">
+        <node concept="3cpWs8" id="52iPgJ7KlZW" role="3cqZAp">
+          <node concept="3cpWsn" id="52iPgJ7KlZZ" role="3cpWs9">
+            <property role="TrG5h" value="algo1" />
+            <node concept="3Tqbb2" id="52iPgJ7KlZU" role="1tU5fm">
+              <ref role="ehGHo" to="b9dh:5eocg95ibfw" resolve="Algorithm" />
+            </node>
+            <node concept="2c44tf" id="52iPgJ7Km4f" role="33vP2m">
+              <node concept="27ygs1" id="52iPgJ7Km7I" role="2c44tc">
+                <node concept="mO8bw" id="52iPgJ7Km7J" role="mO8KT">
+                  <property role="3nmMAU" value="true" />
+                  <property role="gkgbl" value="8cff32" />
+                </node>
+                <node concept="2129W1" id="52iPgJ7Km7K" role="2128o7" />
+                <node concept="1AvDwG" id="52iPgJ7Kmbd" role="1AhsLA">
+                  <property role="TrG5h" value="hello" />
+                </node>
+                <node concept="1AvDwG" id="52iPgJ7Kmce" role="1AhsLA">
+                  <property role="TrG5h" value="world" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="52iPgJ7Kmjg" role="3cqZAp">
+          <node concept="3cpWsn" id="52iPgJ7Kmjj" role="3cpWs9">
+            <property role="TrG5h" value="algo2" />
+            <node concept="3Tqbb2" id="52iPgJ7Kmje" role="1tU5fm">
+              <ref role="ehGHo" to="b9dh:5eocg95ibfw" resolve="Algorithm" />
+            </node>
+            <node concept="2c44tf" id="52iPgJ7Kmtx" role="33vP2m">
+              <node concept="27ygs1" id="52iPgJ7KmxN" role="2c44tc">
+                <node concept="1AvDwG" id="52iPgJ7Km$v" role="1AhsLA">
+                  <property role="TrG5h" value="world" />
+                </node>
+                <node concept="mO8bw" id="52iPgJ7KmxO" role="mO8KT">
+                  <property role="3nmMAU" value="true" />
+                  <property role="gkgbl" value="8cff32" />
+                </node>
+                <node concept="2129W1" id="52iPgJ7KmxP" role="2128o7" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="52iPgJ7KlKW" role="3cqZAp">
+          <node concept="3cpWsn" id="52iPgJ7KlKZ" role="3cpWs9">
+            <property role="TrG5h" value="cond" />
+            <node concept="3Tqbb2" id="52iPgJ7KlKV" role="1tU5fm">
+              <ref role="ehGHo" to="8wbp:52iPgJ7IjGx" resolve="FilteringConditionHasBookmark" />
+            </node>
+            <node concept="2c44tf" id="52iPgJ7KlRO" role="33vP2m">
+              <node concept="2naYSE" id="52iPgJ7KlW6" role="2c44tc">
+                <property role="TrG5h" value="hel.+" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="52iPgJ7KB65" role="3cqZAp" />
+        <node concept="3vwNmj" id="52iPgJ7KBcO" role="3cqZAp">
+          <node concept="2OqwBi" id="52iPgJ7KBlI" role="3vwVQn">
+            <node concept="37vLTw" id="52iPgJ7KBdN" role="2Oq$k0">
+              <ref role="3cqZAo" node="52iPgJ7KlKZ" resolve="cond" />
+            </node>
+            <node concept="2qgKlT" id="52iPgJ7KBAh" role="2OqNvi">
+              <ref role="37wK5l" to="uow6:39yvsmz6ZQk" resolve="condition" />
+              <node concept="37vLTw" id="52iPgJ7KBH$" role="37wK5m">
+                <ref role="3cqZAo" node="52iPgJ7KlZZ" resolve="algo1" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3vFxKo" id="52iPgJ7KBTV" role="3cqZAp">
+          <node concept="2OqwBi" id="52iPgJ7KC3g" role="3vFALc">
+            <node concept="37vLTw" id="52iPgJ7KBV9" role="2Oq$k0">
+              <ref role="3cqZAo" node="52iPgJ7KlKZ" resolve="cond" />
+            </node>
+            <node concept="2qgKlT" id="52iPgJ7KCEc" role="2OqNvi">
+              <ref role="37wK5l" to="uow6:39yvsmz6ZQk" resolve="condition" />
+              <node concept="37vLTw" id="52iPgJ7KCFr" role="37wK5m">
+                <ref role="3cqZAo" node="52iPgJ7Kmjj" resolve="algo2" />
+              </node>
             </node>
           </node>
         </node>

@@ -600,6 +600,7 @@
   <node concept="1TIwiD" id="44BPNitWCEG">
     <property role="EcuMT" value="4694957757545220780" />
     <property role="TrG5h" value="CodeEditorBlock" />
+    <property role="34LRSv" value="code-editor" />
     <ref role="1TJDcQ" node="39yvsmz4J6i" resolve="AbstractBlock" />
     <node concept="1TJgyj" id="44BPNitWDrQ" role="1TKVEi">
       <property role="IQ2ns" value="4694957757545223926" />
@@ -620,6 +621,15 @@
     <property role="TrG5h" value="CodeEditorActionInlineCalls" />
     <property role="34LRSv" value="inline-algorithm-calls" />
     <ref role="1TJDcQ" node="44BPNitWDp_" resolve="CodeEditorAction" />
+  </node>
+  <node concept="1TIwiD" id="52iPgJ7IjGx">
+    <property role="EcuMT" value="5805937116206152481" />
+    <property role="TrG5h" value="FilteringConditionHasBookmark" />
+    <property role="34LRSv" value="has-tag" />
+    <ref role="1TJDcQ" node="39yvsmz5yIw" resolve="FilteringConditionSignature" />
+    <node concept="PrWs8" id="52iPgJ7Ikhh" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
   </node>
 </model>
 
