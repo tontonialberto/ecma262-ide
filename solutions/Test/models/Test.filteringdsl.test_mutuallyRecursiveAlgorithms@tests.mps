@@ -23,8 +23,7 @@
         <child id="2898209948056166942" name="ref" index="2ena29" />
       </concept>
       <concept id="6023618387430126562" name="ECMAScriptSpecificationLanguage.structure.Step" flags="ng" index="mO8bw">
-        <property id="1215968978821644173" name="highlightColor" index="gkgbl" />
-        <property id="6060921558120501681" name="isMatching" index="3nmMAU" />
+        <child id="5805937116221193695" name="matchingIgnoredProperties" index="2o36zk" />
       </concept>
       <concept id="6023618387430126560" name="ECMAScriptSpecificationLanguage.structure.Algorithm" flags="ng" index="mO8by">
         <child id="64310381453836276" name="sections" index="2128o7" />
@@ -33,6 +32,7 @@
       <concept id="5475492541938311210" name="ECMAScriptSpecificationLanguage.structure.AlgorithmReference" flags="ng" index="2nt7Hu">
         <reference id="5475492541938311211" name="ref" index="2nt7Hv" />
       </concept>
+      <concept id="5805937116221180119" name="ECMAScriptSpecificationLanguage.structure.MatchingIgnoredProperties" flags="ng" index="2o35Rs" />
       <concept id="2346184624503507442" name="ECMAScriptSpecificationLanguage.structure.ReturnStep" flags="ng" index="1xz9Ie">
         <child id="2346184624503507443" name="expr" index="1xz9If" />
       </concept>
@@ -45,43 +45,39 @@
   </registry>
   <node concept="27ygs1" id="3aElnzeqDLd">
     <property role="TrG5h" value="Foo" />
-    <node concept="3SOkj" id="3aElnzeqDNo" role="mO8KT">
-      <property role="3nmMAU" value="true" />
-      <property role="gkgbl" value="8cff32" />
-      <node concept="3SOkl" id="3aElnzeqDNq" role="3SOki">
-        <node concept="1xz9Ie" id="3aElnzeqDO0" role="3SOkk">
-          <property role="3nmMAU" value="true" />
-          <property role="gkgbl" value="8cff32" />
-          <node concept="27wW0N" id="3aElnzeqEcT" role="1xz9If">
+    <node concept="2129W1" id="3aElnzeqDLf" role="2128o7" />
+    <node concept="3SOkj" id="52iPgJ8Wcst" role="mO8KT">
+      <node concept="3SOkl" id="52iPgJ8Wcsv" role="3SOki">
+        <node concept="1xz9Ie" id="52iPgJ8Wct9" role="3SOkk">
+          <node concept="27wW0N" id="52iPgJ8WctO" role="1xz9If">
             <property role="2ena2a" value="true" />
-            <node concept="2nt7Hu" id="3aElnzeqEcV" role="2ena29">
+            <node concept="2nt7Hu" id="52iPgJ8WctQ" role="2ena29">
               <ref role="2nt7Hv" node="3aElnzeqDOA" resolve="Bar" />
             </node>
           </node>
+          <node concept="2o35Rs" id="52iPgJ8Wctf" role="2o36zk" />
         </node>
       </node>
+      <node concept="2o35Rs" id="52iPgJ8Wcs_" role="2o36zk" />
     </node>
-    <node concept="2129W1" id="3aElnzeqDLf" role="2128o7" />
   </node>
   <node concept="27ygs1" id="3aElnzeqDOA">
     <property role="TrG5h" value="Bar" />
-    <node concept="3SOkj" id="3aElnzeqDR2" role="mO8KT">
-      <property role="3nmMAU" value="true" />
-      <property role="gkgbl" value="8cff32" />
-      <node concept="3SOkl" id="3aElnzeqDR4" role="3SOki">
-        <node concept="1xz9Ie" id="3aElnzeqDSI" role="3SOkk">
-          <property role="3nmMAU" value="true" />
-          <property role="gkgbl" value="8cff32" />
-          <node concept="27wW0N" id="3aElnzeqDUo" role="1xz9If">
+    <node concept="2129W1" id="3aElnzeqDOC" role="2128o7" />
+    <node concept="3SOkj" id="52iPgJ8VGaS" role="mO8KT">
+      <node concept="3SOkl" id="52iPgJ8VGaU" role="3SOki">
+        <node concept="1xz9Ie" id="52iPgJ8VGbj" role="3SOkk">
+          <node concept="27wW0N" id="52iPgJ8VGbY" role="1xz9If">
             <property role="2ena2a" value="true" />
-            <node concept="2nt7Hu" id="3aElnzeqDUq" role="2ena29">
+            <node concept="2nt7Hu" id="52iPgJ8VGc0" role="2ena29">
               <ref role="2nt7Hv" node="3aElnzeqDLd" resolve="Foo" />
             </node>
           </node>
+          <node concept="2o35Rs" id="52iPgJ8VGbp" role="2o36zk" />
         </node>
       </node>
+      <node concept="2o35Rs" id="52iPgJ8VGb0" role="2o36zk" />
     </node>
-    <node concept="2129W1" id="3aElnzeqDOC" role="2128o7" />
   </node>
 </model>
 

@@ -109,25 +109,12 @@
     <property role="TrG5h" value="Step" />
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="5gsI0I3hT6L" role="1TKVEl">
-      <property role="IQ2nx" value="6060921558120501681" />
-      <property role="TrG5h" value="isMatching" />
-      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-    </node>
-    <node concept="1TJgyi" id="6Kpi7Ig0$7$" role="1TKVEl">
-      <property role="IQ2nx" value="7789336726048227812" />
-      <property role="TrG5h" value="isHighlighted" />
-      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-    </node>
-    <node concept="1TJgyi" id="5gsI0I3JW_O" role="1TKVEl">
-      <property role="IQ2nx" value="6060921558128380276" />
-      <property role="TrG5h" value="isMasked" />
-      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-    </node>
-    <node concept="1TJgyi" id="13vZlw0zJYd" role="1TKVEl">
-      <property role="IQ2nx" value="1215968978821644173" />
-      <property role="TrG5h" value="highlightColor" />
-      <ref role="AX2Wp" node="52iPgJ85_RG" resolve="RGBHexColor" />
+    <node concept="1TJgyj" id="52iPgJ8BFRv" role="1TKVEi">
+      <property role="IQ2ns" value="5805937116221193695" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="matchingIgnoredProperties" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="52iPgJ8LEQ9" resolve="MatchingIgnoredProperties" />
     </node>
   </node>
   <node concept="1TIwiD" id="5eocg95ibf_">
@@ -2195,6 +2182,30 @@
     <property role="3F6X1D" value="5805937116212256236" />
     <property role="TrG5h" value="RGBHexColor" />
     <property role="FLfZY" value="^[a-f0-9]{6}$" />
+  </node>
+  <node concept="1TIwiD" id="52iPgJ8LEQ9">
+    <property role="TrG5h" value="MatchingIgnoredProperties" />
+    <property role="EcuMT" value="5805937116221180119" />
+    <node concept="1TJgyi" id="52iPgJ8BCBE" role="1TKVEl">
+      <property role="IQ2nx" value="5805937116221180394" />
+      <property role="TrG5h" value="isMatching" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="52iPgJ8BCBF" role="1TKVEl">
+      <property role="IQ2nx" value="5805937116221180395" />
+      <property role="TrG5h" value="isHighlighted" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="52iPgJ8BCBG" role="1TKVEl">
+      <property role="IQ2nx" value="5805937116221180396" />
+      <property role="TrG5h" value="isMasked" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="52iPgJ8BCBH" role="1TKVEl">
+      <property role="IQ2nx" value="5805937116221180397" />
+      <property role="TrG5h" value="highlightColor" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
   </node>
 </model>
 
