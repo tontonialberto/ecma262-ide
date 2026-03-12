@@ -104,6 +104,10 @@
       <concept id="1225456267680" name="jetbrains.mps.lang.editor.structure.RGBColor" flags="ng" index="1iSF2X">
         <property id="1225456424731" name="value" index="1iTho6" />
       </concept>
+      <concept id="7597241200646296619" name="jetbrains.mps.lang.editor.structure.QueryFunction_SNode" flags="in" index="3k4GqP" />
+      <concept id="7597241200646296617" name="jetbrains.mps.lang.editor.structure.NavigatableNodeStyleClassItem" flags="ln" index="3k4GqR">
+        <child id="7597241200646296618" name="functionNode" index="3k4GqO" />
+      </concept>
       <concept id="1381004262292414836" name="jetbrains.mps.lang.editor.structure.ICellStyle" flags="ngI" index="1k5N5V">
         <reference id="1381004262292426837" name="parentStyleClass" index="1k5W1q" />
       </concept>
@@ -5481,7 +5485,7 @@
       </node>
     </node>
     <node concept="14StLt" id="1ZHYsdHzHcX" role="V601i">
-      <property role="TrG5h" value="FunctionCall" />
+      <property role="TrG5h" value="Anchor" />
       <node concept="VechU" id="1ZHYsdHzHd2" role="3F10Kt">
         <node concept="1iSF2X" id="1ZHYsdHzHd4" role="VblUZ">
           <property role="1iTho6" value="206ca7" />
@@ -5793,7 +5797,7 @@
         <ref role="PMmxG" node="1MmZbFJs9WZ" resolve="StepNumber" />
       </node>
       <node concept="3F0ifn" id="5gsI0I3vaUC" role="3EZMnx">
-        <property role="3F0ifm" value="Sliced away" />
+        <property role="3F0ifm" value="Pruned away" />
       </node>
       <node concept="PMmxH" id="5gsI0I3vc1N" role="3EZMnx">
         <ref role="PMmxG" node="1MmZbFJILHj" resolve="StepDot" />
@@ -7489,6 +7493,7 @@
           </node>
         </node>
       </node>
+      <node concept="2iRkQZ" id="2wSwDuAp2pn" role="2iSdaV" />
       <node concept="3F0ifn" id="3aElnzeqGbG" role="3EZMnx">
         <property role="3F0ifm" value="Inlining of recursive algorithms is not supported." />
         <node concept="VPXOz" id="3aElnzeqGuX" role="3F10Kt">
@@ -7525,7 +7530,6 @@
           </node>
         </node>
       </node>
-      <node concept="2iRkQZ" id="2wSwDuAp2pn" role="2iSdaV" />
     </node>
   </node>
   <node concept="2ABfQD" id="2wSwDuAHfRc">
@@ -7715,6 +7719,113 @@
         </node>
       </node>
       <node concept="2iRkQZ" id="52iPgJ9rAWl" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="PKFIW" id="7JZCLqYF5lf">
+    <property role="TrG5h" value="SetAsStepContent" />
+    <ref role="1XX52x" to="b9dh:7JZCLqYF53D" resolve="SetAsStep" />
+    <node concept="1PE4EZ" id="7JZCLqYF5q3" role="1PM95z">
+      <ref role="1PE7su" node="7kd$FCwL_gk" resolve="StepContent" />
+    </node>
+    <node concept="3EZMnI" id="7JZCLqYF5st" role="2wV5jI">
+      <ref role="1k5W1q" node="39yvsmyr4Ah" resolve="SpacingBetweenCells" />
+      <node concept="PMmxH" id="7JZCLqYF5su" role="3EZMnx">
+        <ref role="PMmxG" node="1MmZbFJs9WZ" resolve="StepNumber" />
+      </node>
+      <node concept="3F0ifn" id="7JZCLqYF5sv" role="3EZMnx">
+        <property role="3F0ifm" value="Set" />
+      </node>
+      <node concept="3F1sOY" id="7JZCLqYF5sw" role="3EZMnx">
+        <ref role="1NtTu8" to="b9dh:7JZCLqYF5ub" />
+      </node>
+      <node concept="3F0ifn" id="7JZCLqYF5Hq" role="3EZMnx">
+        <property role="3F0ifm" value="as" />
+      </node>
+      <node concept="3F0A7n" id="7JZCLqYF5S0" role="3EZMnx">
+        <ref role="1NtTu8" to="b9dh:7JZCLqYF5$_" resolve="verb" />
+      </node>
+      <node concept="3F0ifn" id="7JZCLqYF61C" role="3EZMnx">
+        <property role="3F0ifm" value="in" />
+      </node>
+      <node concept="1QoScp" id="HZD0M6kcUZ" role="3EZMnx">
+        <property role="1QpmdY" value="true" />
+        <node concept="pkWqt" id="HZD0M6kcV2" role="3e4ffs">
+          <node concept="3clFbS" id="HZD0M6kcV4" role="2VODD2">
+            <node concept="3clFbF" id="HZD0M6kdDu" role="3cqZAp">
+              <node concept="2OqwBi" id="HZD0M6kgcQ" role="3clFbG">
+                <node concept="2OqwBi" id="HZD0M6kdUa" role="2Oq$k0">
+                  <node concept="pncrf" id="HZD0M6kdDt" role="2Oq$k0" />
+                  <node concept="2qgKlT" id="HZD0M6keaS" role="2OqNvi">
+                    <ref role="37wK5l" to="ho61:HZD0M6edG0" resolve="findAlgorithmBySectionId" />
+                    <node concept="2OqwBi" id="HZD0M6keKL" role="37wK5m">
+                      <node concept="pncrf" id="HZD0M6keu1" role="2Oq$k0" />
+                      <node concept="3TrcHB" id="HZD0M6kfkB" role="2OqNvi">
+                        <ref role="3TsBF5" to="b9dh:7JZCLqYF5Ac" resolve="sectionId" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3x8VRR" id="HZD0M6kgCa" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3F0A7n" id="HZD0M6kd$Y" role="1QoVPY">
+          <ref role="1NtTu8" to="b9dh:7JZCLqYF5Ac" resolve="sectionId" />
+        </node>
+        <node concept="1HlG4h" id="HZD0M63$Nn" role="1QoS34">
+          <ref role="1k5W1q" node="1ZHYsdHzHcX" resolve="Anchor" />
+          <node concept="1HfYo3" id="HZD0M63$Np" role="1HlULh">
+            <node concept="3TQlhw" id="HZD0M63$Nr" role="1Hhtcw">
+              <node concept="3clFbS" id="HZD0M63$Nt" role="2VODD2">
+                <node concept="3clFbF" id="HZD0M6f4XF" role="3cqZAp">
+                  <node concept="2OqwBi" id="HZD0M6f5P2" role="3clFbG">
+                    <node concept="2OqwBi" id="HZD0M6f5fM" role="2Oq$k0">
+                      <node concept="pncrf" id="HZD0M6f4XE" role="2Oq$k0" />
+                      <node concept="2qgKlT" id="HZD0M6f5sU" role="2OqNvi">
+                        <ref role="37wK5l" to="ho61:HZD0M6edG0" resolve="findAlgorithmBySectionId" />
+                        <node concept="2OqwBi" id="HZD0M6f71a" role="37wK5m">
+                          <node concept="pncrf" id="HZD0M6f6EN" role="2Oq$k0" />
+                          <node concept="3TrcHB" id="HZD0M6f7eM" role="2OqNvi">
+                            <ref role="3TsBF5" to="b9dh:7JZCLqYF5Ac" resolve="sectionId" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="2qgKlT" id="HZD0M6f6ik" role="2OqNvi">
+                      <ref role="37wK5l" to="ho61:1ZHYsdH7vfh" resolve="getSectionNumber" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3k4GqR" id="HZD0M6ednN" role="3F10Kt">
+            <node concept="3k4GqP" id="HZD0M6ednO" role="3k4GqO">
+              <node concept="3clFbS" id="HZD0M6ednP" role="2VODD2">
+                <node concept="3clFbF" id="HZD0M6f7uu" role="3cqZAp">
+                  <node concept="2OqwBi" id="HZD0M6f7Fv" role="3clFbG">
+                    <node concept="pncrf" id="HZD0M6f7ut" role="2Oq$k0" />
+                    <node concept="2qgKlT" id="HZD0M6f7V2" role="2OqNvi">
+                      <ref role="37wK5l" to="ho61:HZD0M6edG0" resolve="findAlgorithmBySectionId" />
+                      <node concept="2OqwBi" id="HZD0M6f8dS" role="37wK5m">
+                        <node concept="pncrf" id="HZD0M6f7YX" role="2Oq$k0" />
+                        <node concept="3TrcHB" id="HZD0M6f8z3" role="2OqNvi">
+                          <ref role="3TsBF5" to="b9dh:7JZCLqYF5Ac" resolve="sectionId" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="PMmxH" id="7JZCLqYF5sz" role="3EZMnx">
+        <ref role="PMmxG" node="1MmZbFJILHj" resolve="StepDot" />
+      </node>
+      <node concept="2iRfu4" id="7JZCLqYF5s$" role="2iSdaV" />
     </node>
   </node>
 </model>
