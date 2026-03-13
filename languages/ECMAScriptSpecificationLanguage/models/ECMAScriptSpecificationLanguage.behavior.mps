@@ -3273,5 +3273,24 @@
       <node concept="10Oyi0" id="HZD0M6FOTy" role="3clF45" />
     </node>
   </node>
+  <node concept="13h7C7" id="HZD0M76M6u">
+    <ref role="13h7C2" to="b9dh:HZD0M76LUt" resolve="RemoveStep" />
+    <node concept="13hLZK" id="HZD0M76M6v" role="13h7CW">
+      <node concept="3clFbS" id="HZD0M76M6w" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="HZD0M76M8n" role="13h7CS">
+      <property role="TrG5h" value="getStepCount" />
+      <ref role="13i0hy" node="1MmZbFJuKwB" resolve="getStepCount" />
+      <node concept="3Tm1VV" id="HZD0M76M8o" role="1B3o_S" />
+      <node concept="3clFbS" id="HZD0M76M8x" role="3clF47">
+        <node concept="3clFbF" id="HZD0M76Mko" role="3cqZAp">
+          <node concept="3cmrfG" id="HZD0M76Mkn" role="3clFbG">
+            <property role="3cmrfH" value="1" />
+          </node>
+        </node>
+      </node>
+      <node concept="10Oyi0" id="HZD0M76M8y" role="3clF45" />
+    </node>
+  </node>
 </model>
 

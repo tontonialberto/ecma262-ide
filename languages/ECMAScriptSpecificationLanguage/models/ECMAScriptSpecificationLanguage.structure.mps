@@ -2284,5 +2284,51 @@
     <property role="TrG5h" value="PopContextWithStackTopTargetStep" />
     <ref role="1TJDcQ" node="HZD0M6FOH4" resolve="PopContextStep" />
   </node>
+  <node concept="1TIwiD" id="HZD0M76LUt">
+    <property role="EcuMT" value="828561230172724893" />
+    <property role="TrG5h" value="RemoveStep" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" node="5eocg95ibfy" resolve="Step" />
+    <node concept="1TJgyi" id="HZD0M76LZg" role="1TKVEl">
+      <property role="IQ2nx" value="828561230172725200" />
+      <property role="TrG5h" value="preposition" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyj" id="HZD0M76M1E" role="1TKVEi">
+      <property role="IQ2ns" value="828561230172725354" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="list" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5eocg95ibfH" resolve="Expression" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="HZD0M76M$d">
+    <property role="EcuMT" value="828561230172727565" />
+    <property role="TrG5h" value="RemoveElementStep" />
+    <ref role="1TJDcQ" node="HZD0M76LUt" resolve="RemoveStep" />
+    <node concept="1TJgyj" id="HZD0M76MDN" role="1TKVEi">
+      <property role="IQ2ns" value="828561230172727923" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="element" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5eocg95ibfH" resolve="Expression" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="HZD0M76Nyq">
+    <property role="EcuMT" value="828561230172731546" />
+    <property role="TrG5h" value="RemoveCountStep" />
+    <ref role="1TJDcQ" node="HZD0M76LUt" resolve="RemoveStep" />
+    <node concept="1TJgyi" id="HZD0M76OFF" role="1TKVEl">
+      <property role="IQ2nx" value="828561230172736235" />
+      <property role="TrG5h" value="first" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyj" id="HZD0M76OHi" role="1TKVEi">
+      <property role="IQ2ns" value="828561230172736338" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="count" />
+      <ref role="20lvS9" node="5eocg95ibfH" resolve="Expression" />
+    </node>
+  </node>
 </model>
 

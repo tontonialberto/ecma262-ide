@@ -7924,5 +7924,114 @@
       <ref role="1PE7su" node="HZD0M6FU3E" resolve="PopContextStepSuffix" />
     </node>
   </node>
+  <node concept="PKFIW" id="HZD0M76MHO">
+    <property role="TrG5h" value="RemoveElementStepContent" />
+    <ref role="1XX52x" to="b9dh:HZD0M76M$d" resolve="RemoveElementStep" />
+    <node concept="1PE4EZ" id="HZD0M76MNr" role="1PM95z">
+      <ref role="1PE7su" node="7kd$FCwL_gk" resolve="StepContent" />
+    </node>
+    <node concept="3EZMnI" id="HZD0M76Nm6" role="2wV5jI">
+      <ref role="1k5W1q" node="39yvsmyr4Ah" resolve="SpacingBetweenCells" />
+      <node concept="PMmxH" id="HZD0M76Nm7" role="3EZMnx">
+        <ref role="PMmxG" node="1MmZbFJs9WZ" resolve="StepNumber" />
+      </node>
+      <node concept="3F0ifn" id="HZD0M76NrQ" role="3EZMnx">
+        <property role="3F0ifm" value="Remove" />
+      </node>
+      <node concept="3F1sOY" id="HZD0M76NsG" role="3EZMnx">
+        <ref role="1NtTu8" to="b9dh:HZD0M76MDN" resolve="element" />
+      </node>
+      <node concept="3F0ifn" id="HZD0M76Nul" role="3EZMnx">
+        <property role="3F0ifm" value="from" />
+      </node>
+      <node concept="3F1sOY" id="HZD0M76NwL" role="3EZMnx">
+        <ref role="1NtTu8" to="b9dh:HZD0M76M1E" resolve="list" />
+      </node>
+      <node concept="PMmxH" id="HZD0M76Nmd" role="3EZMnx">
+        <ref role="PMmxG" node="1MmZbFJILHj" resolve="StepDot" />
+      </node>
+      <node concept="2iRfu4" id="HZD0M76Nme" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="PKFIW" id="HZD0M76NHm">
+    <property role="TrG5h" value="RemoveCountStepContent" />
+    <ref role="1XX52x" to="b9dh:HZD0M76Nyq" resolve="RemoveCountStep" />
+    <node concept="3EZMnI" id="HZD0M76NLn" role="2wV5jI">
+      <ref role="1k5W1q" node="39yvsmyr4Ah" resolve="SpacingBetweenCells" />
+      <node concept="PMmxH" id="HZD0M76NLo" role="3EZMnx">
+        <ref role="PMmxG" node="1MmZbFJs9WZ" resolve="StepNumber" />
+      </node>
+      <node concept="3F0ifn" id="HZD0M76NLp" role="3EZMnx">
+        <property role="3F0ifm" value="Remove" />
+      </node>
+      <node concept="3F0ifn" id="HZD0M76NQl" role="3EZMnx">
+        <property role="3F0ifm" value="the" />
+      </node>
+      <node concept="1QoScp" id="HZD0M76NSL" role="3EZMnx">
+        <property role="1QpmdY" value="true" />
+        <node concept="3F0ifn" id="HZD0M76NXH" role="1QoS34">
+          <property role="3F0ifm" value="first" />
+        </node>
+        <node concept="pkWqt" id="HZD0M76NSO" role="3e4ffs">
+          <node concept="3clFbS" id="HZD0M76NSQ" role="2VODD2">
+            <node concept="3clFbF" id="HZD0M76O1Q" role="3cqZAp">
+              <node concept="2OqwBi" id="HZD0M76Ojs" role="3clFbG">
+                <node concept="pncrf" id="HZD0M76O1P" role="2Oq$k0" />
+                <node concept="3TrcHB" id="HZD0M76P6h" role="2OqNvi">
+                  <ref role="3TsBF5" to="b9dh:HZD0M76OFF" resolve="first" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3F0ifn" id="HZD0M76NY$" role="1QoVPY">
+          <property role="3F0ifm" value="last" />
+        </node>
+      </node>
+      <node concept="1QoScp" id="HZD0M76PwS" role="3EZMnx">
+        <property role="1QpmdY" value="true" />
+        <node concept="3F0ifn" id="HZD0M76PwU" role="1QoS34">
+          <property role="3F0ifm" value="element" />
+        </node>
+        <node concept="pkWqt" id="HZD0M76PwV" role="3e4ffs">
+          <node concept="3clFbS" id="HZD0M76PwX" role="2VODD2">
+            <node concept="3clFbF" id="HZD0M76PJ7" role="3cqZAp">
+              <node concept="2OqwBi" id="HZD0M76QQS" role="3clFbG">
+                <node concept="2OqwBi" id="HZD0M76Q0H" role="2Oq$k0">
+                  <node concept="pncrf" id="HZD0M76PJ6" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="HZD0M76Qux" role="2OqNvi">
+                    <ref role="3Tt5mk" to="b9dh:HZD0M76OHi" resolve="count" />
+                  </node>
+                </node>
+                <node concept="3w_OXm" id="HZD0M76Rm1" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3EZMnI" id="HZD0M7rm2P" role="1QoVPY">
+          <node concept="3F1sOY" id="HZD0M7rmiF" role="3EZMnx">
+            <ref role="1NtTu8" to="b9dh:HZD0M76OHi" resolve="count" />
+          </node>
+          <node concept="3F0ifn" id="HZD0M7rmeE" role="3EZMnx">
+            <property role="3F0ifm" value="elements" />
+          </node>
+          <node concept="2iRfu4" id="HZD0M7rm2S" role="2iSdaV" />
+        </node>
+      </node>
+      <node concept="3F0A7n" id="HZD0M76RJU" role="3EZMnx">
+        <ref role="1NtTu8" to="b9dh:HZD0M76LZg" resolve="preposition" />
+      </node>
+      <node concept="3F1sOY" id="HZD0M76Sb4" role="3EZMnx">
+        <ref role="1NtTu8" to="b9dh:HZD0M76M1E" resolve="list" />
+      </node>
+      <node concept="PMmxH" id="HZD0M76NLu" role="3EZMnx">
+        <ref role="PMmxG" node="1MmZbFJILHj" resolve="StepDot" />
+      </node>
+      <node concept="2iRfu4" id="HZD0M76NLv" role="2iSdaV" />
+    </node>
+    <node concept="1PE4EZ" id="HZD0M7hUg1" role="1PM95z">
+      <ref role="1PE7su" node="7kd$FCwL_gk" resolve="StepContent" />
+    </node>
+  </node>
 </model>
 
