@@ -98,6 +98,7 @@
         <child id="3383245079137422296" name="dominates" index="14Sbyx" />
       </concept>
       <concept id="1233823429331" name="jetbrains.mps.lang.editor.structure.HorizontalGapStyleClassItem" flags="ln" index="15ARfc" />
+      <concept id="8313721352726366579" name="jetbrains.mps.lang.editor.structure.CellModel_Empty" flags="ng" index="35HoNQ" />
       <concept id="1088013125922" name="jetbrains.mps.lang.editor.structure.CellModel_RefCell" flags="sg" stub="730538219795941030" index="1iCGBv">
         <child id="1088186146602" name="editorComponent" index="1sWHZn" />
       </concept>
@@ -7826,6 +7827,101 @@
         <ref role="PMmxG" node="1MmZbFJILHj" resolve="StepDot" />
       </node>
       <node concept="2iRfu4" id="7JZCLqYF5s$" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="PKFIW" id="HZD0M6FSu1">
+    <property role="TrG5h" value="PopContextStepContent" />
+    <ref role="1XX52x" to="b9dh:HZD0M6FOH4" resolve="PopContextStep" />
+    <node concept="3EZMnI" id="HZD0M6FSu2" role="2wV5jI">
+      <node concept="2iRfu4" id="HZD0M6FSu3" role="2iSdaV" />
+      <node concept="PMmxH" id="HZD0M6FSu4" role="3EZMnx">
+        <ref role="PMmxG" node="1MmZbFJs9WZ" resolve="StepNumber" />
+      </node>
+      <node concept="3F0ifn" id="HZD0M6FSu5" role="3EZMnx">
+        <property role="3F0ifm" value="Remove" />
+      </node>
+      <node concept="3F1sOY" id="HZD0M6FSu6" role="3EZMnx">
+        <ref role="1NtTu8" to="b9dh:HZD0M6FONt" resolve="context" />
+      </node>
+      <node concept="3F0ifn" id="HZD0M6FSu7" role="3EZMnx">
+        <property role="3F0ifm" value="from the execution context stack" />
+      </node>
+      <node concept="PMmxH" id="HZD0M6FUBO" role="3EZMnx">
+        <ref role="PMmxG" node="HZD0M6FU3E" resolve="PopContextStepSuffix" />
+      </node>
+      <node concept="PMmxH" id="HZD0M6FSu8" role="3EZMnx">
+        <ref role="PMmxG" node="1MmZbFJILHj" resolve="StepDot" />
+      </node>
+    </node>
+    <node concept="1PE4EZ" id="HZD0M6FSJK" role="1PM95z">
+      <ref role="1PE7su" node="7kd$FCwL_gk" resolve="StepContent" />
+    </node>
+  </node>
+  <node concept="PKFIW" id="HZD0M6FSZL">
+    <property role="TrG5h" value="PopContextWithReferenceTargetStepSuffix" />
+    <ref role="1XX52x" to="b9dh:HZD0M6FSnC" resolve="PopContextWithReferenceTargetStep" />
+    <node concept="1PE4EZ" id="HZD0M6FTqh" role="1PM95z">
+      <ref role="1PE7su" node="HZD0M6FU3E" resolve="PopContextStepSuffix" />
+    </node>
+    <node concept="3EZMnI" id="HZD0M6FUpi" role="2wV5jI">
+      <ref role="1k5W1q" node="39yvsmyr4Ah" resolve="SpacingBetweenCells" />
+      <node concept="2iRfu4" id="HZD0M6FUpj" role="2iSdaV" />
+      <node concept="3F0ifn" id="HZD0M6FUsx" role="3EZMnx">
+        <property role="3F0ifm" value="and restore" />
+      </node>
+      <node concept="3F1sOY" id="HZD0M6FUuW" role="3EZMnx">
+        <ref role="1NtTu8" to="b9dh:HZD0M6FSVK" resolve="target" />
+      </node>
+      <node concept="3F0ifn" id="HZD0M6FUw_" role="3EZMnx">
+        <property role="3F0ifm" value="as the running execution context" />
+      </node>
+    </node>
+  </node>
+  <node concept="PKFIW" id="HZD0M6FTaX">
+    <property role="TrG5h" value="PushContextStepContent" />
+    <ref role="1XX52x" to="b9dh:HZD0M6xJ4X" resolve="PushContextStep" />
+    <node concept="3EZMnI" id="HZD0M6FTaY" role="2wV5jI">
+      <ref role="1k5W1q" node="39yvsmyr4Ah" resolve="SpacingBetweenCells" />
+      <node concept="PMmxH" id="HZD0M6FTaZ" role="3EZMnx">
+        <ref role="PMmxG" node="1MmZbFJs9WZ" resolve="StepNumber" />
+      </node>
+      <node concept="3F0ifn" id="HZD0M6FTb0" role="3EZMnx">
+        <property role="3F0ifm" value="Push" />
+      </node>
+      <node concept="3F1sOY" id="HZD0M6FTb1" role="3EZMnx">
+        <ref role="1NtTu8" to="b9dh:HZD0M6xJqv" resolve="ref" />
+      </node>
+      <node concept="3F0ifn" id="HZD0M6FTb2" role="3EZMnx">
+        <property role="3F0ifm" value="onto the execution context stack;" />
+      </node>
+      <node concept="3F1sOY" id="HZD0M6FTb3" role="3EZMnx">
+        <ref role="1NtTu8" to="b9dh:HZD0M6xJqv" resolve="ref" />
+      </node>
+      <node concept="3F0ifn" id="HZD0M6FTb4" role="3EZMnx">
+        <property role="3F0ifm" value="is now the running execution context" />
+      </node>
+      <node concept="PMmxH" id="HZD0M6FTb5" role="3EZMnx">
+        <ref role="PMmxG" node="1MmZbFJILHj" resolve="StepDot" />
+      </node>
+      <node concept="2iRfu4" id="HZD0M6FTb6" role="2iSdaV" />
+    </node>
+    <node concept="1PE4EZ" id="HZD0M6Qron" role="1PM95z">
+      <ref role="1PE7su" node="7kd$FCwL_gk" resolve="StepContent" />
+    </node>
+  </node>
+  <node concept="PKFIW" id="HZD0M6FU3E">
+    <property role="TrG5h" value="PopContextStepSuffix" />
+    <ref role="1XX52x" to="b9dh:HZD0M6FOH4" resolve="PopContextStep" />
+    <node concept="35HoNQ" id="HZD0M6FU8u" role="2wV5jI" />
+  </node>
+  <node concept="PKFIW" id="HZD0M6FVtR">
+    <property role="TrG5h" value="PopContextWithStackTopTargetStepSuffix" />
+    <ref role="1XX52x" to="b9dh:HZD0M6FUJ2" resolve="PopContextWithStackTopTargetStep" />
+    <node concept="3F0ifn" id="HZD0M6FVKg" role="2wV5jI">
+      <property role="3F0ifm" value="and restore the execution context that is at the top of the execution context stack as the running execution context" />
+    </node>
+    <node concept="1PE4EZ" id="HZD0M6FVBt" role="1PM95z">
+      <ref role="1PE7su" node="HZD0M6FU3E" resolve="PopContextStepSuffix" />
     </node>
   </node>
 </model>
