@@ -35403,7 +35403,7 @@
               <ref role="35c_gD" to="b9dh:72QE4x7jwgZ" resolve="SimpleNumberLiteral" />
             </node>
             <node concept="Xl_RD" id="187YVFQrpq$" role="37wK5m">
-              <property role="Xl_RC" value="right" />
+              <property role="Xl_RC" value="left" />
             </node>
           </node>
         </node>
@@ -35420,7 +35420,7 @@
               <ref role="35c_gD" to="b9dh:72QE4x7juiG" resolve="NaNLiteral" />
             </node>
             <node concept="Xl_RD" id="187YVFQrpqE" role="37wK5m">
-              <property role="Xl_RC" value="right" />
+              <property role="Xl_RC" value="left" />
             </node>
           </node>
         </node>
