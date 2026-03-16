@@ -139,6 +139,7 @@
         <child id="1142887637401" name="renderingCondition" index="pqm2j" />
       </concept>
       <concept id="1073389446423" name="jetbrains.mps.lang.editor.structure.CellModel_Collection" flags="sn" stub="3013115976261988961" index="3EZMnI">
+        <property id="1160590353935" name="usesFolding" index="S$Qs1" />
         <child id="1106270802874" name="cellLayout" index="2iSdaV" />
         <child id="1073389446424" name="childCellModel" index="3EZMnx" />
       </concept>
@@ -8030,6 +8031,164 @@
       <node concept="2iRfu4" id="HZD0M76NLv" role="2iSdaV" />
     </node>
     <node concept="1PE4EZ" id="HZD0M7hUg1" role="1PM95z">
+      <ref role="1PE7su" node="7kd$FCwL_gk" resolve="StepContent" />
+    </node>
+  </node>
+  <node concept="PKFIW" id="HZD0M7CD25">
+    <property role="TrG5h" value="SuspendStepContent" />
+    <ref role="1XX52x" to="b9dh:HZD0M7CCsm" resolve="SuspendStep" />
+    <node concept="3EZMnI" id="HZD0M7CDkg" role="2wV5jI">
+      <ref role="1k5W1q" node="39yvsmyr4Ah" resolve="SpacingBetweenCells" />
+      <node concept="PMmxH" id="HZD0M7CDkh" role="3EZMnx">
+        <ref role="PMmxG" node="1MmZbFJs9WZ" resolve="StepNumber" />
+      </node>
+      <node concept="3F0ifn" id="HZD0M7CDFE" role="3EZMnx">
+        <property role="3F0ifm" value="Suspend" />
+      </node>
+      <node concept="1QoScp" id="HZD0M7CDLm" role="3EZMnx">
+        <property role="1QpmdY" value="true" />
+        <node concept="3F0ifn" id="HZD0M7CDQi" role="1QoS34">
+          <property role="3F0ifm" value="the running execution context" />
+        </node>
+        <node concept="pkWqt" id="HZD0M7CDLp" role="3e4ffs">
+          <node concept="3clFbS" id="HZD0M7CDLr" role="2VODD2">
+            <node concept="3clFbF" id="HZD0M7CDXB" role="3cqZAp">
+              <node concept="2OqwBi" id="HZD0M7CEVl" role="3clFbG">
+                <node concept="2OqwBi" id="HZD0M7CEej" role="2Oq$k0">
+                  <node concept="pncrf" id="HZD0M7CDXA" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="HZD0M7CEv1" role="2OqNvi">
+                    <ref role="3Tt5mk" to="b9dh:HZD0M7CCxW" resolve="ref" />
+                  </node>
+                </node>
+                <node concept="3w_OXm" id="HZD0M7CFgY" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3F1sOY" id="HZD0M7CDV8" role="1QoVPY">
+          <ref role="1NtTu8" to="b9dh:HZD0M7CCxW" resolve="ref" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="HZD0M7CFzw" role="3EZMnx">
+        <property role="3F0ifm" value="and remove it from the execution context stack" />
+        <node concept="pkWqt" id="HZD0M7CFNW" role="pqm2j">
+          <node concept="3clFbS" id="HZD0M7CFNX" role="2VODD2">
+            <node concept="3clFbF" id="HZD0M7CFON" role="3cqZAp">
+              <node concept="2OqwBi" id="HZD0M7CG5v" role="3clFbG">
+                <node concept="pncrf" id="HZD0M7CFOM" role="2Oq$k0" />
+                <node concept="3TrcHB" id="HZD0M7CGmd" role="2OqNvi">
+                  <ref role="3TsBF5" to="b9dh:HZD0M7CC_9" resolve="remove" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="PMmxH" id="HZD0M7CDkH" role="3EZMnx">
+        <ref role="PMmxG" node="1MmZbFJILHj" resolve="StepDot" />
+      </node>
+      <node concept="2iRfu4" id="HZD0M7CDkI" role="2iSdaV" />
+    </node>
+    <node concept="1PE4EZ" id="HZD0M7MnWt" role="1PM95z">
+      <ref role="1PE7su" node="7kd$FCwL_gk" resolve="StepContent" />
+    </node>
+  </node>
+  <node concept="PKFIW" id="HZD0M7Ryci">
+    <property role="TrG5h" value="ResumeEvaluationStepContent" />
+    <ref role="1XX52x" to="b9dh:HZD0M7RoLl" resolve="ResumeEvaluationStep" />
+    <node concept="3EZMnI" id="HZD0M7Ryp6" role="2wV5jI">
+      <node concept="3EZMnI" id="HZD0M7Ryt9" role="3EZMnx">
+        <property role="S$Qs1" value="true" />
+        <ref role="1k5W1q" node="39yvsmyr4Ah" resolve="SpacingBetweenCells" />
+        <node concept="VPM3Z" id="HZD0M7Rytb" role="3F10Kt" />
+        <node concept="PMmxH" id="HZD0M7RyuR" role="3EZMnx">
+          <ref role="PMmxG" node="1MmZbFJs9WZ" resolve="StepNumber" />
+        </node>
+        <node concept="3F0ifn" id="HZD0M7RyG$" role="3EZMnx">
+          <property role="3F0ifm" value="Resume the suspended evaluation of" />
+        </node>
+        <node concept="3F1sOY" id="HZD0M7RyId" role="3EZMnx">
+          <ref role="1NtTu8" to="b9dh:HZD0M7RoWx" resolve="context" />
+        </node>
+        <node concept="3EZMnI" id="HZD0M7RyWN" role="3EZMnx">
+          <ref role="1k5W1q" node="39yvsmyr4Ah" resolve="SpacingBetweenCells" />
+          <node concept="VPM3Z" id="HZD0M7RyWP" role="3F10Kt" />
+          <node concept="3F0ifn" id="HZD0M7RyKE" role="3EZMnx">
+            <property role="3F0ifm" value="using" />
+          </node>
+          <node concept="3F1sOY" id="HZD0M7RyNT" role="3EZMnx">
+            <ref role="1NtTu8" to="b9dh:HZD0M7Rp7I" />
+          </node>
+          <node concept="3F0ifn" id="HZD0M7RyOJ" role="3EZMnx">
+            <property role="3F0ifm" value="as the result of the operation that suspended it" />
+          </node>
+          <node concept="2iRfu4" id="HZD0M7RyWS" role="2iSdaV" />
+          <node concept="pkWqt" id="HZD0M7Rz44" role="pqm2j">
+            <node concept="3clFbS" id="HZD0M7Rz45" role="2VODD2">
+              <node concept="3clFbF" id="HZD0M7Rz9I" role="3cqZAp">
+                <node concept="2OqwBi" id="HZD0M7R$cq" role="3clFbG">
+                  <node concept="2OqwBi" id="HZD0M7Rzqq" role="2Oq$k0">
+                    <node concept="pncrf" id="HZD0M7Rz9H" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="HZD0M7RzK6" role="2OqNvi">
+                      <ref role="3Tt5mk" to="b9dh:HZD0M7Rp7I" resolve="argument" />
+                    </node>
+                  </node>
+                  <node concept="3x8VRR" id="HZD0M7R_br" role="2OqNvi" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3EZMnI" id="HZD0M7RAaw" role="3EZMnx">
+          <ref role="1k5W1q" node="39yvsmyr4Ah" resolve="SpacingBetweenCells" />
+          <node concept="VPM3Z" id="HZD0M7RAay" role="3F10Kt" />
+          <node concept="PMmxH" id="HZD0M87Das" role="3EZMnx">
+            <ref role="PMmxG" node="39yvsmyBcqy" resolve="Dot" />
+          </node>
+          <node concept="3F0ifn" id="HZD0M7RAa$" role="3EZMnx">
+            <property role="3F0ifm" value="Let" />
+          </node>
+          <node concept="3F1sOY" id="HZD0M7RAnP" role="3EZMnx">
+            <ref role="1NtTu8" to="b9dh:HZD0M7Rp28" resolve="var" />
+          </node>
+          <node concept="3F0ifn" id="HZD0M7RAoF" role="3EZMnx">
+            <property role="3F0ifm" value="be the" />
+          </node>
+          <node concept="3F0A7n" id="HZD0M7RArU" role="3EZMnx">
+            <ref role="1NtTu8" to="b9dh:HZD0M7RoTk" resolve="varDescription" />
+          </node>
+          <node concept="3F0ifn" id="HZD0M7RAtz" role="3EZMnx">
+            <property role="3F0ifm" value="returned by the resumed computation" />
+          </node>
+          <node concept="2iRfu4" id="HZD0M7RAa_" role="2iSdaV" />
+          <node concept="pkWqt" id="HZD0M7RAza" role="pqm2j">
+            <node concept="3clFbS" id="HZD0M7RAzb" role="2VODD2">
+              <node concept="3clFbF" id="HZD0M7RAEq" role="3cqZAp">
+                <node concept="2OqwBi" id="HZD0M7RBuL" role="3clFbG">
+                  <node concept="2OqwBi" id="HZD0M7RAV6" role="2Oq$k0">
+                    <node concept="pncrf" id="HZD0M7RAEp" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="HZD0M7RBdq" role="2OqNvi">
+                      <ref role="3Tt5mk" to="b9dh:HZD0M7Rp28" resolve="var" />
+                    </node>
+                  </node>
+                  <node concept="3x8VRR" id="HZD0M7RBNt" role="2OqNvi" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="PMmxH" id="HZD0M7Rywv" role="3EZMnx">
+          <ref role="PMmxG" node="1MmZbFJILHj" resolve="StepDot" />
+        </node>
+        <node concept="2iRfu4" id="HZD0M7Ryte" role="2iSdaV" />
+      </node>
+      <node concept="3F2HdR" id="HZD0M7RyzI" role="3EZMnx">
+        <ref role="1NtTu8" to="b9dh:HZD0M7RoYV" resolve="steps" />
+        <node concept="2iRkQZ" id="HZD0M7RyzK" role="2czzBx" />
+      </node>
+      <node concept="2iRkQZ" id="HZD0M7Ryp9" role="2iSdaV" />
+    </node>
+    <node concept="1PE4EZ" id="HZD0M7Ryfw" role="1PM95z">
       <ref role="1PE7su" node="7kd$FCwL_gk" resolve="StepContent" />
     </node>
   </node>
