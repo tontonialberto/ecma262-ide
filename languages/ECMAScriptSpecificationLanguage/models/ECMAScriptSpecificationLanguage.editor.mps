@@ -8524,5 +8524,33 @@
       <node concept="2iRfu4" id="7sn0cJ_fKH_" role="2iSdaV" />
     </node>
   </node>
+  <node concept="PKFIW" id="7sn0cJAfSdF">
+    <property role="TrG5h" value="AddStepContent" />
+    <ref role="1XX52x" to="b9dh:7sn0cJAfRZg" resolve="AddStep" />
+    <node concept="3EZMnI" id="7sn0cJAfSjj" role="2wV5jI">
+      <node concept="PMmxH" id="7sn0cJAfSka" role="3EZMnx">
+        <ref role="PMmxG" node="1MmZbFJs9WZ" resolve="StepNumber" />
+      </node>
+      <node concept="3F0ifn" id="7sn0cJAfSpR" role="3EZMnx">
+        <property role="3F0ifm" value="Add" />
+      </node>
+      <node concept="3F1sOY" id="7sn0cJAfSrw" role="3EZMnx">
+        <ref role="1NtTu8" to="b9dh:7sn0cJAfS6t" resolve="element" />
+      </node>
+      <node concept="3F0ifn" id="7sn0cJAfSta" role="3EZMnx">
+        <property role="3F0ifm" value="to" />
+      </node>
+      <node concept="3F1sOY" id="7sn0cJAfSuN" role="3EZMnx">
+        <ref role="1NtTu8" to="b9dh:7sn0cJAfS9E" resolve="ref" />
+      </node>
+      <node concept="PMmxH" id="7sn0cJAfSmB" role="3EZMnx">
+        <ref role="PMmxG" node="1MmZbFJILHj" resolve="StepDot" />
+      </node>
+      <node concept="2iRfu4" id="7sn0cJAfSjm" role="2iSdaV" />
+    </node>
+    <node concept="1PE4EZ" id="7sn0cJAfSgT" role="1PM95z">
+      <ref role="1PE7su" node="7kd$FCwL_gk" resolve="StepContent" />
+    </node>
+  </node>
 </model>
 
