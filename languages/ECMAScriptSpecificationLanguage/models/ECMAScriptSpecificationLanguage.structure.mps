@@ -23,7 +23,9 @@
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
-      <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ" />
+      <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ">
+        <child id="1169127546356" name="extends" index="PrDN$" />
+      </concept>
       <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
         <reference id="1169127628841" name="intfc" index="PrY4T" />
       </concept>
@@ -2515,22 +2517,15 @@
     <property role="EcuMT" value="8581328490726133542" />
     <property role="TrG5h" value="GrammarSymbolLiteral" />
     <ref role="1TJDcQ" node="6NLkRuOeYfm" resolve="Literal" />
-    <node concept="1TJgyj" id="7sn0cJAETac" role="1TKVEi">
-      <property role="IQ2ns" value="8581328490726134412" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="flags" />
-      <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="7sn0cJAETbN" resolve="GrammarSymbolLiteralFlag" />
-    </node>
-    <node concept="PrWs8" id="7sn0cJAETiZ" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    <node concept="PrWs8" id="6OdzVF2zsHC" role="PzmwI">
+      <ref role="PrY4T" node="6OdzVF2zrpS" resolve="HasNonterminal" />
     </node>
   </node>
   <node concept="1TIwiD" id="7sn0cJAETbN">
     <property role="EcuMT" value="8581328490726134515" />
-    <property role="TrG5h" value="GrammarSymbolLiteralFlag" />
+    <property role="TrG5h" value="NonterminalParameter" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" />
-    <node concept="PrWs8" id="7sn0cJAETmd" role="PzmwI">
+    <node concept="PrWs8" id="6OdzVF2Df8m" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
@@ -2680,6 +2675,71 @@
     </node>
     <node concept="PrWs8" id="6OdzVF1t_si" role="PzmwI">
       <ref role="PrY4T" node="7sn0cJBrvf_" resolve="HasXRef" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6OdzVF2l62Y">
+    <property role="EcuMT" value="7858094957118382270" />
+    <property role="TrG5h" value="SoleElementExpression" />
+    <ref role="1TJDcQ" node="5eocg95ibfH" resolve="Expression" />
+    <node concept="1TJgyj" id="6OdzVF2l69n" role="1TKVEi">
+      <property role="IQ2ns" value="7858094957118382679" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="list" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5eocg95ibfH" resolve="Expression" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6OdzVF2zqKE">
+    <property role="EcuMT" value="7858094957122137130" />
+    <property role="TrG5h" value="SourceTextExpression" />
+    <ref role="1TJDcQ" node="5eocg95ibfH" resolve="Expression" />
+    <node concept="1TJgyj" id="6OdzVF2zqQg" role="1TKVEi">
+      <property role="IQ2ns" value="7858094957122137488" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="expr" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5eocg95ibfH" resolve="Expression" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6OdzVF2zqZf">
+    <property role="EcuMT" value="7858094957122138063" />
+    <property role="TrG5h" value="CoveredByExpression" />
+    <ref role="1TJDcQ" node="5eocg95ibfH" resolve="Expression" />
+    <node concept="1TJgyj" id="6OdzVF2zr5C" role="1TKVEi">
+      <property role="IQ2ns" value="7858094957122138472" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="code" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5eocg95ibfH" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="6OdzVF2zr7f" role="1TKVEi">
+      <property role="IQ2ns" value="7858094957122138575" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="rule" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5eocg95ibfH" resolve="Expression" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="6OdzVF2zrpS">
+    <property role="EcuMT" value="7858094957122139768" />
+    <property role="TrG5h" value="HasNonterminal" />
+    <node concept="1TJgyj" id="6OdzVF2zrxR" role="1TKVEi">
+      <property role="IQ2ns" value="7858094957122140279" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="flags" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="7sn0cJAETbN" resolve="NonterminalParameter" />
+    </node>
+    <node concept="PrWs8" id="6OdzVF2zrLX" role="PrDN$">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6OdzVF2DnfJ">
+    <property role="EcuMT" value="7858094957123695599" />
+    <property role="TrG5h" value="NonterminalLiteral" />
+    <ref role="1TJDcQ" node="6NLkRuOeYfm" resolve="Literal" />
+    <node concept="PrWs8" id="6OdzVF2DnmW" role="PzmwI">
+      <ref role="PrY4T" node="6OdzVF2zrpS" resolve="HasNonterminal" />
     </node>
   </node>
 </model>
