@@ -1609,7 +1609,7 @@
                     <node concept="2OqwBi" id="7sn0cJzOX4y" role="2Oq$k0">
                       <node concept="2OqwBi" id="7sn0cJzOX4z" role="2Oq$k0">
                         <node concept="3Tsc0h" id="7sn0cJzOX4$" role="2OqNvi">
-                          <ref role="3TtcxE" to="b9dh:HZD0Mcla3J" />
+                          <ref role="3TtcxE" to="b9dh:HZD0Mcla3J" resolve="steps" />
                         </node>
                         <node concept="37vLTw" id="7sn0cJzOX4_" role="2Oq$k0">
                           <ref role="3cqZAo" node="7sn0cJzOX4l" resolve="enclosingStep" />
@@ -1624,7 +1624,7 @@
                                   <ref role="3cqZAo" node="7sn0cJzOX4H" resolve="it" />
                                 </node>
                                 <node concept="3TrEf2" id="7sn0cJzOX4G" role="2OqNvi">
-                                  <ref role="3Tt5mk" to="b9dh:2QzpJ$Ig2fH" />
+                                  <ref role="3Tt5mk" to="b9dh:2QzpJ$Ig2fH" resolve="step" />
                                 </node>
                               </node>
                             </node>

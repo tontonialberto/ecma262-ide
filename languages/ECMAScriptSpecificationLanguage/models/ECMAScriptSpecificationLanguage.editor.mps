@@ -460,7 +460,7 @@
         <ref role="1k5W1q" node="kAjAPN3Sou" resolve="NoSpacingBetweenCells" />
         <node concept="VPM3Z" id="4nPjfB$LTU7" role="3F10Kt" />
         <node concept="3F1sOY" id="4nPjfB$LTU8" role="3EZMnx">
-          <ref role="1NtTu8" to="b9dh:2uuTNnaZf_4" />
+          <ref role="1NtTu8" to="b9dh:2uuTNnaZf_4" resolve="base" />
         </node>
         <node concept="PMmxH" id="4nPjfB$LTU9" role="3EZMnx">
           <ref role="PMmxG" node="39yvsmyBcqy" resolve="Dot" />
@@ -469,7 +469,7 @@
           <property role="3F0ifm" value="[[" />
         </node>
         <node concept="3F1sOY" id="4nPjfB$LTUa" role="3EZMnx">
-          <ref role="1NtTu8" to="b9dh:2uuTNnb5b56" />
+          <ref role="1NtTu8" to="b9dh:2uuTNnb5b56" resolve="prop" />
         </node>
         <node concept="3F0ifn" id="4nPjfB$LWKJ" role="3EZMnx">
           <property role="3F0ifm" value="]]" />
@@ -4984,8 +4984,8 @@
         <ref role="1k5W1q" node="HZD0Mbu0KW" resolve="MissingAnchor" />
       </node>
       <node concept="1iCGBv" id="4JWQRjsya0I" role="1QoVPY">
-        <ref role="1NtTu8" to="b9dh:4JWQRjsya0F" />
-        <ref role="1k5W1q" node="1ZHYsdHzHcX" resolve="FunctionCall" />
+        <ref role="1NtTu8" to="b9dh:4JWQRjsya0F" resolve="ref" />
+        <ref role="1k5W1q" node="1ZHYsdHzHcX" resolve="Anchor" />
         <node concept="1sVBvm" id="4JWQRjsya0K" role="1sWHZn">
           <node concept="3F0A7n" id="4JWQRjsya0O" role="2wV5jI">
             <property role="1Intyy" value="true" />
@@ -7583,7 +7583,7 @@
     <node concept="3EZMnI" id="6Tx72K7WLGS" role="2wV5jI">
       <node concept="3F0ifn" id="6Tx72K7WLGW" role="3EZMnx">
         <property role="3F0ifm" value="ReturnIfAbrupt" />
-        <ref role="1k5W1q" node="1ZHYsdHzHcX" resolve="FunctionCall" />
+        <ref role="1k5W1q" node="1ZHYsdHzHcX" resolve="Anchor" />
       </node>
       <node concept="3F0ifn" id="6Tx72K7WLH1" role="3EZMnx">
         <property role="3F0ifm" value="(" />
@@ -7746,7 +7746,7 @@
         <property role="3F0ifm" value="Set" />
       </node>
       <node concept="3F1sOY" id="7JZCLqYF5sw" role="3EZMnx">
-        <ref role="1NtTu8" to="b9dh:7JZCLqYF5ub" />
+        <ref role="1NtTu8" to="b9dh:7JZCLqYF5ub" resolve="ref" />
       </node>
       <node concept="3F0ifn" id="7JZCLqYF5Hq" role="3EZMnx">
         <property role="3F0ifm" value="as" />
@@ -8053,7 +8053,7 @@
             <property role="3F0ifm" value="using" />
           </node>
           <node concept="3F1sOY" id="HZD0M7RyNT" role="3EZMnx">
-            <ref role="1NtTu8" to="b9dh:HZD0M7Rp7I" />
+            <ref role="1NtTu8" to="b9dh:HZD0M7Rp7I" resolve="argument" />
           </node>
           <node concept="3F0ifn" id="HZD0M7RyOJ" role="3EZMnx">
             <property role="3F0ifm" value="as the result of the operation that suspended it" />
@@ -8264,13 +8264,13 @@
           <property role="3F0ifm" value="Resume" />
         </node>
         <node concept="3F1sOY" id="HZD0Mclan6" role="3EZMnx">
-          <ref role="1NtTu8" to="b9dh:HZD0Mcl9Lm" />
+          <ref role="1NtTu8" to="b9dh:HZD0Mcl9Lm" resolve="callerContext" />
         </node>
         <node concept="3F0ifn" id="HZD0MclaoJ" role="3EZMnx">
           <property role="3F0ifm" value="passing" />
         </node>
         <node concept="3F1sOY" id="HZD0Mclaqo" role="3EZMnx">
-          <ref role="1NtTu8" to="b9dh:HZD0Mcl9QW" />
+          <ref role="1NtTu8" to="b9dh:HZD0Mcl9QW" resolve="argument" />
         </node>
         <node concept="3F0ifn" id="HZD0Mclare" role="3EZMnx">
           <property role="3F0ifm" value="." />
@@ -8280,13 +8280,13 @@
           <property role="3F0ifm" value=" If" />
         </node>
         <node concept="3F1sOY" id="HZD0Mcla$S" role="3EZMnx">
-          <ref role="1NtTu8" to="b9dh:HZD0Mcl9U9" />
+          <ref role="1NtTu8" to="b9dh:HZD0Mcl9U9" resolve="generatorContext" />
         </node>
         <node concept="3F0ifn" id="HZD0Mcla_I" role="3EZMnx">
           <property role="3F0ifm" value="is ever resumed again, let" />
         </node>
         <node concept="3F1sOY" id="HZD0MclaHO" role="3EZMnx">
-          <ref role="1NtTu8" to="b9dh:HZD0Mcl9ZJ" />
+          <ref role="1NtTu8" to="b9dh:HZD0Mcl9ZJ" resolve="param" />
         </node>
         <node concept="3F0ifn" id="HZD0MclaL5" role="3EZMnx">
           <property role="3F0ifm" value="be the Completion Record with which it is resumed" />
@@ -8799,7 +8799,7 @@
         <ref role="PMmxG" node="4nPjfBztsmU" resolve="Log1p" />
       </node>
       <node concept="PMmxH" id="4nPjfBzn1d8" role="3EZMnx">
-        <ref role="PMmxG" node="4nPjfBzn1d6" resolve="Trig" />
+        <ref role="PMmxG" node="4nPjfBzn1d6" resolve="Trigonometric" />
       </node>
       <node concept="PMmxH" id="4nPjfBztjLE" role="3EZMnx">
         <ref role="PMmxG" node="4nPjfBztjLC" resolve="CubeRoot" />
@@ -9013,7 +9013,7 @@
     <property role="TrG5h" value="SecondArgument" />
     <ref role="1XX52x" to="b9dh:7sn0cJCk1wx" resolve="MathOpExpression" />
     <node concept="3F2HdR" id="7sn0cJCkoDV" role="2wV5jI">
-      <ref role="1NtTu8" to="b9dh:7sn0cJCk1E8" />
+      <ref role="1NtTu8" to="b9dh:7sn0cJCk1E8" resolve="args" />
       <node concept="2iRfu4" id="7sn0cJCkoDW" role="2czzBx" />
       <node concept="107P5z" id="7sn0cJCkoDX" role="12AuX0">
         <node concept="3clFbS" id="7sn0cJCkoDY" role="2VODD2">
@@ -9032,7 +9032,7 @@
                     </node>
                   </node>
                   <node concept="3Tsc0h" id="7sn0cJCkoE8" role="2OqNvi">
-                    <ref role="3TtcxE" to="b9dh:7sn0cJCk1E8" />
+                    <ref role="3TtcxE" to="b9dh:7sn0cJCk1E8" resolve="args" />
                   </node>
                 </node>
                 <node concept="34jXtK" id="7sn0cJCkr3F" role="2OqNvi">
@@ -9272,19 +9272,19 @@
         <ref role="PMmxG" node="4nPjfBzmYA5" resolve="Cosh" />
       </node>
       <node concept="PMmxH" id="4nPjfBzn0Vo" role="3EZMnx">
-        <ref role="PMmxG" node="4nPjfBzn0Vm" resolve="Acosh" />
+        <ref role="PMmxG" node="4nPjfBzn0Vm" resolve="ArcCosh" />
       </node>
       <node concept="PMmxH" id="4nPjfBzn5XZ" role="3EZMnx">
         <ref role="PMmxG" node="4nPjfBzn5XX" resolve="Sin" />
       </node>
       <node concept="PMmxH" id="4nPjfBzn88n" role="3EZMnx">
-        <ref role="PMmxG" node="4nPjfBzn88l" resolve="Asin" />
+        <ref role="PMmxG" node="4nPjfBzn88l" resolve="ArcSin" />
       </node>
       <node concept="PMmxH" id="4nPjfBzna2w" role="3EZMnx">
         <ref role="PMmxG" node="4nPjfBzna2u" resolve="Sinh" />
       </node>
       <node concept="PMmxH" id="4nPjfBzt9SE" role="3EZMnx">
-        <ref role="PMmxG" node="4nPjfBzt9Ss" resolve="Asinh" />
+        <ref role="PMmxG" node="4nPjfBzt9Ss" resolve="ArcSinh" />
       </node>
       <node concept="PMmxH" id="4nPjfBztcb_" role="3EZMnx">
         <ref role="PMmxG" node="4nPjfBztcbn" resolve="Tan" />
@@ -9854,7 +9854,7 @@
       <ref role="1k5W1q" node="kAjAPN3Sou" resolve="NoSpacingBetweenCells" />
       <node concept="3F0A7n" id="6OdzVF2zrWs" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-        <ref role="1k5W1q" node="7sn0cJAYwf5" resolve="GrammarSymbol" />
+        <ref role="1k5W1q" node="7sn0cJAYwf5" resolve="Nonterminal" />
       </node>
       <node concept="PMmxH" id="6OdzVF2zsuZ" role="3EZMnx">
         <ref role="PMmxG" node="6OdzVF2zsuF" resolve="NonterminalParameters" />

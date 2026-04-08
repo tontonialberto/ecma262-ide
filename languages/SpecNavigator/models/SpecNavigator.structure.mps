@@ -2,18 +2,10 @@
 <model ref="r:188ca1d9-de99-424a-8fe0-97c84e9babfe(SpecNavigator.structure)">
   <persistence version="9" />
   <languages>
-    <use id="e60c167c-aefb-4a7d-ac09-9ca6ce0aed62" name="ECMAScriptSpecificationLanguage" version="0" />
-    <use id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation" version="5" />
-    <use id="daafa647-f1f7-4b0b-b096-69cd7c8408c0" name="jetbrains.mps.baseLanguage.regexp" version="0" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="14" />
     <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
     <import index="b9dh" ref="r:073391d3-1c04-44ec-87e8-9a6fe5746c65(ECMAScriptSpecificationLanguage.structure)" />
-    <import index="tp3r" ref="r:00000000-0000-4000-0000-011c8959034b(jetbrains.mps.lang.quotation.structure)" />
-    <import index="cttk" ref="r:5ff047e0-2953-4750-806a-bdc16824aa89(jetbrains.mps.smodel)" />
-    <import index="tpc2" ref="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -639,6 +631,7 @@
   <node concept="1TIwiD" id="52iPgJ82u65">
     <property role="EcuMT" value="5805937116211437957" />
     <property role="TrG5h" value="FilteringConditionHasHighlightedStep" />
+    <property role="34LRSv" value="has-highlighted-step" />
     <ref role="1TJDcQ" node="39yvsmz5yIw" resolve="FilteringConditionSignature" />
     <node concept="1TJgyi" id="52iPgJ82OT1" role="1TKVEl">
       <property role="IQ2nx" value="5805937116211531329" />
