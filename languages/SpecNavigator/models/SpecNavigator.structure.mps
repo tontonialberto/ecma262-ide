@@ -126,7 +126,7 @@
     <property role="EcuMT" value="968737421154712635" />
     <property role="TrG5h" value="FilteringConditionBodyContains" />
     <property role="34LRSv" value="body-contains" />
-    <ref role="1TJDcQ" node="PLDoPcyMcq" resolve="FilteringCondition" />
+    <ref role="1TJDcQ" node="2gnNswGT1YO" resolve="FilteringAtom" />
     <node concept="1TJgyj" id="PLDoPczvX7" role="1TKVEi">
       <property role="IQ2ns" value="968737421154713415" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -186,7 +186,7 @@
     <property role="EcuMT" value="3630602537412209568" />
     <property role="R5$K7" value="true" />
     <property role="TrG5h" value="FilteringConditionSignature" />
-    <ref role="1TJDcQ" node="PLDoPcyMcq" resolve="FilteringCondition" />
+    <ref role="1TJDcQ" node="2gnNswGT1YO" resolve="FilteringAtom" />
   </node>
   <node concept="1TIwiD" id="$M7JgvMZjS">
     <property role="EcuMT" value="662626129031197944" />
@@ -674,7 +674,21 @@
   <node concept="1TIwiD" id="2ork6t54F7W">
     <property role="EcuMT" value="2745876802283155964" />
     <property role="TrG5h" value="FilteringConditionNot" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <property role="34LRSv" value="not" />
+    <ref role="1TJDcQ" node="PLDoPcyMcq" resolve="FilteringCondition" />
+    <node concept="1TJgyj" id="2gnNswGT2k5" role="1TKVEi">
+      <property role="IQ2ns" value="2600773569460053253" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="condition" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="2gnNswGT1YO" resolve="FilteringAtom" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2gnNswGT1YO">
+    <property role="EcuMT" value="2600773569460051892" />
+    <property role="TrG5h" value="FilteringAtom" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" node="PLDoPcyMcq" resolve="FilteringCondition" />
   </node>
 </model>
 
