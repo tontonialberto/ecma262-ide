@@ -1365,5 +1365,20 @@
       <node concept="2iRfu4" id="2gnNswHyAoV" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="2gnNswHP$uE">
+    <ref role="1XX52x" to="8wbp:2gnNswHNtsV" resolve="DecorationActionRemoveBookmark" />
+    <node concept="3EZMnI" id="2gnNswHP$yG" role="2wV5jI">
+      <node concept="PMmxH" id="2gnNswHP$yH" role="3EZMnx">
+        <ref role="PMmxG" node="39yvsmzaxrM" resolve="BulletPoint" />
+      </node>
+      <node concept="3F0ifn" id="2gnNswHP$yI" role="3EZMnx">
+        <property role="3F0ifm" value="remove-bookmark:" />
+      </node>
+      <node concept="3F0A7n" id="2gnNswHP$CL" role="3EZMnx">
+        <ref role="1NtTu8" to="8wbp:2gnNswHNt$s" resolve="regex" />
+      </node>
+      <node concept="2iRfu4" id="2gnNswHP$yJ" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 

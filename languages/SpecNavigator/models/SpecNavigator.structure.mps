@@ -707,5 +707,16 @@
     <property role="34LRSv" value="remove-unmatched-steps" />
     <ref role="1TJDcQ" node="44BPNitWDp_" resolve="CodeEditorAction" />
   </node>
+  <node concept="1TIwiD" id="2gnNswHNtsV">
+    <property role="EcuMT" value="2600773569475368763" />
+    <property role="TrG5h" value="DecorationActionRemoveBookmark" />
+    <property role="34LRSv" value="remove-bookmark" />
+    <ref role="1TJDcQ" node="6Kpi7IfH_NF" resolve="DecorationAction" />
+    <node concept="1TJgyi" id="2gnNswHNt$s" role="1TKVEl">
+      <property role="IQ2nx" value="2600773569475369244" />
+      <property role="TrG5h" value="regex" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
 </model>
 
