@@ -1353,5 +1353,17 @@
       <node concept="2iRfu4" id="2gnNswH4VTS" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="2gnNswHyAnl">
+    <ref role="1XX52x" to="8wbp:2gnNswHuWYc" resolve="CodeEditorActionRemoveSteps" />
+    <node concept="3EZMnI" id="2gnNswHyAoR" role="2wV5jI">
+      <node concept="PMmxH" id="2gnNswHyAoS" role="3EZMnx">
+        <ref role="PMmxG" node="39yvsmzaxrM" resolve="BulletPoint" />
+      </node>
+      <node concept="3F0ifn" id="2gnNswHyArW" role="3EZMnx">
+        <property role="3F0ifm" value="remove-unmatched-steps" />
+      </node>
+      <node concept="2iRfu4" id="2gnNswHyAoV" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 
