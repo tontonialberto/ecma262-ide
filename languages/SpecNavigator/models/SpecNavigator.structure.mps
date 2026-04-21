@@ -287,6 +287,9 @@
       <property role="TrG5h" value="showFunctionNames" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
+    <node concept="PrWs8" id="2gnNswJumq4" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
   </node>
   <node concept="1TIwiD" id="$M7Jgwl4We">
     <property role="EcuMT" value="662626129040133902" />
