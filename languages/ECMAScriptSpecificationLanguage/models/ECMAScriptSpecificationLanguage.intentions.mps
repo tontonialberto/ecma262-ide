@@ -146,7 +146,7 @@
       <node concept="3clFbS" id="5gsI0I4tOvi" role="2VODD2">
         <node concept="3clFbF" id="5gsI0I4tOA3" role="3cqZAp">
           <node concept="Xl_RD" id="5gsI0I4tOA2" role="3clFbG">
-            <property role="Xl_RC" value="Restore Step" />
+            <property role="Xl_RC" value="Unhide Step" />
           </node>
         </node>
       </node>

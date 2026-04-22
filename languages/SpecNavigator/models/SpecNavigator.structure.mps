@@ -382,7 +382,7 @@
   <node concept="1TIwiD" id="5gsI0I3JXaR">
     <property role="EcuMT" value="6060921558128382647" />
     <property role="TrG5h" value="DecorationActionPrune" />
-    <property role="34LRSv" value="prune-unmatched-steps" />
+    <property role="34LRSv" value="hide-unmatching-steps" />
     <ref role="1TJDcQ" node="6Kpi7IfH_NF" resolve="DecorationAction" />
   </node>
   <node concept="1TIwiD" id="6Tx72K8dbna">
@@ -599,7 +599,7 @@
   <node concept="1TIwiD" id="52iPgJ7WAd1">
     <property role="EcuMT" value="5805937116209898305" />
     <property role="TrG5h" value="FilteringConditionHasPrunedStep" />
-    <property role="34LRSv" value="has-pruned-step" />
+    <property role="34LRSv" value="has-hidden-step" />
     <ref role="1TJDcQ" node="39yvsmz5yIw" resolve="FilteringConditionSignature" />
   </node>
   <node concept="1TIwiD" id="52iPgJ82u65">
@@ -647,7 +647,7 @@
   <node concept="1TIwiD" id="2ork6t3B7L7">
     <property role="EcuMT" value="2745876802258631751" />
     <property role="TrG5h" value="DecorationActionUnpruneAll" />
-    <property role="34LRSv" value="unprune" />
+    <property role="34LRSv" value="unhide" />
     <ref role="1TJDcQ" node="6Kpi7IfH_NF" resolve="DecorationAction" />
   </node>
   <node concept="1TIwiD" id="2ork6t3HRWY">
@@ -707,7 +707,7 @@
   <node concept="1TIwiD" id="2gnNswHuWYc">
     <property role="EcuMT" value="2600773569469992844" />
     <property role="TrG5h" value="CodeEditorActionRemoveSteps" />
-    <property role="34LRSv" value="remove-unmatched-steps" />
+    <property role="34LRSv" value="remove-unmatching-steps" />
     <ref role="1TJDcQ" node="44BPNitWDp_" resolve="CodeEditorAction" />
   </node>
   <node concept="1TIwiD" id="2gnNswHNtsV">

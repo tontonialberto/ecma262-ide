@@ -955,7 +955,7 @@
         <ref role="PMmxG" node="39yvsmzaxrM" resolve="BulletPoint" />
       </node>
       <node concept="3F0ifn" id="5gsI0I3K9Sl" role="3EZMnx">
-        <property role="3F0ifm" value="prune-unmatched-steps" />
+        <property role="3F0ifm" value="hide-unmatching-steps" />
       </node>
       <node concept="2iRfu4" id="5gsI0I3K9Sm" role="2iSdaV" />
     </node>
@@ -1285,7 +1285,7 @@
         <ref role="PMmxG" node="39yvsmzaxrM" resolve="BulletPoint" />
       </node>
       <node concept="3F0ifn" id="52iPgJ7WApk" role="3EZMnx">
-        <property role="3F0ifm" value="has-pruned-step" />
+        <property role="3F0ifm" value="has-hidden-step" />
       </node>
       <node concept="2iRfu4" id="52iPgJ7WApm" role="2iSdaV" />
     </node>
@@ -1364,7 +1364,7 @@
         <ref role="PMmxG" node="39yvsmzaxrM" resolve="BulletPoint" />
       </node>
       <node concept="3F0ifn" id="2ork6t3CMuz" role="3EZMnx">
-        <property role="3F0ifm" value="unprune" />
+        <property role="3F0ifm" value="unhide" />
       </node>
       <node concept="2iRfu4" id="2ork6t3CMuA" role="2iSdaV" />
     </node>
@@ -1472,7 +1472,7 @@
         <ref role="PMmxG" node="39yvsmzaxrM" resolve="BulletPoint" />
       </node>
       <node concept="3F0ifn" id="2gnNswHyArW" role="3EZMnx">
-        <property role="3F0ifm" value="remove-unmatched-steps" />
+        <property role="3F0ifm" value="remove-unmatching-steps" />
       </node>
       <node concept="2iRfu4" id="2gnNswHyAoV" role="2iSdaV" />
     </node>
