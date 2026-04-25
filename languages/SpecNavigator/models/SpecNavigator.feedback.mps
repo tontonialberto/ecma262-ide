@@ -13,7 +13,18 @@
     <use id="feec32f9-bc8f-4da8-8efd-7f3f9dd4101b" name="jetbrains.mps.lang.feedback.problem.scopes" version="0" />
     <devkit ref="0845ddb4-34c2-4a32-b2ae-270bffc5b430(jetbrains.mps.devkit.aspect.feedback)" />
   </languages>
-  <imports />
-  <registry />
+  <imports>
+    <import index="8wbp" ref="r:188ca1d9-de99-424a-8fe0-97c84e9babfe(SpecNavigator.structure)" />
+  </imports>
+  <registry>
+    <language id="517077fd-e44f-4338-a475-1d29781dfdb8" name="jetbrains.mps.lang.feedback.skeleton">
+      <concept id="7291380803381892615" name="jetbrains.mps.lang.feedback.skeleton.structure.FeedbackPerConceptRoot" flags="ng" index="3QByoM">
+        <reference id="7188575577281228125" name="concept" index="3Z9TSV" />
+      </concept>
+    </language>
+  </registry>
+  <node concept="3QByoM" id="71pU$jUpWfZ">
+    <ref role="3Z9TSV" to="8wbp:5wlfRpe0OSc" resolve="Navigation" />
+  </node>
 </model>
 

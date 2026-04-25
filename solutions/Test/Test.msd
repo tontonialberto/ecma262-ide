@@ -15,6 +15,8 @@
     <dependency reexport="false">059243e2-1098-456d-a52a-ddaf141e7121(SpecNavigator)</dependency>
     <dependency reexport="false">e60c167c-aefb-4a7d-ac09-9ca6ce0aed62(ECMAScriptSpecificationLanguage)</dependency>
     <dependency reexport="false">86ef8290-12bb-4ca7-947f-093788f263a9(jetbrains.mps.lang.project)</dependency>
+    <dependency reexport="false">108db67b-0afc-4764-8bef-3efd3392301f(ECMA262)</dependency>
+    <dependency reexport="false">2d3c70e9-aab2-4870-8d8d-6036800e4103(jetbrains.mps.kernel)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:e60c167c-aefb-4a7d-ac09-9ca6ce0aed62:ECMAScriptSpecificationLanguage" version="0" />
@@ -34,6 +36,7 @@
   </languageVersions>
   <dependencyVersions>
     <module reference="3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)" version="0" />
+    <module reference="108db67b-0afc-4764-8bef-3efd3392301f(ECMA262)" version="0" />
     <module reference="e60c167c-aefb-4a7d-ac09-9ca6ce0aed62(ECMAScriptSpecificationLanguage)" version="0" />
     <module reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" version="0" />
     <module reference="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" version="0" />

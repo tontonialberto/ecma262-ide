@@ -277,6 +277,7 @@
             <property role="3F0ifm" value="input-document:" />
           </node>
           <node concept="3F0A7n" id="1Bp6E9nvBZ3" role="3EZMnx">
+            <property role="1$x2rV" value="&lt;no input model&gt;" />
             <ref role="1NtTu8" to="8wbp:1Bp6E9nu9Zq" resolve="inputSpecModelName" />
             <node concept="OXEIz" id="1Bp6E9nxik_" role="P5bDN">
               <node concept="PvTIS" id="1Bp6E9nxikA" role="OY2wv">
@@ -302,7 +303,7 @@
           <node concept="3F0ifn" id="1ZHYsdH5Hwk" role="3EZMnx">
             <property role="3F0ifm" value="output-document:" />
           </node>
-          <node concept="3F0A7n" id="1ZHYsdH5Hyg" role="3EZMnx">
+          <node concept="3F0A7n" id="71pU$jUv8JC" role="3EZMnx">
             <ref role="1NtTu8" to="8wbp:2C_QaSBXbNw" resolve="outputSpecModelName" />
           </node>
           <node concept="2iRfu4" id="1ZHYsdH5Hwl" role="2iSdaV" />
@@ -338,7 +339,7 @@
                         <node concept="2ShNRf" id="1ZHYsdGcqJQ" role="37wK5m">
                           <node concept="1pGfFk" id="1ZHYsdGcrFj" role="2ShVmc">
                             <property role="373rjd" value="true" />
-                            <ref role="37wK5l" to="uow6:1ZHYsdGbfI0" resolve="RunPipelineController" />
+                            <ref role="37wK5l" to="uow6:1ZHYsdGbfI0" resolve="RunNavigationTaskController" />
                             <node concept="pncrf" id="1ZHYsdGcrKz" role="37wK5m" />
                           </node>
                         </node>
@@ -1414,7 +1415,7 @@
           </node>
           <node concept="3F2HdR" id="2ork6t4COh4" role="3EZMnx">
             <property role="2czwfO" value="or" />
-            <ref role="1NtTu8" to="8wbp:2ork6t4lfcH" />
+            <ref role="1NtTu8" to="8wbp:2ork6t4lfcH" resolve="predicates" />
             <node concept="l2Vlx" id="2ork6t4COh5" role="2czzBx" />
             <node concept="pj6Ft" id="2ork6t4COh6" role="3F10Kt">
               <property role="VOm3f" value="true" />
