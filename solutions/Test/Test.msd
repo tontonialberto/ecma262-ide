@@ -15,7 +15,6 @@
     <dependency reexport="false">059243e2-1098-456d-a52a-ddaf141e7121(SpecNavigator)</dependency>
     <dependency reexport="false">e60c167c-aefb-4a7d-ac09-9ca6ce0aed62(ECMAScriptSpecificationLanguage)</dependency>
     <dependency reexport="false">86ef8290-12bb-4ca7-947f-093788f263a9(jetbrains.mps.lang.project)</dependency>
-    <dependency reexport="false">108db67b-0afc-4764-8bef-3efd3392301f(ECMA262)</dependency>
     <dependency reexport="false">2d3c70e9-aab2-4870-8d8d-6036800e4103(jetbrains.mps.kernel)</dependency>
   </dependencies>
   <languageVersions>

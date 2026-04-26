@@ -14,11 +14,11 @@
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
     <dependency reexport="false">6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)</dependency>
     <dependency reexport="false">742f6602-5a2f-4313-aa6e-ae1cd4ffdc61(MPS.Platform)</dependency>
-    <dependency reexport="false">e60c167c-aefb-4a7d-ac09-9ca6ce0aed62(ECMAScriptSpecificationLanguage)</dependency>
     <dependency reexport="false">3a13115c-633c-4c5c-bbcc-75c4219e9555(jetbrains.mps.lang.quotation)</dependency>
     <dependency reexport="false">7866978e-a0f0-4cc7-81bc-4d213d9375e1(jetbrains.mps.lang.smodel)</dependency>
     <dependency reexport="false">d44dab97-aaac-44cb-9745-8a14db674c03(jetbrains.mps.baseLanguage.tuples.runtime)</dependency>
     <dependency reexport="false">a8de7923-dc6f-4aa1-b8a9-2d19ffee3edd(jetbrains.mps.console)</dependency>
+    <dependency reexport="false">e60c167c-aefb-4a7d-ac09-9ca6ce0aed62(ECMAScriptSpecificationLanguage)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:e60c167c-aefb-4a7d-ac09-9ca6ce0aed62:ECMAScriptSpecificationLanguage" version="0" />
