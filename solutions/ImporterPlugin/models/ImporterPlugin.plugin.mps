@@ -59,11 +59,14 @@
     <language id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin">
       <concept id="1203071646776" name="jetbrains.mps.lang.plugin.structure.ActionDeclaration" flags="ng" index="sE7Ow">
         <property id="1205250923097" name="caption" index="2uzpH1" />
+        <property id="7458746815261976739" name="requiredAccess" index="2YLI8m" />
         <property id="4692598989365753297" name="updateInBackground" index="1rBW0U" />
+        <child id="1203083196627" name="updateBlock" index="tmbBb" />
         <child id="1203083461638" name="executeFunction" index="tncku" />
         <child id="1205851242421" name="methodDeclaration" index="32lrUH" />
         <child id="1217413222820" name="parameter" index="1NuT2Z" />
       </concept>
+      <concept id="1203082695294" name="jetbrains.mps.lang.plugin.structure.DoUpdateBlock" flags="in" index="tkhdA" />
       <concept id="1203083511112" name="jetbrains.mps.lang.plugin.structure.ExecuteBlock" flags="in" index="tnohg" />
       <concept id="5891121763832969496" name="jetbrains.mps.lang.plugin.structure.IsInstanceCondition" flags="ng" index="1c5O4g">
         <reference id="5891121763832971425" name="cls" index="1c5NyD" />
@@ -2043,6 +2046,7 @@
     <property role="1rBW0U" value="true" />
     <property role="TrG5h" value="ImportAction" />
     <property role="2uzpH1" value="Import ECMA-262 Specification from XML" />
+    <property role="2YLI8m" value="6u2MFnph2wS/none" />
     <node concept="2XrIbr" id="6vem3OGjEAG" role="32lrUH">
       <property role="TrG5h" value="createSpecModel" />
       <node concept="3uibUv" id="6vem3OGkLDa" role="3clF45">
@@ -2288,23 +2292,23 @@
             </node>
           </node>
         </node>
-        <node concept="3cpWs8" id="5eocg95iQjw" role="3cqZAp">
-          <node concept="3cpWsn" id="5eocg95iQjx" role="3cpWs9">
+        <node concept="3cpWs8" id="6n8g5QL3TRg" role="3cqZAp">
+          <node concept="3cpWsn" id="6n8g5QL3TRh" role="3cpWs9">
             <property role="TrG5h" value="file" />
-            <node concept="3uibUv" id="5eocg95iQjy" role="1tU5fm">
+            <node concept="3uibUv" id="6n8g5QL3TRi" role="1tU5fm">
               <ref role="3uigEE" to="guwi:~File" resolve="File" />
             </node>
-            <node concept="2OqwBi" id="5eocg95iRQQ" role="33vP2m">
-              <node concept="37vLTw" id="5eocg95iRq8" role="2Oq$k0">
+            <node concept="2OqwBi" id="6n8g5QL3TRj" role="33vP2m">
+              <node concept="37vLTw" id="6n8g5QL3TRk" role="2Oq$k0">
                 <ref role="3cqZAo" node="5eocg95iydx" resolve="fileChooser" />
               </node>
-              <node concept="liA8E" id="5eocg95iSG$" role="2OqNvi">
+              <node concept="liA8E" id="6n8g5QL3TRl" role="2OqNvi">
                 <ref role="37wK5l" to="dxuu:~JFileChooser.getSelectedFile()" resolve="getSelectedFile" />
               </node>
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="71pU$jTO7JV" role="3cqZAp" />
+        <node concept="3clFbH" id="6n8g5QL5VGW" role="3cqZAp" />
         <node concept="3clFbJ" id="1W$67yom6el" role="3cqZAp">
           <node concept="3clFbS" id="1W$67yom6en" role="3clFbx">
             <node concept="2xdQw9" id="5eocg95iFko" role="3cqZAp">
@@ -2312,7 +2316,7 @@
               <node concept="3cpWs3" id="5eocg95iGwB" role="9lYJi">
                 <node concept="2OqwBi" id="5eocg95iTO3" role="3uHU7w">
                   <node concept="37vLTw" id="5eocg95iT_O" role="2Oq$k0">
-                    <ref role="3cqZAo" node="5eocg95iQjx" resolve="file" />
+                    <ref role="3cqZAo" node="6n8g5QL3TRh" resolve="file" />
                   </node>
                   <node concept="liA8E" id="5eocg95iU2P" role="2OqNvi">
                     <ref role="37wK5l" to="guwi:~File.getAbsolutePath()" resolve="getAbsolutePath" />
@@ -2329,19 +2333,43 @@
                 <node concept="3uibUv" id="6vem3OGiDbj" role="1tU5fm">
                   <ref role="3uigEE" to="mhbf:~SModel" resolve="SModel" />
                 </node>
-                <node concept="2OqwBi" id="6vem3OGlgNh" role="33vP2m">
-                  <node concept="2WthIp" id="6vem3OGlgNk" role="2Oq$k0" />
-                  <node concept="2XshWL" id="6vem3OGlgNm" role="2OqNvi">
-                    <ref role="2WH_rO" node="6vem3OGjEAG" resolve="createSpecModel" />
-                    <node concept="2OqwBi" id="6vem3OGlhJ5" role="2XxRq1">
-                      <node concept="37vLTw" id="6vem3OGlhap" role="2Oq$k0">
-                        <ref role="3cqZAo" node="5eocg95iQjx" resolve="file" />
+              </node>
+            </node>
+            <node concept="1QHqEM" id="6n8g5QL5WcD" role="3cqZAp">
+              <node concept="1QHqEC" id="6n8g5QL5WcF" role="1QHqEI">
+                <node concept="3clFbS" id="6n8g5QL5WcH" role="1bW5cS">
+                  <node concept="3clFbF" id="6n8g5QL617f" role="3cqZAp">
+                    <node concept="37vLTI" id="6n8g5QL617h" role="3clFbG">
+                      <node concept="2OqwBi" id="6vem3OGlgNh" role="37vLTx">
+                        <node concept="2WthIp" id="6vem3OGlgNk" role="2Oq$k0" />
+                        <node concept="2XshWL" id="6vem3OGlgNm" role="2OqNvi">
+                          <ref role="2WH_rO" node="6vem3OGjEAG" resolve="createSpecModel" />
+                          <node concept="2OqwBi" id="6vem3OGlhJ5" role="2XxRq1">
+                            <node concept="37vLTw" id="6vem3OGlhap" role="2Oq$k0">
+                              <ref role="3cqZAo" node="6n8g5QL3TRh" resolve="file" />
+                            </node>
+                            <node concept="liA8E" id="6vem3OGlioL" role="2OqNvi">
+                              <ref role="37wK5l" to="guwi:~File.getName()" resolve="getName" />
+                            </node>
+                          </node>
+                        </node>
                       </node>
-                      <node concept="liA8E" id="6vem3OGlioL" role="2OqNvi">
-                        <ref role="37wK5l" to="guwi:~File.getName()" resolve="getName" />
+                      <node concept="37vLTw" id="6n8g5QL617l" role="37vLTJ">
+                        <ref role="3cqZAo" node="6vem3OGiDhI" resolve="specModel" />
                       </node>
                     </node>
                   </node>
+                </node>
+              </node>
+              <node concept="2OqwBi" id="6n8g5QL5Xe4" role="ukAjM">
+                <node concept="2OqwBi" id="6n8g5QL5WoS" role="2Oq$k0">
+                  <node concept="2WthIp" id="6n8g5QL5WoV" role="2Oq$k0" />
+                  <node concept="1DTwFV" id="6n8g5QL5WoX" role="2OqNvi">
+                    <ref role="2WH_rO" node="71pU$jTO9$n" resolve="mpsProject" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="6n8g5QL5Y28" role="2OqNvi">
+                  <ref role="37wK5l" to="z1c3:~Project.getRepository()" resolve="getRepository" />
                 </node>
               </node>
             </node>
@@ -2356,7 +2384,7 @@
                     <property role="373rjd" value="true" />
                     <ref role="37wK5l" node="1W$67yo_$5V" resolve="SpecImporter" />
                     <node concept="37vLTw" id="1W$67yoscw6" role="37wK5m">
-                      <ref role="3cqZAo" node="5eocg95iQjx" resolve="file" />
+                      <ref role="3cqZAo" node="6n8g5QL3TRh" resolve="file" />
                     </node>
                     <node concept="37vLTw" id="6vem3OGiEau" role="37wK5m">
                       <ref role="3cqZAo" node="6vem3OGiDhI" resolve="specModel" />
@@ -2426,11 +2454,14 @@
           <node concept="3y3z36" id="1W$67yom8jq" role="3clFbw">
             <node concept="10Nm6u" id="1W$67yom9qr" role="3uHU7w" />
             <node concept="37vLTw" id="1W$67yom7zm" role="3uHU7B">
-              <ref role="3cqZAo" node="5eocg95iQjx" resolve="file" />
+              <ref role="3cqZAo" node="6n8g5QL3TRh" resolve="file" />
             </node>
           </node>
         </node>
       </node>
+    </node>
+    <node concept="tkhdA" id="6n8g5QL5wNB" role="tmbBb">
+      <node concept="3clFbS" id="6n8g5QL5wNC" role="2VODD2" />
     </node>
   </node>
   <node concept="312cEu" id="1W$67yo_$09">
