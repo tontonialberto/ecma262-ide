@@ -191,7 +191,7 @@
   <node concept="1TIwiD" id="$M7JgvMZjS">
     <property role="EcuMT" value="662626129031197944" />
     <property role="TrG5h" value="AggregationBlock" />
-    <property role="34LRSv" value="summarize" />
+    <property role="34LRSv" value="report" />
     <ref role="1TJDcQ" node="6Kpi7IfE6Db" resolve="PostFilteringBlock" />
     <node concept="1TJgyi" id="$M7JgvMZwt" role="1TKVEl">
       <property role="IQ2nx" value="662626129031198749" />
