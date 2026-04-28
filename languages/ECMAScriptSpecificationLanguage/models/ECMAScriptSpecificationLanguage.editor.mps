@@ -5827,7 +5827,7 @@
         <ref role="PMmxG" node="1MmZbFJs9WZ" resolve="StepNumber" />
       </node>
       <node concept="3F0ifn" id="5gsI0I3vaUC" role="3EZMnx">
-        <property role="3F0ifm" value="Pruned away" />
+        <property role="3F0ifm" value="Hidden step" />
       </node>
       <node concept="PMmxH" id="5gsI0I3vc1N" role="3EZMnx">
         <ref role="PMmxG" node="1MmZbFJILHj" resolve="StepDot" />
