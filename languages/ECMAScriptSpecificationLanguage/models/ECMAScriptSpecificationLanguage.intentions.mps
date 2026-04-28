@@ -244,14 +244,14 @@
     </node>
   </node>
   <node concept="2S6QgY" id="M8chmPlbbx">
-    <property role="TrG5h" value="ToggleExpand" />
+    <property role="TrG5h" value="ToggleInline" />
     <property role="2ZfUl0" value="true" />
     <ref role="2ZfgGC" to="b9dh:2wSwDuAp1XY" resolve="AlgorithmInvocation" />
     <node concept="2S6ZIM" id="M8chmPlbby" role="2ZfVej">
       <node concept="3clFbS" id="M8chmPlbbz" role="2VODD2">
         <node concept="3clFbF" id="M8chmPlbiA" role="3cqZAp">
           <node concept="Xl_RD" id="M8chmPlbi_" role="3clFbG">
-            <property role="Xl_RC" value="Toggle Expand" />
+            <property role="Xl_RC" value="Toggle Inline" />
           </node>
         </node>
       </node>
