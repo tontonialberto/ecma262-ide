@@ -661,6 +661,11 @@
       <property role="TrG5h" value="limit" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
+    <node concept="1TJgyi" id="69TsQMXv5ub" role="1TKVEl">
+      <property role="IQ2nx" value="7095829598771632011" />
+      <property role="TrG5h" value="msWaitBetweenOpenings" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
   </node>
   <node concept="1TIwiD" id="2ork6t4joFo">
     <property role="EcuMT" value="2745876802270235352" />

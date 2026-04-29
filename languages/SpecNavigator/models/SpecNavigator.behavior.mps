@@ -33,6 +33,8 @@
     <import index="o8zo" ref="r:314576fc-3aee-4386-a0a5-a38348ac317d(jetbrains.mps.scope)" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
     <import index="kz9k" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.openapi.navigation(MPS.Editor/)" />
+    <import index="k3nr" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/java:jetbrains.mps.ide.editor(MPS.Editor/)" />
+    <import index="alof" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/java:jetbrains.mps.ide.project(MPS.Platform/)" />
     <import index="wev6" ref="r:f29914af-ae14-4589-b53d-f60c6018b368(jetbrains.mps.lang.project.behavior)" implicit="true" />
   </imports>
   <registry>
@@ -397,10 +399,6 @@
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
-      </concept>
-      <concept id="4222318806802425298" name="jetbrains.mps.lang.core.structure.SuppressErrorsAnnotation" flags="ng" index="15s5l7">
-        <property id="8575328350543493365" name="message" index="huDt6" />
-        <property id="2423417345669755629" name="filter" index="1eyWvh" />
       </concept>
       <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
         <property id="709746936026609031" name="linkId" index="3V$3ak" />
@@ -6660,6 +6658,19 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="69TsQMXv5Jo" role="3cqZAp">
+          <node concept="37vLTI" id="69TsQMXvbQ8" role="3clFbG">
+            <node concept="3cmrfG" id="69TsQMXvbQq" role="37vLTx">
+              <property role="3cmrfH" value="1000" />
+            </node>
+            <node concept="2OqwBi" id="69TsQMXv5UE" role="37vLTJ">
+              <node concept="13iPFW" id="69TsQMXv5Jm" role="2Oq$k0" />
+              <node concept="3TrcHB" id="69TsQMXv69A" role="2OqNvi">
+                <ref role="3TsBF5" to="8wbp:69TsQMXv5ub" resolve="msWaitBetweenOpenings" />
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
     </node>
     <node concept="13i0hz" id="2ork6t3HRX$" role="13h7CS">
@@ -6681,6 +6692,12 @@
                 <node concept="13iPFW" id="2gnNswGAUcW" role="2Oq$k0" />
                 <node concept="3TrcHB" id="2gnNswGAUDG" role="2OqNvi">
                   <ref role="3TsBF5" to="8wbp:2ork6t3HRX0" resolve="limit" />
+                </node>
+              </node>
+              <node concept="2OqwBi" id="69TsQMXvcAj" role="37wK5m">
+                <node concept="13iPFW" id="69TsQMXvckj" role="2Oq$k0" />
+                <node concept="3TrcHB" id="69TsQMXvd3v" role="2OqNvi">
+                  <ref role="3TsBF5" to="8wbp:69TsQMXv5ub" resolve="msWaitBetweenOpenings" />
                 </node>
               </node>
             </node>
@@ -6706,6 +6723,7 @@
     <property role="TrG5h" value="CodeEditorService" />
     <node concept="312cEg" id="2ork6t3I0yo" role="jymVt">
       <property role="TrG5h" value="project" />
+      <property role="3TUv4t" value="true" />
       <node concept="3Tm6S6" id="2ork6t3HWT8" role="1B3o_S" />
       <node concept="3uibUv" id="2ork6t3I0xU" role="1tU5fm">
         <ref role="3uigEE" to="z1c3:~Project" resolve="Project" />
@@ -6756,6 +6774,9 @@
                     <node concept="37vLTw" id="4F20kfOpLFX" role="37wK5m">
                       <ref role="3cqZAo" node="4F20kfOoWMk" resolve="limit" />
                     </node>
+                    <node concept="37vLTw" id="69TsQMXuZhF" role="37wK5m">
+                      <ref role="3cqZAo" node="69TsQMXt0m6" resolve="msWaitBetweenOpenings" />
+                    </node>
                     <node concept="3cmrfG" id="4F20kfOpMEC" role="37wK5m">
                       <property role="3cmrfH" value="0" />
                     </node>
@@ -6768,18 +6789,22 @@
       </node>
       <node concept="3Tm1VV" id="4F20kfOoUgt" role="1B3o_S" />
       <node concept="3cqZAl" id="4F20kfOoUq0" role="3clF45" />
+      <node concept="2AHcQZ" id="2gnNswGyH$K" role="2AJF6D">
+        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
       <node concept="37vLTG" id="4F20kfOoVM$" role="3clF46">
         <property role="TrG5h" value="algorithms" />
-        <node concept="2I9FWS" id="4F20kfOoVMz" role="1tU5fm">
+        <node concept="2I9FWS" id="69TsQMXt0m4" role="1tU5fm">
           <ref role="2I9WkF" to="b9dh:5eocg95ibfw" resolve="Algorithm" />
         </node>
       </node>
       <node concept="37vLTG" id="4F20kfOoWMk" role="3clF46">
         <property role="TrG5h" value="limit" />
-        <node concept="10Oyi0" id="4F20kfOoXgY" role="1tU5fm" />
+        <node concept="10Oyi0" id="69TsQMXt0m5" role="1tU5fm" />
       </node>
-      <node concept="2AHcQZ" id="2gnNswGyH$K" role="2AJF6D">
-        <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      <node concept="37vLTG" id="69TsQMXt0m6" role="3clF46">
+        <property role="TrG5h" value="msWaitBetweenOpenings" />
+        <node concept="10Oyi0" id="69TsQMXt0m7" role="1tU5fm" />
       </node>
     </node>
     <node concept="2tJIrI" id="2I_IpKncaY_" role="jymVt" />
@@ -6814,14 +6839,6 @@
         </node>
         <node concept="3clFbH" id="4F20kfOps6P" role="3cqZAp" />
         <node concept="3clFbF" id="52k5LH0QJBJ" role="3cqZAp">
-          <node concept="15s5l7" id="46V3hdErY7d" role="lGtFl">
-            <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: Parameter must be final&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/1240395578471]&quot;;" />
-            <property role="huDt6" value="Error: Parameter must be final" />
-          </node>
-          <node concept="15s5l7" id="4Xuu9$V2DV_" role="lGtFl">
-            <property role="1eyWvh" value="FLAVOUR_ISSUE_KIND=&quot;typesystem (typesystem)&quot;;FLAVOUR_MESSAGE=&quot;Error: Variable must be final&quot;;FLAVOUR_RULE_ID=&quot;[r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)/1239123004897]&quot;;" />
-            <property role="huDt6" value="Error: Variable must be final" />
-          </node>
           <node concept="2OqwBi" id="52k5LH0R1pG" role="3clFbG">
             <property role="hSjvv" value="true" />
             <node concept="2OqwBi" id="4F20kfOozKs" role="2Oq$k0">
@@ -6920,8 +6937,8 @@
                           <node concept="1pGfFk" id="2gnNswGw9U5" role="2ShVmc">
                             <property role="373rjd" value="true" />
                             <ref role="37wK5l" to="dxuu:~Timer.&lt;init&gt;(int,java.awt.event.ActionListener)" resolve="Timer" />
-                            <node concept="3cmrfG" id="2gnNswGwaEV" role="37wK5m">
-                              <property role="3cmrfH" value="500" />
+                            <node concept="37vLTw" id="69TsQMXv2xy" role="37wK5m">
+                              <ref role="3cqZAo" node="69TsQMXuUKi" resolve="msWaitBetweenOpenings" />
                             </node>
                             <node concept="1bVj0M" id="2gnNswGwccu" role="37wK5m">
                               <node concept="gl6BB" id="2gnNswGwccy" role="1bW2Oz">
@@ -6960,6 +6977,9 @@
                                     </node>
                                     <node concept="37vLTw" id="2gnNswGwnc1" role="37wK5m">
                                       <ref role="3cqZAo" node="2I_IpKncrqC" resolve="limit" />
+                                    </node>
+                                    <node concept="37vLTw" id="69TsQMXv4G6" role="37wK5m">
+                                      <ref role="3cqZAo" node="69TsQMXuUKi" resolve="msWaitBetweenOpenings" />
                                     </node>
                                     <node concept="3cpWs3" id="2gnNswGwnc2" role="37wK5m">
                                       <node concept="3cmrfG" id="2gnNswGwnc3" role="3uHU7w">
@@ -7022,6 +7042,10 @@
         <property role="3TUv4t" value="true" />
         <node concept="10Oyi0" id="2I_IpKncrC7" role="1tU5fm" />
       </node>
+      <node concept="37vLTG" id="69TsQMXuUKi" role="3clF46">
+        <property role="TrG5h" value="msWaitBetweenOpenings" />
+        <node concept="10Oyi0" id="69TsQMXuVBJ" role="1tU5fm" />
+      </node>
       <node concept="37vLTG" id="4F20kfOoY0_" role="3clF46">
         <property role="TrG5h" value="i" />
         <property role="3TUv4t" value="true" />
@@ -7043,13 +7067,17 @@
       <node concept="3cqZAl" id="2gnNswGy_Rm" role="3clF45" />
       <node concept="37vLTG" id="2gnNswGyA0k" role="3clF46">
         <property role="TrG5h" value="algorithms" />
-        <node concept="2I9FWS" id="2gnNswGyA0j" role="1tU5fm">
+        <node concept="2I9FWS" id="69TsQMXt0mc" role="1tU5fm">
           <ref role="2I9WkF" to="b9dh:5eocg95ibfw" resolve="Algorithm" />
         </node>
       </node>
       <node concept="37vLTG" id="2gnNswGyAej" role="3clF46">
         <property role="TrG5h" value="limit" />
-        <node concept="10Oyi0" id="2gnNswGyAjO" role="1tU5fm" />
+        <node concept="10Oyi0" id="69TsQMXt0md" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="69TsQMXt0me" role="3clF46">
+        <property role="TrG5h" value="msWaitBetweenOpenings" />
+        <node concept="10Oyi0" id="69TsQMXt0mf" role="1tU5fm" />
       </node>
     </node>
     <node concept="3Tm1VV" id="2ork6t3Ok$J" role="1B3o_S" />

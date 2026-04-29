@@ -3491,16 +3491,6 @@
       <property role="TrG5h" value="openAlgorithmsInEditor" />
       <node concept="3Tm1VV" id="2gnNswGyJCM" role="1B3o_S" />
       <node concept="3cqZAl" id="2gnNswGyJCN" role="3clF45" />
-      <node concept="37vLTG" id="2gnNswGyJCO" role="3clF46">
-        <property role="TrG5h" value="algorithms" />
-        <node concept="2I9FWS" id="2gnNswGyJCP" role="1tU5fm">
-          <ref role="2I9WkF" to="b9dh:5eocg95ibfw" resolve="Algorithm" />
-        </node>
-      </node>
-      <node concept="37vLTG" id="2gnNswGyJCQ" role="3clF46">
-        <property role="TrG5h" value="limit" />
-        <node concept="10Oyi0" id="2gnNswGyJCR" role="1tU5fm" />
-      </node>
       <node concept="3clFbS" id="2gnNswGyJCS" role="3clF47">
         <node concept="3clFbF" id="2gnNswGyLjQ" role="3cqZAp">
           <node concept="37vLTI" id="2gnNswGyQGq" role="3clFbG">
@@ -3531,6 +3521,20 @@
       </node>
       <node concept="2AHcQZ" id="2gnNswGyJCT" role="2AJF6D">
         <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
+      </node>
+      <node concept="37vLTG" id="2gnNswGyJCO" role="3clF46">
+        <property role="TrG5h" value="algorithms" />
+        <node concept="2I9FWS" id="69TsQMXt0m8" role="1tU5fm">
+          <ref role="2I9WkF" to="b9dh:5eocg95ibfw" resolve="Algorithm" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="2gnNswGyJCQ" role="3clF46">
+        <property role="TrG5h" value="limit" />
+        <node concept="10Oyi0" id="69TsQMXt0m9" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="69TsQMXt0ma" role="3clF46">
+        <property role="TrG5h" value="msWaitBetweenOpenings" />
+        <node concept="10Oyi0" id="69TsQMXt0mb" role="1tU5fm" />
       </node>
     </node>
   </node>
