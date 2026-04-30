@@ -13,6 +13,7 @@ This project contains the source code for an IDE for navigating the algorithms i
   - [Inspector](#inspector)
   - [Other features](#other-features)
 - [Performing a Navigation Task](#performing-a-navigation-task)
+  - [Creating a new Navigation Task](#creating-a-new-navigation-task)
   - [Execution of a Navigation Task](#execution-of-a-navigation-task)
   - [Filtering](#filtering)
     - [Filtering Templates](#filtering-templates)
@@ -80,11 +81,15 @@ Currently, the following intentions are supported:
 - Use verbose notation for ReturnIfAbrupt: turns `?` shorthands to `ReturnIfAbrupt` calls inside algorithmic steps
 - Toggle square brackets in record fields: turns fields like `[[field]]` to `field` and vice versa
 
+MPS Editor Hints documentation: https://www.jetbrains.com/help/mps/editor-hints.html
+
 ## Inspector
 
 Currently, two custom inspectors are supported:
 - For algorithms: shows the list of remarks associated to the algorithm.
 - For steps: shows tags and remarks associated to the step. For hidden steps, the unhidden version of the step is also shown here.
+
+MPS Inspector documentation: https://www.jetbrains.com/help/mps/mps-inspector.html
 
 <!-- Yet Steps -->
 
@@ -92,12 +97,17 @@ Currently, two custom inspectors are supported:
 
 Here are some notable features provided out-of-the-box by MPS:
 - Diff two root nodes by selecting them in the Logical View 
-- Show the Abstract Syntax Tree of a node inside the editor (known as  "Reflective Editor")
-Reflective editor.
+- Show the Abstract Syntax Tree of a node inside the editor (known as "[Reflective Editor](https://www.jetbrains.com/help/mps/finding-your-way-out.html#reflectiveeditor)")
 
 # Performing a Navigation Task
 
 A navigation task always takes an input specification document and produces an output copy, in which some structural units may have been removed, refactored, or decorated. A navigation task may also trigger IDE actions that will be applied to the output document. Lastly, it may also compute reports/statistics about the specification document.
+
+## Creating a new Navigation Task
+
+1. Create an MPS model for navigation tasks: after importing an ECMA-262 version, create a new model named "navigations" under the same solution. For example, if you have just imported `es2025.spec`, the navigations model fully qualified name would be `es2025.navigations`
+
+2. Right click on the navigations model, and select New > SpecNavigator > NavigationTask
 
 Here is an example navigation task: 
 
@@ -105,7 +115,7 @@ Here is an example navigation task:
 
 Heading:
 - name: a name to identify the navigation task
-- input-document: the name of an existing MPS model
+- input-document: the name of an existing MPS model containing the input specification document to be navigated
 - output-document: the name for the copy of the specification document that will be the output of the navigation task
 
 The various blocks that can appear in a navigation are defined in the following sections.
@@ -135,7 +145,7 @@ filter:
     or
     D
 ```
-is equivalent to (A && !B && (C || D)).
+is equivalent to the boolean expression `(A && !B && (C || D))`.
 
 A formula can contain disjunctions (`either`) and negations (`not`) of filtering templates.
 
@@ -145,7 +155,7 @@ To negate a condition, use the "Toggle Negation" intention.
 
 #### Body-Contains Filter
 
-The "body-contains" filtering template is the most complex and powerful filter. It allows to insert chunks of the ECMA-262 specification (steps, expressions, conditions, etc.) inside a navigation task. These chunks form a pattern that is tested again the body of an algorithm. The condition evaluates to true if any of the steps in the algorithm matches the pattern.
+The `body-contains` filtering template is the most complex and powerful filter. It allows to insert chunks of the ECMA-262 specification (steps, expressions, conditions, etc.) inside a navigation task. These chunks form a pattern that is tested again the body of an algorithm. The condition evaluates to true if any of the steps in the algorithm matches the pattern.
 
 A pattern can contain wildcards for children, properties, and references. The following are valid wildcards:
 - empty (abstract) nodes
@@ -170,54 +180,54 @@ An optionally empty `where` clause can be used to define variables that can then
 
 ### Signature-Based Filters
 
-- name-like: matches a regular expression against the algorithm name
+- `name-like`: matches a regular expression against the algorithm name
 
-- parameter-name-like: matches a regular expression against one or more of the algorithm parameters
+- `parameter-name-like`: matches a regular expression against one or more of the algorithm parameters
 
-- parameter-cardinality: matches the number of parameters of an algorithm
+- `parameter-cardinality`: matches the number of parameters of an algorithm
 
 ### Location-Based Filters
 
-- section-id-like: matches a regular expression against the ecmarkup section identifier of an algorithm
+- `section-id-like`: matches a regular expression against the ecmarkup section identifier of an algorithm
 
-- section-number-like: matches a regular expression against the section number of an algorithm
+- `section-number-like`: matches a regular expression against the section number of an algorithm
 
-- section-title-like: matches a regular expression against the enclosing section of an algorithm
+- `section-title-like`: matches a regular expression against the enclosing section of an algorithm
 
 ### Annotation-Based Filters
 
-- has-hidden-step: returns true if any of the algorithm's steps is hidden
+- `has-hidden-step`: returns true if any of the algorithm's steps is hidden
 
-- has-highlighted-step: returns true if any of the algorithm's steps is highlighted with a given color
+- `has-highlighted-step`: returns true if any of the algorithm's steps is highlighted with a given color
 
-- has-remark/bookmark: matches a regular expression against the remarks/bookmarks of an algorithm
+- `has-remark/bookmark`: matches a regular expression against the remarks/bookmarks of an algorithm
 
 ## Decorations
 
 The optional decoration block accepts a list of transformations that will be applied sequentially to each algorithm received from the filtering.
 
-- add-bookmark/remark(-to-steps): add the given bookmark/remark to an algorithm, or to every marked step in the body of an algorithm
+- `add-bookmark/remark(-to-steps)`: add the given bookmark/remark to an algorithm, or to every marked step in the body of an algorithm
 
-- remove-bookmark/remark(-from-steps): remove all bookmarks/remarks matching a given regular expression
+- `remove-bookmark/remark(-from-steps)`: remove all bookmarks/remarks matching a given regular expression
 
-- highlight/remove-highlighting: toggles highlighting all the marked steps
+- `highlight/remove-highlighting`: toggles highlighting all the marked steps
 
-- hide: hides all the *unmarked* steps
+- `hide`: hides all the *unmarked* steps
 
-- unhide: unhides all the steps, regardless whether they are marked or not
+- `unhide`: unhides all the steps, regardless whether they are marked or not
 
 ## Code Editor Actions
 
-- inline-algorithm-calls: executes an inlining of all the function calls in the output specification
+- `inline-algorithm-calls`: executes an inlining of all the function calls in the output specification
 
-- open-tabs: opens the given amount
+- `open-tabs`: opens the given amount
     > Note: opening a huge number of editor tabs in a short amount of time might freeze the UI
 
-- put-into-folder: rearranges the algorithms in the Logical View
+- `put-into-folder`: rearranges the algorithms in the Logical View
 
-- remove-unmatching-steps: removes every unmarked step from an algorithm
+- `remove-unmatching-steps`: removes every unmarked step from an algorithm
 
-- rename-algorithm: applies a rename refactoring to an algorithm
+- `rename-algorithm`: applies a rename refactoring to an algorithm
 
 ## Report
 
